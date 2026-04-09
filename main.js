@@ -130,12 +130,24 @@ function renderizarRepertorio() {
 // --- Renderizar listado de canciones (MODIFICADA para añadir botón Repertorio) ---
 function mostrarListado(filtro="") {
   lista.innerHTML = "";
+if (!filtro && buscador.value.trim() === "") {
+    lista.innerHTML = `
+        <li class="lista-vacia">
+            <i class="fa-solid fa-music" style="display:block; margin-bottom:10px; font-size:2rem; color:#ccc;"></i>
+            Selecciona una categoría para ver los coros
+        </li>`;
+    return;
+  }
   canciones
-    .filter(c => 
-        !filtro || 
-        c.categoria === filtro || 
-        c.titulo.toLowerCase().includes(filtro.toLowerCase()) 
-    )
+    .filter(c => {
+    
+        if (buscador.value.trim() !== "") {
+        return c.titulo.toLowerCase().includes(buscador.value.toLowerCase());
+      }
+      // Si no hay búsqueda, filtramos por la categoría seleccionada
+      return c.categoria === filtro;
+    })
+    
     .forEach(c => {
         const idCancion = c.id || c.titulo; 
         
@@ -428,7 +440,7 @@ document.addEventListener("DOMContentLoaded", () => {
     actualizarContadorRepertorio();
     
     // Muestra el listado inicial.
-    mostrarListado(); 
+    mostrarListado(""); 
 // ================== PWA ==================
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
