@@ -1,0 +1,481 @@
+/* --- Estilos Generales --- */
+body {
+    
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #222;
+    position: relative;
+    overflow-x: hidden; /* Evita el scroll horizontal no deseado */
+}
+
+header {
+    background: #3b5998;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+h3 {
+    text-align: center;
+}
+
+main {
+    padding: 15px;
+    /* Limita el ancho en pantallas grandes (como tabletas o desktop) */
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+/* --- Buscador --- */
+#buscador {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+/* --- Categorías (Ajuste Clave para Móvil) --- */
+#categorias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; 
+    margin-bottom: 20px;
+}
+
+#categorias button {
+    flex: 1 1 45%; 
+    padding: 12px; 
+    background: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.1s;
+}
+
+#categorias button:hover {
+    background: #2a4373;
+}
+
+/* Estilo para la categoría activa */
+#categorias button.activo {
+    background: #2a4373;
+    border: 2px solid #5cb85c;
+    box-shadow: 0 0 5px rgba(92, 184, 92, 0.7);
+}
+
+
+/* ========================================================= */
+/* == ESTILOS DEL REPERTORIO (NUEVOS) == */
+/* ========================================================= */
+
+#pantallaRepertorio {
+    padding-bottom: 80px; /* Espacio extra para el botón de volver */
+}
+
+#pantallaRepertorio h2 {
+    color: #3b5998;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.instruccion-repertorio {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#listaRepertorio {
+    list-style: none;
+    padding: 0;
+}
+
+#listaRepertorio li {
+    background-color: #ffffff;
+    margin-bottom: 8px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: background-color 0.2s;
+    font-size: 1.1rem;
+}
+
+#listaRepertorio li:hover {
+    background-color: #e0f7fa; /* Un color suave al pasar el ratón */
+}
+
+#listaRepertorio li span {
+    /* Permite que el título ocupe el espacio */
+    flex-grow: 1; 
+}
+
+.lista-vacia {
+    color: #777;
+    text-align: center;
+    padding: 30px;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.btn-eliminar-repertorio {
+    background: none;
+    border: none;
+    color: #d32f2f; /* Rojo de acordes */
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-left: 15px;
+    padding: 5px;
+    transition: color 0.2s;
+}
+
+.btn-eliminar-repertorio:hover {
+    color: #f44336;
+    transform: scale(1.1);
+}
+
+#btnVolverListado {
+    /* Estilo para el botón de volver en la pantalla de Repertorio */
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: block; /* Ocupa todo el ancho si es necesario */
+    width: 100%;
+}
+
+/* ========================================================= */
+/* == MODIFICACIÓN DEL LISTADO GENERAL == */
+/* ========================================================= */
+
+/* Para permitir el botón de añadir/eliminar */
+#listaCanciones li {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 1.1rem;
+    display: flex; /* Nuevo: para alinear título y botón */
+    justify-content: space-between; /* Nuevo: separa título y botón */
+    align-items: center;
+    transition: background 0.3s;
+}
+
+#listaCanciones li:hover {
+    background: #eee;
+}
+
+/* Botón de añadir al repertorio en el listado */
+.btn-anadir-repertorio {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.75em;
+    margin-left: 10px;
+    transition: background-color 0.2s;
+}
+
+.btn-anadir-repertorio:hover {
+    background-color: #45a049;
+}
+
+/* Estilo cuando ya está en el repertorio */
+.btn-anadir-repertorio.activo {
+    background-color: #6c757d; /* Gris */
+    pointer-events: auto; /* Aún puede ser clickeable para eliminar */
+}
+
+.btn-anadir-repertorio.activo:hover {
+    background-color: #5a6268;
+}
+
+
+/* --- Pantalla de letra --- (El resto de los estilos se mantienen) */
+#btnVolver {
+    margin-bottom: 15px;
+    padding: 10px 18px;
+    background: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Controles de tono */
+.controles-tono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    gap: 20px;
+}
+
+.controles-tono button {
+    padding: 10px;
+    background: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 45px;
+    height: 45px;
+}
+
+/* Contenedor de letra */
+#song-container {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    white-space: pre-wrap;
+    margin-top: 15px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+    overflow-x: auto;
+    word-wrap: break-word;
+    font-weight: 400;
+}
+
+/* Estrofas y líneas */
+.estrofa {
+    margin-bottom: 1.1rem;
+
+}
+
+.linea {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+    font-family: monospace;
+    
+}
+
+.chords {
+    color: #d32f2f;
+    font-weight: bold;
+    white-space: pre;
+}
+
+.letras {
+    margin-top: -4px;
+}
+
+/* Acciones */
+.acciones {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.acciones button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.acciones button:hover {
+    background: #3e8e41;
+}
+
+/* --- Tuerca flotante y Controles de Estilo --- */
+
+#menu-estilo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    top: auto;
+    z-index: 1000;
+}
+
+#btnTuerca {
+    position: fixed;          /* 🔥 CLAVE */
+    bottom: 20px;             /* 🔥 CLAVE */
+    right: 20px;              /* 🔥 CLAVE */
+    z-index: 5000;            /* 🔥 CLAVE */
+
+    background: #3b5998; 
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+#btnTuerca:active {
+    transform: scale(0.9);
+}
+
+#controles-estilo {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    left: auto;
+    width: 250px;
+    background: #f4f4f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transform: translateX(120%); 
+    transition: transform 0.3s ease-in-out;
+}
+
+#controles-estilo.mostrar {
+    transform: translateX(0);
+}
+
+#controles-estilo label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15px;
+}
+
+#controles-estilo select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* --- Media Query para pantallas pequeñas (Smartphones) --- */
+@media (max-width: 480px) {
+    main {
+        padding: 10px;
+    }
+    
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    #categorias button {
+        flex: 1 1 40%;
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+    
+    #menu-estilo {
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    #controles-estilo {
+        width: 200px;
+    }
+}
+
+
+/* --- Imprimir --- */
+@media print {
+    header, #btnVolver, .controles-tono, .acciones, #menu-estilo, #pantallaListado, #pantallaRepertorio {
+        display: none;
+    }
+
+    body {
+        background: white;
+        color: black;
+    }
+
+    #song-container {
+        box-shadow: none;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .estrofa {
+        margin-bottom: 1.5rem;
+    }
+
+    .linea {
+        font-family: 'Roboto Mono', monospace;
+        margin-bottom: 0.3rem;
+    }
+
+    .chords {
+        color: #0d6efd;
+        font-weight: bold;
+    }
+
+    .letras {
+        white-space: pre;
+    }
+}
+/* Nuevo: Oculta el listado de canciones inicialmente */
+#contenedorListadoCanciones {
+    display: none;
+}
+/* --- Modificación en Controles de Tono (para incluir botones de navegación) --- */
+/* Hacer que los botones grandes de navegación se vean bien */
+.controles-tono button {
+    /* Mantén tus estilos actuales (padding, background, border-radius, etc.) */
+}
+
+.btn-navegacion {
+    background: #555; /* Gris oscuro para diferenciar */
+    color: white;
+    font-size: 1.2rem !important; /* Usar !important si los estilos anteriores son demasiado fuertes */
+    width: 45px; 
+    height: 45px;
+}
+.btn-navegacion:hover {
+    background: #777;
+}
+
+/* Ajusta los controles de tono para que estén bien espaciados */
+.controles-tono {
+    /* ... Tus estilos actuales ... */
+    justify-content: space-around; /* Asegura que haya espacio para los nuevos botones */
+}
+
+.linea {
+    white-space: nowrap;
+    display: block;
+}
+
+.linea span {
+    display: inline;
+}
+#btnTuerca {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 3000;
+}
+#menu-estilo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 3000;
+}

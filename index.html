@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corario Digital</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#0d6efd">
+
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body>
+  <header>
+    <h1>📖 Corario Digital MMM Samaniego</h1>
+    <div id="versiculo-del-dia">
+        <p>
+            "Todo lo que respire alabe a Jehova."
+            <br>
+            <cite>— Salmos 150: 6</cite>
+        </p>
+    </div>
+  </header>
+
+  <main>
+    <!-- Pantalla de listado -->
+     
+   <section id="pantallaListado">
+    <h2>Selecciona Categoría o Busca</h2>
+    <input type="text" id="buscador" placeholder="🔍 Buscar canción...">
+    
+    <div id="categorias">
+         
+        <button data-cat="">🌟 Todo</button> 
+        <button data-cat="adoracion">🙏 Adoración</button>
+        <button data-cat="alabanza">🎶 Alabanza</button>
+        <button data-cat="himnos">📜 Himnos</button>
+        <button data-cat="folkloricos">🌎 Folklóricos</button>
+        <button data-cat="especiales">⭐ Especiales</button>
+        <button id="btnRepertorio">📋 Repertorio</button> </div>
+    
+    <h3>Listado de canciones</h3>
+    <ul id="listaCanciones"></ul>
+    
+</section>
+
+<section id="pantallaRepertorio" style="display:none;">
+    <button id="btnVolverListado">← Volver al Listado</button>
+    <h2>Mi Repertorio <span id="contadorRepertorio"> (0 Coros)</span></h2>
+    <p class="instruccion-repertorio">Haz clic en un coro para verlo o en **🗑️** para eliminarlo de la lista.</p>
+    <ul id="listaRepertorio">
+        </ul>
+</section>
+
+
+<section id="pantallaLetra" style="display:none;">
+    <button id="btnVolver">← Volver</button>
+    <h2 id="tituloCancion"></h2>
+
+    <div class="controles-tono">
+        <button id="bajar"><i class="fa-solid fa-arrow-down"></i></button>
+        <button id="subir"><i class="fa-solid fa-arrow-up"></i></button>
+    </div>
+
+    <div id="song-container"></div>
+
+    <div id="menu-estilo">
+        <button id="btnTuerca"><i class="fa-solid fa-gear"></i></button>
+        <div id="controles-estilo" class="oculto">
+            <label>Tamaño:
+                <select id="selectTamanio">
+                    <option value="14px">Pequeño</option>
+                    <option value="16px" selected>Normal</option>
+                    <option value="20px">Grande</option>
+                    <option value="24px">Muy Grande</option>
+                </select>
+            </label>
+
+            <label>Fuente:
+                <select id="selectFuente">
+                    <option value="'Poppins', sans-serif" selected>Poppins</option>
+                    <option value="'Roboto', sans-serif">Roboto</option>
+                    <option value="Arial, sans-serif">Arial</option>
+                    <option value="'Times New Roman', serif">Times</option>
+                    <option value="Verdana, sans-serif">Verdana</option>
+                </select>
+            </label>
+
+            <label>Color:
+                <select id="selectColor">
+                    <option value="#222" selected>Negro</option>
+                    <option value="#1a237e">Azul</option>
+                    <option value="#2e7d32">Verde</option>
+                    <option value="#b71c1c">Rojo</option>
+                    <option value="#6a1b9a">Morado</option>
+                </select>
+            </label>
+        </div>
+    </div>
+
+    <div class="acciones">
+        <button id="btnImprimir">🖨️ Imprimir</button>
+    </div>
+</section>
+</main>
+
+<script>
+ {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js')
+      .then(() => console.log('SW registrado'))
+      .catch(err => console.error('Error SW:', err));
+  });
+}
+</script>
+  <script src="main.js" type="module"></script>
+  </body>
+</html>
