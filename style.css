@@ -706,3 +706,7 @@ h2 {
     margin-bottom: 10px;
     color: #3b5998;
 }
+
+#pantallaLetra {
+    padding-top: 15px !important; /* Esto le da aire al botón Volver y a la Tuerca */
+}
