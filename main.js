@@ -348,12 +348,22 @@ if (btnRepertorio) {
     btnRepertorio.onclick = () => {
         categorias.forEach(b => b.classList.remove('activo'));
         btnRepertorio.classList.add('activo');
+
+        // CAMBIO DE PANTALLA: Mostramos repertorio, ocultamos lo demás
+        pantallaRepertorio.style.display = "block";
+        pantallaListado.style.display = "none";
+        pantallaLetra.style.display = "none";
         renderizarRepertorio();
     };
 }
 
 if (btnVolverListado) {
     btnVolverListado.onclick = () => {
+
+        // CAMBIO DE PANTALLA: Volvemos a las categorías
+        pantallaRepertorio.style.display = "none";
+        pantallaListado.style.display = "block";
+        pantallaLetra.style.display = "none";
         categorias.forEach(b => b.classList.remove('activo'));
         mostrarListado("");
     };
