@@ -710,3 +710,44 @@ h2 {
 #pantallaLetra {
     padding-top: 15px !important; /* Esto le da aire al botón Volver y a la Tuerca */
 }
+
+
+.btn-config {
+    position: absolute; /* Para que se mueva libremente */
+    top: 15px;         /* Distancia desde arriba */
+    right: 15px;       /* Distancia desde la derecha */
+    background: transparent;
+    color: white;      /* O el color que resalte en tu fondo */
+    border: none;
+    font-size: 20px;
+    z-index: 1001;     /* Para que siempre esté encima */
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Ajusta el contenedor de los controles (el menú que se abre) */
+#controlesEstilo {
+    position: absolute;
+    top: 50px;         /* Que aparezca justo debajo de los puntos */
+    right: 15px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    display: none;     /* Se activa con la clase .mostrar */
+    z-index: 1002;
+    width: 200px;      /* Tamaño cómodo para celular */
+}
+
+#controlesEstilo.mostrar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+#tituloCancion {
+    padding-right: 40px; /* Deja espacio para que el título no tape los puntos */
+    margin-top: 10px;
+    text-align: left;    /* O center, según tu diseño */
+}

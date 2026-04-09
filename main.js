@@ -414,3 +414,16 @@ window.addEventListener('beforeinstallprompt', (e) => {
         btn.remove();
     };
 });
+
+// --- Lógica de la Tuerca / Configuración ---
+btnTuerca.onclick = () => {
+    controlesEstilo.classList.toggle("mostrar");
+};
+
+// ESTE ES EL CÓDIGO NUEVO QUE DEBES PEGAR:
+document.addEventListener("click", (e) => {
+    // Si el menú está abierto y el clic NO fue en el botón ni en el menú...
+    if (!btnTuerca.contains(e.target) && !controlesEstilo.contains(e.target)) {
+        controlesEstilo.classList.remove("mostrar");
+    }
+});
