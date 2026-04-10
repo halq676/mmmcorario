@@ -1,5 +1,5 @@
 // 🎵 Canciones de ejemplo
-export const canciones = [ // <<-- ¡Añadir 'export'!
+window.canciones = [ // <<-- ¡Cambiar a window!
  {
  titulo: "Amarte solo a Ti.(Dm)",
  categoria: "adoracion",

@@ -123,6 +123,16 @@
 </section>
 </main>
 
-  <script src="main.js" type="module"></script>
-  </body>
-</html>
+  <script>
+    // Registrar service worker inmediatamente
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then(reg => console.log('SW registrado:', reg))
+          .catch(err => console.error('Error SW:', err));
+      });
+    }
+  </script>
+  <script src="canciones.js"></script>
+  <script src="main.js"></script>
+

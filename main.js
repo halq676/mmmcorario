@@ -1,6 +1,6 @@
 // 1. IMPORTACIÓN DE DATOS
 // Carga el array 'canciones' desde el archivo de datos (canciones.js).
-import { canciones } from './canciones.js'; 
+// import { canciones } from './canciones.js';  // QUITADO
 
 // --- Tonos y transposición ---
 const notas = ["C","C#","D","D#","E","F","F#","G","G#","A","A#","B"];
@@ -392,10 +392,6 @@ document.addEventListener("DOMContentLoaded", () => {
         window.addEventListener('load', () => {
             navigator.serviceWorker.register('./sw.js');
         });
-    }
-
-    if (!navigator.onLine) {
-        mostrarOffline();
     }
 });
 

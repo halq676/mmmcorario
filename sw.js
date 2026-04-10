@@ -1,4 +1,4 @@
-const CACHE_NAME = 'corario-v6';
+const CACHE_NAME = 'corario-v8';
 
 const urlsToCache = [
   './',
@@ -21,10 +21,10 @@ const urlsToCache = [
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(CACHE_NAME).then(cache =>
-      Promise.all(
+      Promise.allSettled(
         urlsToCache.map(url =>
           cache.add(url).catch(err => {
-            console.error('❌ ERROR en:', url, err);
+            console.error('❌ ERROR cacheando:', url, err);
           })
         )
       )
@@ -64,9 +64,10 @@ self.addEventListener('fetch', e => {
         });
       }).catch(() => {
         if (e.request.mode === 'navigate') {
-          return caches.match('./index.html');
+          return caches.match(self.registration.scope)
+            .then(resp => resp || caches.match('./') || caches.match('./index.html') || caches.match('index.html'));
         }
-        return caches.match('./');
+        return caches.match(e.request) || caches.match('./');
       });
     })
   );
