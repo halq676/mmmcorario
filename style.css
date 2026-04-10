@@ -324,42 +324,13 @@ main {
         flex-wrap: wrap;
     }
     .btn-anadir-repertorio {
-        width: auto;
-        padding: 10px 14px;
-        margin-left: 0;
-        font-size: 0.95rem;
-        white-space: nowrap;
-        flex: none;
+        display: none;
     }
 }
 
 /* Botón de añadir al repertorio en el listado */
 .btn-anadir-repertorio {
-    background-color: #31b24a;
-    color: white;
-    border: none;
-    padding: 10px 16px;
-    border-radius: 14px;
-    cursor: pointer;
-    font-size: 0.95rem;
-    margin-left: 10px;
-    transition: background-color 0.2s, transform 0.2s;
-    min-width: 120px;
-    white-space: nowrap;
-}
-
-.btn-anadir-repertorio:hover {
-    background-color: #45a049;
-}
-
-/* Estilo cuando ya está en el repertorio */
-.btn-anadir-repertorio.activo {
-    background-color: #6c757d; /* Gris */
-    pointer-events: auto; /* Aún puede ser clickeable para eliminar */
-}
-
-.btn-anadir-repertorio.activo:hover {
-    background-color: #5a6268;
+    display: none; /* Ya no se usa, movido al menú */
 }
 
 .btn-instalar-app {
@@ -376,8 +347,22 @@ main {
     transition: background-color 0.2s ease;
 }
 
-.btn-instalar-app:hover {
-    background: #0b5ed7;
+.btn-anadir-repertorio-menu {
+    width: 100%;
+    padding: 10px 12px;
+    background: #31b24a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+.btn-anadir-repertorio-menu:hover {
+    background: #28a745;
 }
 
 

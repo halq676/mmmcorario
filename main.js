@@ -39,6 +39,7 @@ const selectFuente = document.getElementById("selectFuente");
 const selectColor = document.getElementById("selectColor");
 const btnTuerca = document.getElementById("btnTuerca");
 const controlesEstilo = document.getElementById("controles-estilo");
+const btnAnadirRepertorioMenu = document.getElementById("btnAnadirRepertorioMenu");
 
 
 // =========================================================
@@ -162,27 +163,7 @@ function mostrarListado(filtro = "", titulo = "Listado de canciones") {
 
             li.onclick = () => mostrarCancion(c, false);
 
-            const btnRep = document.createElement("button");
-            const yaEnRepertorio = repertorio.includes(idCancion);
-
-            if (yaEnRepertorio) {
-                btnRep.textContent = "✔️ Añadido";
-                btnRep.className = "btn-anadir-repertorio activo";
-                btnRep.onclick = (e) => {
-                    e.stopPropagation();
-                    eliminarDelRepertorio(idCancion);
-                };
-            } else {
-                btnRep.textContent = "+ Repertorio";
-                btnRep.className = "btn-anadir-repertorio";
-                btnRep.onclick = (e) => {
-                    e.stopPropagation();
-                    anadirAlRepertorio(idCancion);
-                };
-            }
-
             li.appendChild(tituloSpan);
-            li.appendChild(btnRep);
             lista.appendChild(li);
             });
     }
@@ -486,6 +467,21 @@ window.addEventListener('beforeinstallprompt', (e) => {
 // --- Lógica de la Tuerca / Configuración ---
 btnTuerca.onclick = () => {
     controlesEstilo.classList.toggle("mostrar");
+    if (controlesEstilo.classList.contains("mostrar") && cancionActual) {
+        const yaEnRepertorio = repertorio.includes(cancionActual.id || cancionActual.titulo);
+        btnAnadirRepertorioMenu.textContent = yaEnRepertorio ? "✔️ Añadido al Repertorio" : "+ Añadir al Repertorio";
+        btnAnadirRepertorioMenu.onclick = (e) => {
+            e.stopPropagation();
+            const estaEnRepertorio = repertorio.includes(cancionActual.id || cancionActual.titulo);
+            if (estaEnRepertorio) {
+                eliminarDelRepertorio(cancionActual.id || cancionActual.titulo);
+                btnAnadirRepertorioMenu.textContent = "+ Añadir al Repertorio";
+            } else {
+                anadirAlRepertorio(cancionActual.id || cancionActual.titulo);
+                btnAnadirRepertorioMenu.textContent = "✔️ Añadido al Repertorio";
+            }
+        };
+    }
 };
 
 // ESTE ES EL CÓDIGO NUEVO QUE DEBES PEGAR:
