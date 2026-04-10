@@ -29,27 +29,26 @@
   </header>
 
   <main>
-    <!-- Pantalla de listado -->
-     
-   <section id="pantallaListado">
-    <h2>Selecciona Categoría o Busca</h2>
-    <input type="text" id="buscador" placeholder="🔍 Buscar canción...">
-    
-    <div id="categorias">
-         
-        
+    <!-- Pantalla inicial de categorías -->
+    <section id="pantallaCategorias">
+      <h2>Selecciona Categoría o Busca</h2>
+      <input type="text" id="buscador" placeholder="🔍 Buscar canción...">
+
+      <div id="categorias">
         <button data-cat="adoracion">🙏 Adoración</button>
         <button data-cat="alabanza">🎶 Alabanza</button>
         <button data-cat="himnos">📜 Himnos</button>
         <button data-cat="folkloricos">🌎 Folklóricos</button>
         <button data-cat="especiales">⭐ Especiales</button>
-        <button id="btnRepertorio">📋 Repertorio</button> </div>
-    
-    <h3>Listado de canciones</h3>
-    <ul id="listaCanciones"></ul>
-    
-</section>
+        <button id="btnRepertorio">📋 Repertorio</button>
+      </div>
+    </section>
 
+    <section id="pantallaListado" style="display:none;">
+      <button id="btnVolverCategorias">← Volver</button>
+      <h2 id="tituloListado">Listado de canciones</h2>
+      <ul id="listaCanciones"></ul>
+    </section>
 <section id="pantallaRepertorio" style="display:none;">
     <button id="btnVolverListado">← Volver al Listado</button>
     <h2>Mi Repertorio <span id="contadorRepertorio"> (0 Coros)</span></h2>
@@ -108,6 +107,15 @@
 
     <div class="acciones">
         <button id="btnImprimir">🖨️ Imprimir</button>
+    </div>
+</section>
+
+<section id="pantallaOffline" style="display:none;">
+    <div class="offline-card">
+        <i class="fa-solid fa-wifi-slash offline-icon"></i>
+        <h2>Sin conexión</h2>
+        <p>Parece que no tienes internet. La aplicación funcionará en offline si ya cargaste los datos antes.</p>
+        <button id="btnReintentar">Reintentar conexión</button>
     </div>
 </section>
 </main>

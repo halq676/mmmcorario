@@ -16,7 +16,9 @@ let vinoDesdeRepertorio = false; // Nuevo: rastrea de dónde vino el usuario
 const lista = document.getElementById("listaCanciones");
 const buscador = document.getElementById("buscador");
 const categorias = document.querySelectorAll("#categorias button"); // Selecciona todos los botones
+const pantallaCategorias = document.getElementById("pantallaCategorias");
 const pantallaListado = document.getElementById("pantallaListado");
+const tituloListado = document.getElementById("tituloListado");
 const pantallaLetra = document.getElementById("pantallaLetra");
 
 // ¡NUEVOS ELEMENTOS DEL REPERTORIO!
@@ -28,6 +30,8 @@ const contadorRepertorio = document.getElementById("contadorRepertorio");
 
 const tituloCancion = document.getElementById("tituloCancion");
 const songContainer = document.getElementById("song-container");
+const pantallaOffline = document.getElementById("pantallaOffline");
+const btnReintentar = document.getElementById("btnReintentar");
 
 // Controles de estilo
 const selectTamanio = document.getElementById("selectTamanio");
@@ -112,8 +116,8 @@ function renderizarRepertorio() {
             eliminarDelRepertorio(idCancion);
         };
 
-        li.appendChild(tituloSpan);
         li.appendChild(btnEliminar);
+        li.appendChild(tituloSpan);
         listaRepertorio.appendChild(li);
     });
     
@@ -132,8 +136,9 @@ function renderizarRepertorio() {
 // == FUNCIONES PRINCIPALES ==
 // =========================================================
 
-function mostrarListado(filtro = "") {
+function mostrarListado(filtro = "", titulo = "Listado de canciones") {
     lista.innerHTML = "";
+    tituloListado.textContent = titulo;
 
     if (!filtro && buscador.value.trim() === "") {
         lista.innerHTML = `
@@ -141,17 +146,15 @@ function mostrarListado(filtro = "") {
                 <i class="fa-solid fa-music"></i>
                 <span>Selecciona una categoría para ver los coros</span>
             </li>`;
-        return;
-    }
-
-    canciones
-        .filter(c => {
-            if (buscador.value.trim() !== "") {
-                return c.titulo.toLowerCase().includes(buscador.value.toLowerCase());
-            }
-            return c.categoria === filtro;
-        })
-        .forEach(c => {
+    } else {
+        canciones
+            .filter(c => {
+                if (buscador.value.trim() !== "") {
+                    return c.titulo.toLowerCase().includes(buscador.value.toLowerCase());
+                }
+                return c.categoria === filtro;
+            })
+            .forEach(c => {
             const idCancion = c.id || c.titulo;
             const li = document.createElement("li");
             const tituloSpan = document.createElement("span");
@@ -181,10 +184,9 @@ function mostrarListado(filtro = "") {
             li.appendChild(tituloSpan);
             li.appendChild(btnRep);
             lista.appendChild(li);
-        });
-
-    pantallaLetra.style.display = "none";
-    pantallaRepertorio.style.display = "none";
+            });
+    }
+    pantallaCategorias.style.display = "none";
     pantallaListado.style.display = "block";
 
     if (btnRepertorio) btnRepertorio.classList.remove('activo');
@@ -329,7 +331,7 @@ document.getElementById("btnImprimir").onclick = () => window.print();
 
 buscador.onkeyup = () => {
     categorias.forEach(b => b.classList.remove('activo'));
-    mostrarListado(buscador.value);
+    mostrarListado(buscador.value, buscador.value ? `Búsqueda: ${buscador.value}` : 'Listado de canciones');
 };
 
 categorias.forEach(btn => {
@@ -339,7 +341,8 @@ categorias.forEach(btn => {
             categorias.forEach(b => b.classList.remove('activo'));
             btn.classList.add('activo');
             buscador.value = "";
-            mostrarListado(categoriaFiltro);
+            const titulo = btn.textContent + "";
+            mostrarListado(categoriaFiltro, titulo);
         };
     }
 });
@@ -352,6 +355,7 @@ if (btnRepertorio) {
         // CAMBIO DE PANTALLA: Mostramos repertorio, ocultamos lo demás
         pantallaRepertorio.style.display = "block";
         pantallaListado.style.display = "none";
+        pantallaCategorias.style.display = "none";
         pantallaLetra.style.display = "none";
         renderizarRepertorio();
     };
@@ -359,13 +363,24 @@ if (btnRepertorio) {
 
 if (btnVolverListado) {
     btnVolverListado.onclick = () => {
-
-        // CAMBIO DE PANTALLA: Volvemos a las categorías
         pantallaRepertorio.style.display = "none";
-        pantallaListado.style.display = "block";
+        pantallaListado.style.display = "none";
         pantallaLetra.style.display = "none";
+        pantallaCategorias.style.display = "block";
         categorias.forEach(b => b.classList.remove('activo'));
-        mostrarListado("");
+        buscador.value = "";
+    };
+}
+
+const btnVolverCategorias = document.getElementById("btnVolverCategorias");
+if (btnVolverCategorias) {
+    btnVolverCategorias.onclick = () => {
+        pantallaRepertorio.style.display = "none";
+        pantallaListado.style.display = "none";
+        pantallaLetra.style.display = "none";
+        pantallaCategorias.style.display = "block";
+        categorias.forEach(b => b.classList.remove('activo'));
+        buscador.value = "";
     };
 }
 
@@ -386,33 +401,86 @@ document.addEventListener("DOMContentLoaded", () => {
     canciones.forEach(c => { if (!c.id) c.id = c.titulo; });
     pantallaLetra.style.display = "none";
     if (pantallaRepertorio) pantallaRepertorio.style.display = "none";
+    if (pantallaListado) pantallaListado.style.display = "none";
+    if (pantallaCategorias) pantallaCategorias.style.display = "block";
     actualizarContadorRepertorio();
-    mostrarListado("");
 
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
             navigator.serviceWorker.register('./sw.js');
         });
     }
+
+    if (!navigator.onLine) {
+        mostrarOffline();
+    }
 });
+
+function ocultarTodasLasPantallas() {
+    if (pantallaCategorias) pantallaCategorias.style.display = 'none';
+    if (pantallaListado) pantallaListado.style.display = 'none';
+    if (pantallaRepertorio) pantallaRepertorio.style.display = 'none';
+    if (pantallaLetra) pantallaLetra.style.display = 'none';
+    if (pantallaOffline) pantallaOffline.style.display = 'none';
+}
+
+function mostrarOffline() {
+    ocultarTodasLasPantallas();
+    if (pantallaOffline) pantallaOffline.style.display = 'block';
+}
+
+function ocultarOffline() {
+    if (pantallaOffline) pantallaOffline.style.display = 'none';
+}
+
+window.addEventListener('offline', () => {
+    mostrarOffline();
+});
+
+window.addEventListener('online', () => {
+    if (pantallaOffline) {
+        ocultarOffline();
+        if (pantallaCategorias) pantallaCategorias.style.display = 'block';
+    }
+});
+
+if (btnReintentar) {
+    btnReintentar.onclick = () => {
+        if (navigator.onLine) {
+            ocultarOffline();
+            if (pantallaCategorias) pantallaCategorias.style.display = 'block';
+        } else {
+            window.location.reload();
+        }
+    };
+}
 
 let deferredPrompt;
 window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     deferredPrompt = e;
-    const btn = document.createElement('button');
-    btn.innerHTML = "📲 Instalar App";
-    Object.assign(btn.style, {
-        position: "fixed", bottom: "90px", right: "20px", background: "#0d6efd",
-        color: "#fff", border: "none", padding: "12px 18px", borderRadius: "25px",
-        zIndex: "1000", cursor: "pointer"
-    });
-    document.body.appendChild(btn);
-    btn.onclick = async () => {
-        deferredPrompt.prompt();
-        deferredPrompt = null;
-        btn.remove();
-    };
+
+    let btnInstalar = document.getElementById('btnInstalarApp');
+    if (!btnInstalar) {
+        btnInstalar = document.createElement('button');
+        btnInstalar.type = 'button';
+        btnInstalar.id = 'btnInstalarApp';
+        btnInstalar.className = 'btn-instalar-app';
+        btnInstalar.innerHTML = '📲 Instalar App';
+
+        btnInstalar.onclick = async (event) => {
+            event.stopPropagation();
+            if (!deferredPrompt) return;
+            deferredPrompt.prompt();
+            const choiceResult = await deferredPrompt.userChoice;
+            deferredPrompt = null;
+            if (choiceResult.outcome === 'accepted') {
+                btnInstalar.style.display = 'none';
+            }
+        };
+
+        controlesEstilo.appendChild(btnInstalar);
+    }
 });
 
 // --- Lógica de la Tuerca / Configuración ---
