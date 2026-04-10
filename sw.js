@@ -13,7 +13,7 @@ const urlsToCache = [
   './icons/icon-512.png',
   './icons/favicon-32.png',
 
-  './fonts/poppins-Regular.woff2',
+  './fonts/Poppins-Regular.woff2',
   './fonts/Roboto-Regular.woff2'
 ];
 
@@ -52,12 +52,20 @@ self.addEventListener('fetch', e => {
       }
       return fetch(e.request).then(networkResponse => {
         return caches.open(CACHE_NAME).then(cache => {
-          if (e.request.method === 'GET' && networkResponse && networkResponse.status === 200) {
+          if (
+            e.request.method === 'GET' &&
+            networkResponse &&
+            networkResponse.status === 200 &&
+            e.request.url.startsWith(self.location.origin)
+          ) {
             cache.put(e.request, networkResponse.clone());
           }
           return networkResponse;
         });
       }).catch(() => {
+        if (e.request.mode === 'navigate') {
+          return caches.match('./index.html');
+        }
         return caches.match('./');
       });
     })

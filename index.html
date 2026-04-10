@@ -5,13 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Corario Digital</title>
   <link rel="stylesheet" href="style.css">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="fonts.css">
   <link rel="manifest" href="./manifest.json">
-<meta name="theme-color" content="#0d6efd">
+  <meta name="theme-color" content="#0d6efd">
 
 <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
@@ -66,9 +62,7 @@
         <div class="header-top">
             <button id="btnVolver">← Volver</button>
             <div id="menu-estilo">
-                <button id="btnTuerca" class="btn-config">
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                </button>
+                <button id="btnTuerca" class="btn-config">⋮</button>
                 <div id="controles-estilo" class="oculto">
                     <label>Tamaño:
                         <select id="selectTamanio">
@@ -106,8 +100,8 @@
         <div class="header-title-row">
             <h2 id="tituloCancion"></h2>
             <div class="controles-tono">
-                <button id="bajar"><i class="fa-solid fa-arrow-down"></i></button>
-                <button id="subir"><i class="fa-solid fa-arrow-up"></i></button>
+                <button id="bajar">↓</button>
+                <button id="subir">↑</button>
             </div>
         </div>
     </div>
@@ -121,7 +115,7 @@
 
 <section id="pantallaOffline" style="display:none;">
     <div class="offline-card">
-        <i class="fa-solid fa-wifi-slash offline-icon"></i>
+        <div class="offline-icon">📡</div>
         <h2>Sin conexión</h2>
         <p>Parece que no tienes internet. La aplicación funcionará en offline si ya cargaste los datos antes.</p>
         <button id="btnReintentar">Reintentar conexión</button>
@@ -129,15 +123,6 @@
 </section>
 </main>
 
-<script>
- {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js')
-      .then(() => console.log('SW registrado'))
-      .catch(err => console.error('Error SW:', err));
-  });
-}
-</script>
-  <script src="main.js" type="module"></script>
+  <script src="main.js" type="module"></script>
   </body>
 </html>
