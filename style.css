@@ -385,6 +385,25 @@ main {
     background: #28a745;
 }
 
+.btn-buscar-web {
+    width: 100%;
+    padding: 10px 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.2s;
+    margin-top: 8px;
+}
+
+.btn-buscar-web:hover {
+    background: #0056b3;
+}
+
 
 /* --- Pantalla de letra --- (El resto de los estilos se mantienen) */
 #btnVolver {

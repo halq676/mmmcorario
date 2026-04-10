@@ -41,6 +41,7 @@ const selectColor = document.getElementById("selectColor");
 const btnTuerca = document.getElementById("btnTuerca");
 const controlesEstilo = document.getElementById("controles-estilo");
 const btnAnadirRepertorioMenu = document.getElementById("btnAnadirRepertorioMenu");
+const btnBuscarWeb = document.getElementById("btnBuscarWeb");
 
 
 // =========================================================
@@ -481,6 +482,12 @@ btnTuerca.onclick = () => {
                 anadirAlRepertorio(cancionActual.id || cancionActual.titulo);
                 btnAnadirRepertorioMenu.textContent = "✔️ Añadido al Repertorio";
             }
+        };
+        btnBuscarWeb.onclick = (e) => {
+            e.stopPropagation();
+            const titulo = cancionActual.titulo;
+            const url = `https://www.google.com/search?q=${encodeURIComponent(titulo)}`;
+            window.open(url, '_blank');
         };
     }
 };
