@@ -486,7 +486,7 @@ btnTuerca.onclick = () => {
         btnBuscarWeb.onclick = (e) => {
             e.stopPropagation();
             const titulo = cancionActual.titulo;
-            const url = `https://www.google.com/search?q=${encodeURIComponent(titulo)}`;
+            const url = `https://www.youtube.com/results?search_query=${encodeURIComponent(titulo)}`;
             window.open(url, '_blank');
         };
     }
