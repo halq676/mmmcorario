@@ -15,6 +15,7 @@ let vinoDesdeRepertorio = false; // Nuevo: rastrea de dónde vino el usuario
 // --- Elementos DOM ---
 const lista = document.getElementById("listaCanciones");
 const buscador = document.getElementById("buscador");
+const btnBuscar = document.getElementById("btnBuscar");
 const categorias = document.querySelectorAll("#categorias button"); // Selecciona todos los botones
 const pantallaCategorias = document.getElementById("pantallaCategorias");
 const pantallaListado = document.getElementById("pantallaListado");
@@ -310,7 +311,7 @@ document.getElementById("btnVolver").onclick = () => {
 
 document.getElementById("btnImprimir").onclick = () => window.print();
 
-buscador.onkeyup = () => {
+btnBuscar.onclick = () => {
     categorias.forEach(b => b.classList.remove('activo'));
     mostrarListado(buscador.value, buscador.value ? `Búsqueda: ${buscador.value}` : 'Listado de canciones');
 };

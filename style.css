@@ -38,15 +38,32 @@ main {
 }
 
 /* --- Buscador --- */
-#buscador {
-    width: 100%;
-    padding: 14px 16px;
+#buscador-container {
+    display: flex;
+    gap: 10px;
     margin-bottom: 25px;
+}
+
+#buscador {
+    flex: 1;
+    padding: 14px 16px;
     border: 1px solid #d8dfe7;
     border-radius: 18px;
     font-size: 1rem;
     background: #fff;
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+}
+
+#btnBuscar {
+    padding: 14px 16px;
+    border: 1px solid #d8dfe7;
+    border-radius: 18px;
+    font-size: 1rem;
+    background: #0d6efd;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    white-space: nowrap;
 }
 
 #pantallaListado {
@@ -305,6 +322,9 @@ main {
 @media (max-width: 640px) {
     main {
         padding: 16px;
+    }
+    #buscador-container {
+        flex-direction: column;
     }
     #pantallaListado {
         padding: 18px;
