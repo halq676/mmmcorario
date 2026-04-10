@@ -492,7 +492,7 @@ main {
 
 .header-title-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -505,6 +505,9 @@ main {
     line-height: 1.2;
     min-width: 0;
     flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .controles-tono {
@@ -634,14 +637,21 @@ main {
         width: 200px;
     }
 
-    .header-top {
+    .header-title-row {
         flex-direction: column;
-        align-items: stretch;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .header-cancion h2 {
+        font-size: 1.4rem;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: visible;
     }
 
     .controles-tono {
-        justify-content: space-between;
-        width: 100%;
+        align-self: flex-end;
     }
 }
 
