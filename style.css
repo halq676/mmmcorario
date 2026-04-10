@@ -427,14 +427,21 @@ main {
 
 .controles-tono button {
     padding: 10px;
-    background: #3b5998;
+    background: #007bff;
     color: white;
-    border: none;
+    border: 2px solid #0056b3;
     border-radius: 50%;
     cursor: pointer;
     font-size: 1.2rem;
     width: 45px;
     height: 45px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+}
+
+.controles-tono button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
 }
 
 /* Contenedor de letra */
@@ -636,6 +643,12 @@ main {
         transform: translateY(0);
         width: 220px;
     }
+
+    .controles-tono button {
+        width: 50px;
+        height: 50px;
+        font-size: 1.4rem;
+    }
     #controles-estilo.mostrar {
         transform: translateY(0);
     }
@@ -676,6 +689,13 @@ main {
 
     .controles-tono {
         align-self: flex-end;
+    }
+
+    .controles-tono button {
+        width: 55px;
+        height: 55px;
+        font-size: 1.5rem;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.3);
     }
 }
 
