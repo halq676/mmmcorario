@@ -237,7 +237,12 @@ function renderizarLetra() {
                             chord += linea[j];
                             j++;
                         }
-                        chords.push({ chord: transponer(chord, tonoBase), index: pos });
+                        let chordIndex = pos;
+                        // Si hay espacio ANTES del [ → retroceder para ir en el espacio
+                        if (i > 0 && linea[i-1] === ' ') {
+                            chordIndex = pos - 1;
+                        }
+                        chords.push({ chord: transponer(chord, tonoBase), index: chordIndex });
                         i = j;
                     } else {
                         buffer += linea[i];

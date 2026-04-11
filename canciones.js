@@ -4,18 +4,18 @@ window.canciones = [ // <<-- ¡Cambiar a window!
  titulo: "Amarte solo a Ti (Dm)",
  categoria: "adoracion",
  letra: `
-[Dm]Amarte solo a [A]ti Señor
-[Dm]Amarte solo a [Gm]ti Señor y 
-[C]no mirar a [F]tras
+[Dm]Amarte solo a  [A]ti Señor
+[Dm]Amarte solo a  [Gm]ti Señor y 
+[C]no mirar a  [F]tras
 
 CORO:
-[Dm]Seguir tu [Gm]caminar [C]Señor
+[Dm]Seguir tu  [Gm]caminar  [C]Señor
 seguir sin desma[F]yar Señor pos[Bb]trarme 
-ante tu al[Gm]tar señor [A7]y no mirar [Dm]atras
+ante tu al[Gm]tar señor  [A7]y no mirar  [Dm]atras
 
 Si acaso me pre[A]guntas Tu a quien he
 de se[Dm]guir Señor seguro te con[Gm]testare
-[A7]a quien si no a [Dm]Jesus
+[A7]a quien si no a  [Dm]Jesus
 `
 },
  {
@@ -23,26 +23,31 @@ de se[Dm]guir Señor seguro te con[Gm]testare
  categoria: "adoracion",
  letra: `
 
-//[C]Y si vi[G]vimos para El vi[C]vimos
-y si mo[G]rimos [G7] para El mo[C]rimos [C7]//
-//Sea que vi[F]vamos,[G7] o que mu[Em]ramos [Am]
-Somos del Se[Dm]ñor,[G7] somos Se[C]ñor, 
-somos del Señor//
+//[C]Y si vi[G]vimos 
+// para El vi[C]vimos
+y si mo[G]rimos [G7] 
+para El mo[C]rimos [C7]//
+//Sea que vi[F]vamos, [G7]
+//o que mu[Em]ramos [Am]
+Somos del Se[Dm]ñor, [G7]
+somos del Se[C]ñor// 
+
  `
  },
  {
  titulo: "Dios util quiero (C)",
  categoria: "adoracion",
  letra: `
-//[C]Dios [G]util quiero quiero [Am]ser 
-toma mi [Dm]vida fórma[G]me 
-[C]Dios [G]util quiero [Am]ser
-toma mi [Dm]vida usa[G]me //2 vez: C
+//[C]Dios  [G]util quiero quiero  [Am]ser 
+toma mi  [Dm]vida fórma[G]me 
+[C]Dios  [G]util quiero [Am]ser
+toma mi  [Dm]vida usa[G]me //
+Segunda vez: C
 
-//usa mis ma[C]nos, usa mi [G]voz
-usa mi [Dm]vida, aqui es[G]toy
-usa mis [C]manos, usa mi usa mi [G]voz
-usa mi [Dm]vida dispuesto es[G]toy//
+//usa mis ma[C]nos, usa mi  [G]voz
+usa mi  [Dm]vida, aqui es[G]toy
+usa mis  [C]manos, usa mi usa mi  [G]voz
+usa mi  [Dm]vida dispuesto es[G]toy//
  `
  },
 {
@@ -50,9 +55,9 @@ titulo: "Todo es de mi Cristo (Em)",
 categoria: "adoracion",
 letra: `
 //[Em]Todo es de mi C[C]risto 
-por [D]él y para [Em]él
+por  [D]él y para [Em]él
 Todo es de mi C[C]risto 
-por [D]él y para [Em]él//
+por  [D]él y para  [Em]él//
 CORO:
 //A El sea la g[C]loor[D]ia 
 // a El sea la go[Bm]ooor[Em]ia
@@ -60,9 +65,9 @@ A El sea la glo[C]ooor[D]ia
 por s[Bm]iempre a[Em]men//
 
 //Oh profundas ri[C]quezas 
-de la [D]sabiduría de D[Em]ios
+de la  [D]sabiduría de D[Em]ios
 Insondables sus j[C]uicios
-y sus c[D]aminos [Em]son//
+y sus c[D]aminos s[Em]on//
 Coro:
 `   
 },
@@ -75,11 +80,11 @@ mas s[D]anto
 a t[C]raves del cor[D]dero 
 de D[Em]ios
 y vengo tan solo ador[D]arte
-yo [C]entro a honr[D]rar 
-al yo [Em]soy//
+yo e[C]ntro a honr[D]rar 
+al yo s[Em]oy//
 Coro:
-//Dios te a[G]doro a [D]Ti 
-// te a[Am]doro a [Em]Ti//
+//Dios te a[G]doro a T[D]i 
+// te a[Am]doro a T[Em]i//
 //[C]pues tu nombre santo 
 s[D]anto D[Em]ios//
 `
@@ -89,29 +94,28 @@ s[D]anto D[Em]ios//
  titulo: "Dios esta aqui. (C)",
  categoria: "adoracion",
  letra: `
-[C]Dios [G]esta [Am]aqui, 
-[C]Dios [G]esta [Am]aqui
+[C]Dios es[G]ta a[Am]qui, 
+[C]Dios e[G]sta a[Am]qui
 
-
-[F]tan cierto como el aire [G]que [C]respiro
-[F]tan cierto como la [G]mañana se [Em]lev[Am]aanta
-[Dm]tan cierto que cuando le [G]hablo el me puede 
-[C]oir
+[F]tan cierto como el aire q[G]ue r[C]espiro
+[F]tan cierto como la ma[G]ñana se l[Em]ev[Am]aanta
+[Dm]tan cierto que cuando 
+le h[G]ablo el me puede o[C]ir
 `
  },
  {
  titulo: "Aquel fuego que cayo (Dm)",
  categoria: "alabanza",
  letra: `
- //[Dm]Aquel fuego que [A]cayo
- a ciento veinte una [Dm]vez//
+ //[Dm]Aquel fuego que c[A]ayo
+ a ciento veinte una v[Dm]ez//
  //Me hizo pentecos[A]tes 
- de la cabeza a los [Dm]pies//
+ de la cabeza a los p[Dm]ies//
  Coro:
  //Fuego fuego pentecos[A]tes
  fuego fuego pentecos[Dm]tes
  fuego fuego pentecos[A]tes
- de la cabeza a los [Dm]pies//
+ de la cabeza a los p[Dm]ies//
  `
  },
  {
@@ -131,7 +135,7 @@ y da la salvac[C]ion//
  categoria: "alabanza",
  letra: `
 //[C]Yo soy testigo del poder de D[G]ios
-por el milagro que ha hecho en [C]mi
+por el milagro que ha hecho en m[C]i
 yo era ciego y ahora veo la l[F]uz
 la luz glor[G]iosa que me dio Jes[C]us//
 Coro:
@@ -149,21 +153,21 @@ Jesucristo n[G]unca me desampara[C]ra//
 //[E]Jehova le dijo al profeta
 estos huesos vivi[B]ran
 el profeta le contesto
-solo Tu Señor lo [E]sabes//
+solo Tu Señor lo s[E]abes//
 Coro:
 //Estos huesos vivi[B]ran solo
 Tu Señor lo s[E]abes//
 //Iba Jesus camin[B]ado sobre las 
-// aguas del [E]mar//
-Pedro le dice [B]voy y Jesus
-le dice [E]ven
+// aguas del m[E]ar//
+Pedro le dice v[B]oy y Jesus
+le dice v[E]en
 //Mientras Pedro cami[B]naba
 la duda le visi[E]to//
 //Ahora vemos a P[B]edro como clamaba
 al Se[E]ñor//
 Coro:
 //Salvame ma[B]estro salvame que per[E]ezco//
-//Hombre de poca [B]fe porque dudas[E]te//
+//Hombre de poca f[B]e porque dudas[E]te//
  `
  },
  {
@@ -173,7 +177,43 @@ Coro:
  //[E]Vencere porque El esta con[B]migo
  vencere porque con migo es[E]ta
  vencere, vencere, vence[B]ra, vencera
- vence[E]remos en el [B]nombre del Se[E]ñor//
+ vence[E]remos en el n[B]ombre del Se[E]ñor//
+ `
+ },
+ {
+ titulo: "Señor toma mi vida nueva (D)",
+ categoria: "especiales",
+ letra: `
+ [D]Señor [A] toma mi vida n[Bm]ueva [G]
+antes de que la es[D]pera
+desgaste años en  [A]mi
+es[D]toy [A] dispuesta 
+a lo que q[Bm]uieras [G]
+no imoorta lo que  [D]sea
+Tu ll[A]amame a ser[D]vir
+Coro:
+//Lleva[D]me donde los  [A]hombres
+nece[Bm]siten tus pa[G]labras
+nece[D]siten mis ganas de viv[A]ir
+donde f[D]alte la espe[A]ranza
+donde f[Bm]alte la aleg[G]ria
+simplem[D]ente [A] 
+por no saver de  [D]Ti//
+
+Te doy [A] mi corazon si[Bm]ncero [G]
+para gritar sin m[D]iedo
+tu grandeza Se[A]ñor
+ten[D]dre [A] mis 
+manos sin ca[Bm]nsancio [G]
+tu historia entre mis  [D]labios
+y fu[A]erza en la ora[D]cion
+Coro:
+Y asi [A] en marcha ire can[Bm]tando [G]
+por los pueblos predic[D]ando
+lo bello de tu  [A]amor,
+Se[D]ñor [A] tengo alama misio[Bm]nera [G]
+conduceme a la ti[D]erra
+que  [A]tenga sed de [D]Ti
  `
  },
  
@@ -186,33 +226,33 @@ A la mo[Dm]rada de mi Salva[Dm]dor//
 
 //[C]Cuando yo llegue
 [G]a su presen[Am]cia
-[C]Con mi Señor, [G]yo me goz[Am]aré//  
+[C]Con mi Señor, y[G]o me goz[Am]aré//  
           
 //[C]Corona de oro [G]lista está
-[F]Vestido blanco [Am]listo está//
+[F]Vestido blanco l[Am]isto está//
 
-[C]En las bodas del [G]Cordero
-Todos jun[C]tos [G]nos alegrare[Am]mos//
+[C]En las bodas del C[G]ordero
+Todos jun[C]tos n[G]os alegrare[Am]mos//
 `
  },
 
  {
- titulo: "El amor de dios (Em)",
+ titulo: "El amor de Dios (Em)",
  categoria: "folkloricos",
  letra: `
  //[Em]El amor de Dios
  Es verda[D]dero y eter[Am]no
- No [C]es como el amor hu[D]mano 
+ No e[C]s como el amor hu[D]mano 
  Pasa[Em]jero//
 
 // De tal manera 
-Amo [G]Dios a este [D]mundo
-Que ha [C]enviado
-A su [D]Hijo Jesucristo//
+Amo D[G]ios a este m[D]undo
+Que ha e[C]nviado
+A su H[D]ijo Jesucristo//
 
-//Para [D]darnos vida [Am]eterna
-Y [C]así poder llegar 
-A [D]salvación et[Em]erna//
+//Para d[D]arnos vida e[Am]terna
+Y a[C]sí poder llegar 
+A s[D]alvación et[Em]erna//
 `
  },
  {
@@ -220,23 +260,21 @@ A [D]salvación et[Em]erna//
  categoria: "folkloricos",
  letra: `
  (Recitado, Zampoña Sostenido ) 
-
 Instrumentos: Am C G Am  
-
 //[Am]Oh Jehová oh Señor nues[C]tro                                                 
-Cuan glorioso es Tu [G]nombre                                                                  
-en toda la [Am]tierra aleluya// 
+Cuan glorioso es Tu n[G]ombre                                                                  
+en toda la t[Am]ierra aleluya// 
 
 Quena:  
-//De la boca de los [C]niños
-Y de los [G]maman
+//De la boca de los n[C]iños
+Y de los m[G]aman
 Fundaste la forta[Am]leza aleluya//
 
 Quena:
 
-//Cuando miro yo los [C]cielos
+//Cuando miro yo los c[C]ielos
 La luna y las es[G]trellas
-Me pregunto que es el [Am]hombre aleluya
+Me pregunto que es el h[Am]ombre aleluya
 
 Zampoña:
 
@@ -248,23 +286,22 @@ Zampoña:
  letra: `
  Guitarra transportada 3er espacio 
 Zampoña: G F A E
-
 [Em]El principio del sa[Am]ber
 Es te[D]mer a Jeho[Em]vá
 El buen sabio re[Am]conoce
-Mas el [D]necio se enva[Em]nece
+Mas el n[D]ecio se enva[Em]nece
 CORO
 //[D]De nada al hombre
-Le [Em]sirve el dinero
+Le s[Em]irve el dinero
 [D]De nada al hombre 
-Le [Em]sirve la fama
+Le s[Em]irve la fama
 [D]Si su alma la per[Em]diere
 [D]Si su alma la per[Em]diere//
 Zampoña
-Como el viento sin la [Am]lluvia
-Es el [D]hombre que se [Em]jacta
+Como el viento sin la ll[Am]uvia
+Es el h[D]ombre que se j[Em]acta
 No te alabes ni te [Am]exaltes
-Para que no [D]seas humi[Em]llado
+Para que no s[D]eas humi[Em]llado
 `
  },
  {
@@ -272,36 +309,50 @@ Para que no [D]seas humi[Em]llado
  categoria: "folkloricos",
  letra: `
  Zampoña: Em B7 E E Am D G F Em D Em
+[Em]En este día le 
+[E]canto a mi ma[Am]má
+Y a las m[D]adres que 
+escuchan esta v[G]oz
+Predi[C]cando como 
+vasos del Se[Am]ñor
+Y fe[B7]lices compartiendo 
+su ver[Em]dad
 
-[Em]En este día le [E]canto a mi ma[Am]má
-Y a las [D]madres que escuchan esta [G]voz
-Predi[C]cando como vasos del Se[Am]ñor
-Y fe[B7]lices compartiendo su ver[Em]dad
-
-Angustiada me en[E]seño a cami[Am]nar
-Anhe[D]lando el camino del Se[G]ñor
-Hoy me en[C]cuentro firme y libre de pe[Am]car
-Le doy [B7]gracias por guiarme madre [Em]mía
+Angustiada me en[E]seño 
+a cami[Am]nar
+Anhe[D]lando el camino 
+del Se[G]ñor
+Hoy me en[C]cuentro firme 
+y libre de pe[Am]car
+Le doy g[B7]racias por 
+guiarme madre m[Em]ía
 CORO
-// [E]Tu me diste el buen con[Am]sejo
+// [E]Tu me diste el 
+// buen con[Am]sejo
 [D]Hoy te honro a ti ma[G]má
 [C]Repitiendo con de[Am]nuedo
 [B7]Dios te bendiga ma[Em]má….[E].//
 
 QUENA: Am D G C Am B7 Em E F Em
 
-Angustiada me ense[E]ño a cami[Am]nar
+Angustiada me ense[E]ño 
+a cami[Am]nar
 Anhe[D]lando el camino del Se[G]ñor
-Hoy me en[C]cuentro firme y libre de pe[Am]car
-Le doy gra[B7]cias por guiarme madre [Em]mía
+Hoy me en[C]cuentro firme y 
+libre de pe[Am]car
+Le doy gra[B7]cias por guiarme 
+madre m[Em]ía
 
-Con fervor me ense[E]ñaste a preser[Am]var
-Los con[D]sejos y ordenanzas de la [G]biblia
-Honra a tu [C]padre y a tu madre me de[Am]cías
-Mujer de [B7]elogio simboliza mi ma[Em]má….
+Con fervor me ense[E]ñaste a 
+preser[Am]var
+Los con[D]sejos y ordenanzas 
+de la b[G]iblia
+Honra a tu p[C]adre y a tu 
+madre me de[Am]cías
+Mujer de e[B7]logio simboliza
+ mi ma[Em]má….
 CORO
 QUENA: Am, D G C Am B7 Em E
-
 `
 },
 {
@@ -313,15 +364,17 @@ QUENA: A C
 
 [Am]Yo caminaba tan per[C]dido
 Sin sa[F]ber mi des[C]tino                                   
-//cuanta [F]falta me ha hecho, su ca[Am]riño//
-QUENA
-//cuanta [C]falta me ha hecho
+//cuanta f[F]alta me ha hecho,
+//  su ca[Am]riño//
+QUENA:
+//cuanta f[C]alta me ha hecho
 su ca[Dm]riño y su amor//
-//Cuanta [F]falta me ha hecho, su ca[Am]riño//
+//Cuanta f[F]alta me ha hecho,
+//  su ca[Am]riño//
 QUENA
-//Pero un [C]día me encontré
+//Pero un d[C]ía me encontré
 A Jesu[Dm]cristo el Salvador//
-//Pero un [F]día me encontré      
+//Pero un d[F]ía me encontré      
 A Jesu[Am]cristo /
 `
 },
@@ -330,36 +383,36 @@ titulo: "Ustedes se preguntaran (Am)",
 categoria: "folkloricos",
 letra: `
 QUENA: C A
-
 //[Am]Ustedes se pre[G]guntaran
 [Em]Quienes son can[Am]tores del Rey//
-//Somos enviados [G]por Cristo
-[Em]para alabar su [Am]gran nombre//
+//Somos enviados p[G]or Cristo
+[Em]para alabar su g[Am]ran nombre//
 QUENA
 //Ala[F]bemos todos juntos
 Al Dios todopoderoso//
-//[Am]Al son de nuestra [G]guitarra
-[Em]Charango, quena y [Am]zampoña//
+//[Am]Al son de nuestra g[G]uitarra
+[Em]Charango, quena y z[Am]ampoña//
 `
 },
 {
 titulo: "Perdido andaba sin mi Jesus (Am)",
 categoria: "folkloricos",
 letra: `
-ZAMPOÑA: //Am G Am// //G Am//
+ZAMPOÑA: Am G Am G Am
 //Perdido an[C]daba sin mi Je[G]sús
-Entre las [Em]sombras del tenta[Am]dor//
-//Pero la [C]voz de mi Salva[G]dor
-Trajo la [Em]luz a mi cora[Am]zón//
-QUENA: //A--, G, A--// //G, A--//
-//Amigo [C]Cristo te llama [G]hoy
-Oye la [Em]voz de mi Salva[Am]dor//
-//La vida [C]eterna y la salva[G]ción
+Entre las s[Em]ombras del tenta[Am]dor//
+
+//Pero la v[C]oz de mi Salva[G]dor
+Trajo la l[Em]uz a mi cora[Am]zón//
+QUENA: Am G Am G Am
+//Amigo C[C]risto te llama h[G]oy
+Oye la v[Em]oz de mi Salva[Am]dor//
+//La vida e[C]terna y la salva[G]ción
 Solo se al[Em]canzan con su per[Am]dón//
 QUENA
 //Si del ca[C]mino apartado es[G]tas
-Cristo te [E]da otra oportuni[Am]dad//
-//Cual hijo [C]prodigo vuelve [G]hoy
+Cristo te d[E]a otra oportuni[Am]dad//
+//Cual hijo p[C]rodigo vuelve h[G]oy
 El te res[Em]taura tu cora[Am]zón//
 `
 },
@@ -368,23 +421,23 @@ titulo: "La fuerza del amor (Am)",
 categoria: "folkloricos",
 letra: `
 ZAMPOÑA: 
-GUITARRA: //C Am Em F G// //Am G F// Am
+GUITARRA: C Am Em F G Am G F Am
 [Am]Quién es aquella
-Que se [G]muestra como el alba[Dm]
-Hermosa como la [E]luna[Am]
+Que se m[G]uestra como el alba[Dm]
+Hermosa como la l[E]una[Am]
 Resplandeciente  Co[G]mo la luz del sol[Dm]                                 
 Como ejércitos impo[E]nentes
 ZAMPOÑA
-GUITARRA://C,G,A-,G,C,G,A-,G,D-,E,D-,E-,A-,D-/
+GUITARRA: C Gm G C G Am G Dm E Dm Em Am Dm
 [Am]Llévame como un sello
 So[G]bre tu corazón
-Una señal sobre tu [E]brazo[Am]
+Una señal sobre tu b[E]razo[Am]
 
 Las muchas aguas
-No [G]apagaran este amor[Dm]
-Ni lo ahogaran los [E]ríos[C]  
-//porque [C]fuerte, [G]fuerte[Dm]
-Es como la muerte el [E]amor//
+No a[G]pagaran este amor[Dm]
+Ni lo ahogaran los r[E]íos[C]  
+//porque f[C]uerte, f[G]uerte[Dm]
+Es como la muerte el a[E]mor//
 ZAMPOÑA
 `
 },
@@ -394,20 +447,25 @@ categoria: "folkloricos",
 letra: `
 Zampoña
 //[Bm]Con este canto 
-Yo [D]quiero cantar
-Con este mi [A]canto
-Yo [F#m]quiero ado[Bm]rar //
+Yo q[D]uiero cantar
+Con este mi c[A]anto
+Yo q[F#m]uiero ado[Bm]rar //
 
 //A aquel que mi vida
 entera cam[D]bió
 Todos mis pe[A]cados
-Su [F#m]sangre la[Bm]vó  //
-//El [G]es mi Je[A]sús, El [F#m]es  mi Se[Bm]ñor
-El es pode[A]roso Siem[F#m]pre  vence[Bm]dor //
+Su s[F#m]angre la[Bm]vó  //
+//El e[G]s mi Je[A]sús,
+//El e[F#m]s  mi Se[Bm]ñor
+El es pode[A]roso Siem[F#m]pre  
+vence[Bm]dor //
 Zampoña
-[Bm]Ale[D]luya, [A]Ale[Bm]luya, [Bm]Ale[D]luya, [A]Ale[Bm]luya
-//El [G]es mi Je[A]sús,  el [F#m]es mi Se[Bm]ñor
-El es pode[A]roso siem[F#m]pre vence[Bm]dor//
+[Bm]Ale[D]luya, a[A]le[Bm]luya,
+[Bm]Ale[D]luya, a[A]le[Bm]luya
+//El e[G]s mi Je[A]sús,
+el e[F#m]s mi Se[Bm]ñor
+El es pode[A]roso siem[F#m]pre 
+vence[Bm]dor//
 `
 },
 {
@@ -418,15 +476,15 @@ Zampoña
 //[Em]Te agradezco 
 con todo el cora[G]zón      
 [D]Por esta linda vida 
-que Tú me [Em]das//
+que Tú me d[Em]as//
 
-//[D]quiero decirte que te [Em]amo
+//[D]quiero decirte que te a[Em]mo
 [D]Quiero decirte que te qui[G]ero
-[Am]Oh  oh  mi [Em]Dios //
+[Am]Oh  oh  mi D[Em]ios //
 
-[C]A [G]leluya, [D]a [Am]lelu[Em]ya, 
-[C]A [G]leluya, [D]a [Am]lelu[Em]ya
-[D]Canta[Em]re, [D]alaba[Em]re
+[C]Aaaal[G]eluya, a[D]aaal[Am]elu[Em]ya, 
+[C]Aaaa[G]leluya, [D]aaa[Am]lelu[Em]ya
+[D]Canta[Em]re, a[D]laba[Em]re
 A [D]mi   Se[Em]ñor Jesús
 Zampoña
 `
@@ -437,43 +495,47 @@ categoria: "folkloricos",
 letra: `
 Quena: C                                           
 Guitarra: Dm C  F A Dm
-//[Am]Por los montes [C]y los valles   
-[G]Cantando yo [C]voy              
+//[Am]Por los montes
+[C]y los valles   
+[G]Cantando yo v[C]oy              
 Mi Señor Je[E]sús, conmigo es[Am]ta,
 Mi Señor Je[E]sús Conmigo es[Am]ta//
 
-//[G]El me ama y [C]me cuida
-[G]Me alienta y [C]me guarda
-[E]Reconozco su [Am]amor
-[E]Donde quiera que [Am]ando yo //
+//[G]El me ama y m[C]e cuida
+[G]Me alienta y m[C]e guarda
+[E]Reconozco su a[Am]mor
+[E]Donde quiera que a[Am]ndo yo //
 Quena
-[Am]En mis noches [C]de tristeza
-[G]Me ayudará,  [C]me consolará
+[Am]En mis noches d[C]e tristeza
+[G]Me ayudará,  m[C]e consolará
 [E]Mi fiel Salva[Am]dor
 Me conso[E]lara  mi fiel salva[Am]dor
 CORO
 Quena
-`
-},
+`},
 {
 titulo: "Bueno es alabarte Jehova (G)",
 categoria: "folkloricos",
 letra: `
 Quena 1: G Quena 2: E
 //[G]Bueno es alabarte Jeho[D7]va
-Y cantar salmos a tu [G]nombre//
+Y cantar salmos a tu n[G]ombre//
 //Anun[C]ciar por la mañana
 [G]Tu misericordia
-Y [D7]tu fidelidad de [G]noche //
+Y t[D7]u fidelidad de n[G]oche //
 Quena
 (Se repite)
-[G]Quien es el que [D7]vive Cristo es el que [G]vive                                             
-Quien es el que [D7]salva, Cristo es el que [G]salva  
-Quien es el que [D7]sana, cristo es el que [G]sana
-Quienes el que [D7]viene, Cristo es el que [G]viene   
+[G]Quien es el que v[D7]ive
+Cristo es el que v[G]ive                                             
+Quien es el que s[D7]alva,
+Cristo es el que s[G]alva  
+Quien es el que s[D7]ana,
+cristo es el que s[G]ana
+Quienes el que v[D7]iene,
+Cristo es el que v[G]iene   
 //Anun[C]ciar por la mañana 
 [G]Tu misericordia 
-Y [D7]tu fidelidad cada [G]noche//
+Y t[D7]u fidelidad cada n[G]oche//
 `
 },
 {
@@ -484,14 +546,14 @@ Guitarra (capo 3 espacio Am)
 Zampoña
 //[Am]Siento un gozo en mi corazón
 [F]Siento un gozo en mi corazón
-Porque mi [G]Cristo ya me sal[Am]vó//
+Porque mi C[G]risto ya me sal[Am]vó//
 
-//[F]El es consuelo, mi [C]vida, mi todo
-[F]El es mi gran [Am]amor//
+//[F]El es consuelo, mi v[C]ida, mi todo
+[F]El es mi gran a[Am]mor//
 
 [G]Hay un gozo en mi cora[Am]zón
 [G]Hay un gozo en mi cora[Am]zón
-porque [G]Cristo ya me sal[Am]vo
+porque C[G]risto ya me sal[Am]vo
 Zampoña
 `
 },
@@ -499,20 +561,20 @@ Zampoña
 titulo: "Solo por tu gran amor (Em)",
 categoria: "folkloricos",
 letra: `
-Zampoña: Em G D C D Em )
+Zampoña: Em G D C D Em 
 //[Em]Solo por tu gran a[G]mor
-Hoy ten[D]go una nueva [Em]vida//
+Hoy ten[D]go una nueva v[Em]ida//
 Y este amor no mori[D]rá
-Y por [Bm]siempre te alaba[Em]ré
-Y por [Bm]siempre te ama[Em]ré //  
+Y por s[Bm]iempre te alaba[Em]ré
+Y por s[Bm]iempre te ama[Em]ré //  
 
 Zampoña
 //Te alaba[C]ré[G],
 Te alaba[D]ré Señor Je[Em]sús//
 Y este amor no mori[D]rá
-Y por [Bm]siempre te alaba[Em]ré
+Y por s[Bm]iempre te alaba[Em]ré
 Y este amor no mori[D]rá
-Y por [Bm]siempre te ama[Em]ré  
+Y por s[Bm]iempre te ama[Em]ré  
 Zampoña
 
 `
@@ -527,11 +589,11 @@ GUTARRA: Em C G D Em
 Al desper[Em]tar cada ma[Am]ñana
 Y contem[C]plar de tu po[Em]der
 Puedo entender a tu pa[Am]labra
-Y compren[C]der mas tu [Em]amor
+Y compren[C]der mas tu a[Em]mor
 
-// Oh mi Se[D]ñor llenas mi [Am]vida
-Tu eres mi [C]guía, consola[Em]dor
-Es tu [D]amor, es tu pa[Am]labra
+// Oh mi Se[D]ñor llenas mi v[Am]ida
+Tu eres mi g[C]uía, consola[Em]dor
+Es tu a[D]mor, es tu pa[Am]labra
 La que acom[C]paña mi exis[Em]tir //
 (Quena y repite todo)
 (Para terminar zampoña)
@@ -547,9 +609,9 @@ GUITARRA: Am C G Em
 Con[Am]fiando vive en su Crea[C]dor
 El mundo gira a su alrede[G]dor
 Se[Dm]gura está de su gran a[Em]mor
-Es sabia fuerte, hermosa [Am]flor
+Es sabia fuerte, hermosa f[Am]lor
 
-Muchos ojos la pueden [C]ver
+Muchos ojos la pueden v[C]er
 Solo Dios puede enten[G]der
 [Dm]Llena está de su crea[Em]ción
 Dando frutos de bendi[Am]ción
@@ -569,18 +631,25 @@ titulo: "Cristo eres la luz (Am)",
 categoria: "folkloricos",
 letra: `
 (Transportar 3er traste Cm)
-ZAMPOÑA: C G Dm Am // G C G Dm Dm Am
+ZAMPOÑA: C G Dm Am G C G Dm Dm Am
 
-[C]Cristo eres la luz de mis ma[G]ñanas
-[Dm]Agua de manantial que calma mi [Am]sed
-[C]Pan que sacia el hambre de mi [G]alma
-[Dm]Manto que cubre a todo mi [Am]ser
+[C]Cristo eres la luz 
+de mis ma[G]ñanas
+[Dm]Agua de manantial que
+calma mi s[Am]ed
+[C]Pan que sacia el hambre
+de mi a[G]lma
+[Dm]Manto que cubre 
+a todo mi s[Am]er
 
-[C]Cristo eres la [G]luz [Dm] de mi amane[Am]cer
-[C]Agua de manan[G]tial [Dm] que calma mi [Am]sed
+[C]Cristo eres la l[G]uz
+[Dm] de mi amane[Am]cer
+[C]Agua de manan[G]tial[Dm]
+que calma mi s[Am]ed
 
 CORO
-//[C]Tu eres la [G]luz [Dm] en la oscuri[Am]dad
+//[C]Tu eres la l[G]uz[Dm]
+en la oscuri[Am]dad
 [C]Calma en la tempes[G]tad [Dm]
 Me diste salva[Am]cion// [G]  [Dm]   [Am]
 
@@ -592,39 +661,35 @@ categoria: "folkloricos",
 letra: `
 ZAMPOÑA
 //[Em]Ven amigo a Je[C]sús 
-y [D]dale tu cora[Em]zón//
+y d[D]ale tu cora[Em]zón//
 
 CORO
 //[G]Mi buen Jesús te llama,
-El te reclama, no tardes [Em]mas//
+El te reclama, no tardes m[Em]as//
 
 //Solamente en Je[C]sús 
 Se en[D]cuentra la salva[Em]ción// 
 CORO
 ZAMPOÑA
-//[Em]Cristo murió por [C]mi 
-[D]También murió por [Em]ti//
-
+//[Em]Cristo murió por m[C]i 
+[D]También murió por t[Em]i//
 CORO
-
 ZAMPOÑA
-
-`
-},
+`},
 {
 titulo: "A su nombre gloria (G)",
 categoria: "folkloricos",
 letra: `
 QUENA
-//[G]A su nombre [C]gloria vamos a cantar
+//[G]A su nombre g[C]loria vamos a cantar
 Lo que res[D]pire alabe a Jeho[G]vá //
-// El es [G]dueño Rey de mi vida 
+// El es d[G]ueño Rey de mi vida 
 Sanó mis heridas me dio la liber[Em]tad//
 
 QUENA
-//Todos [C]unidos vamos a adorar
+//Todos u[C]nidos vamos a adorar
 Lo que res[D]pire alabe a Jeho[G]vá //
-// El es el [G]dueño Rey de mi vida
+// El es el d[G]ueño Rey de mi vida
 Sanó mis heridas me dio la liber[Em]tad//
 QUENA
 `
@@ -635,14 +700,14 @@ categoria: "folkloricos",
 letra: `
 ZAMPOÑA
 //[G]Oh que bueno es mi Je[D]sús
-Que murió por [G]mí en la cruz
-Mis pecados [D]perdonó
-A su nombre [G]gloria//
+Que murió por m[G]í en la cruz
+Mis pecados p[D]erdonó
+A su nombre g[G]loria//
 CORO
-//[G]A su nombre [C]gloria
-A su nombre  [G]gloria//
-//A su nombre [D]gloria
-A su nombre [G]gloria//
+//[G]A su nombre g[C]loria
+A su nombre  g[G]loria//
+//A su nombre g[D]loria
+A su nombre g[G]loria//
 `
 },
 {
@@ -650,15 +715,15 @@ titulo: "Espiritu Santo Bienvenido eres (Em)",
 categoria: "folkloricos",
 letra: `
 Charango Zampoñas: E G
-//[E-]Espíritu [D]santo [Bm]bienvenido [Em]eres//
-[G]Donde Tu es[D]tas [Bm]allí hay liber[Em]tad
-[G]Donde Tu es[D]tas [Bm]allí hay sani[Em]dad (bis)
+//[E-]Espíritu s[D]anto b[Bm]ienvenido e[Em]res//
+[G]Donde Tu es[D]tas a[Bm]llí hay liber[Em]tad
+[G]Donde Tu es[D]tas a[Bm]llí hay sani[Em]dad (bis)
 Quenas
-//Espíritu [D]Santo, [Bm]santo de [Em]Dios//
-//[G]Llena con Tu [D]fuego [Bm]en mi cora[Em]zón//
+//Espíritu S[D]anto, s[Bm]anto de D[Em]ios//
+//[G]Llena con Tu f[D]uego e[Bm]n mi cora[Em]zón//
 
 Quenas (melodía)
-Primera quena: B, E
+Primera quena: B E
 Segunda quena: G C
 `
 },
@@ -666,19 +731,23 @@ Segunda quena: G C
 titulo: "Vayan por todo el mundo (Am)",
 categoria: "folkloricos",
 letra: `
-//[Am]Vayan por todo el [F]mundo
+//[Am]Vayan por todo el m[F]undo
 Y com[C]partan el evan[G]gelio //
-// El Se[Am]ñor//  Nuestro [F]Dios//
+// El Se[Am]ñor//  Nuestro D[F]ios//
 [C]Ha resuci[G]tado //
 
-[Am]Ahí donde tu [F]vives, [C]ahí donde tra[G]bajas
-[Am]ahí donde com[F]partes, [C]ahí está el Se[G]ñor
-// El Se[Am]ñor//  mi Pas[F]tor//
-Su [C]vida ha entre[C]gado //
+[Am]Ahí donde tu v[F]ives,
+[C]ahí donde tra[G]bajas
+[Am]ahí donde com[F]partes,
+[C]ahí está el Se[G]ñor
+//El Se[Am]ñor//  mi Pas[F]tor//
+Su v[C]ida ha entre[C]gado //
 
-[Am]Ahí donde tu [F]vives, [C]ahí donde tra[G]bajas
-[Am]ahí donde com[F]partes, [C]ahí está el Se[G]ñor
-// El Se[Am]ñor//  Nuestro [F]Dios//
+[Am]Ahí donde tu v[F]ives, 
+[C]ahí donde tra[G]bajas
+[Am]ahí donde com[F]partes, 
+[C]ahí está el Se[G]ñor
+//El Se[Am]ñor//  Nuestro D[F]ios//
 [C]Ha resuci[G]tado //
 Alelu[Am]ya…. Ale[C]luya  [G]  // Ale[Am]luya
 `
@@ -690,15 +759,15 @@ letra: `
 Charango -- canto
 [Em]Tengo un pastor que cuida mi so[D]ñar
 [Bm]Su gran amor me lleva al pasti[Em]zal
-Si al caminar me siento [D]sin valor
-[Bm]Entre sus brazos me lleva con [Em]amor
+Si al caminar me siento s[D]in valor
+[Bm]Entre sus brazos me lleva con a[Em]mor
 CORO
-// Si tengo [G]hambre busca[D]ré
-Con mucho [G]gozo alaba[D]ré
+//Si tengo h[G]ambre busca[D]ré
+Con mucho g[G]ozo alaba[D]ré
 A mi pas[Em]tor que es el Se[Bm]ñor //
-QUENA: (G  F)
-[Em]En el amor de Cristo vivo [D]ya
-[Bm]Salvado estoy de la muerte por la [Em]cruz
+QUENA: G F
+[Em]En el amor de Cristo vivo y[D]a
+[Bm]Salvado estoy de la muerte por la c[Em]ruz
 Por eso día tras día he de lle[D]var
 [Bm]Su gran mensaje de la salva[Em]ción
 `
@@ -709,18 +778,18 @@ categoria: "folkloricos",
 letra: `
 QUENA: G  F
 //[Em]Hoy estamos es[Am]perando  [B]
-Que derrames [Em]tu poder
-Y que nuestras [Am]vidas
+Que derrames t[Em]u poder
+Y que nuestras v[Am]idas
 [D]Cambien por la eterni[G]dad
 
-El de duro [Am]corazón
+El de duro c[Am]orazón
 [B]Doblará sus ro[Em]dillas
-Levantemos [Am]la mirada
+Levantemos l[Am]a mirada
 Reci[B7]bamos su po[Em]der//
 CORO:
-//Espíritu [C]Santo de[D]rrama tu po[G]der
-Es[Em]píritu [C]Santo de[D]rrama sani[G]dad  [Am]  
-No tengo porque [Em]hoy temer
+//Espíritu S[C]anto de[D]rrama tu po[G]der
+Es[Em]píritu S[C]anto de[D]rrama sani[G]dad  [Am]  
+No tengo porque h[Em]oy temer
 [F]Porque contigo es[B]toy
 QUENA: G  F
 `
@@ -730,20 +799,20 @@ titulo: "Quiero cantar una linda cancion (G)",
 categoria: "folkloricos",
 letra: `
 Quena: B
-[G]Quiero cantar una [Em]linda canción
-De  [Am]aquel que me transfor[D]mó
-Qui[G]ero cantar una [Em]linda canción
-De [Am]aquel que mi vida cam[D]bió
+[G]Quiero cantar una l[Em]inda canción
+De  a[Am]quel que me transfor[D]mó
+Qui[G]ero cantar una l[Em]inda canción
+De a[Am]quel que mi vida cam[D]bió
 
-Es mi [G]amigo Je[Em]sús, 
-Es mi [Am]amigo más [D]fiel
-Él es [G]Dios, Él es [Em]Rey
-es [Am]amor y ver[D]dad
+Es mi a[G]migo Je[Em]sús, 
+Es mi a[Am]migo más f[D]iel
+Él es D[G]ios, Él es R[Em]ey
+es a[Am]mor y ver[D]dad
 
-solo en [G]El encon[Em]tré
-esa [Am]paz que bus[D]qué
-solo en [G]El encon[Em]tré 
-La  [Am]feli----[D]ci----[G]dad
+solo en E[G]l encon[Em]tré
+esa p[Am]az que bus[D]qué
+solo en E[G]l encon[Em]tré 
+La  f[Am]eliiiii[D]ciiiiiii[G]dad
 Quena
 `
 },
@@ -755,12 +824,11 @@ Quena: B
 // Alaba[G]re, alaba[Em]ré,
 [Am]Alaba[D]ré a mi Se[G]ñor  //
 
-Juan vio el número [Em]de los redimidos
-Y [G]todos alababan al Se[D]ñor
-[Am]Unos [D]oraban, [Am]otros can[D]taban
-Pero [Am]todos ala[D]baban al Se[G]ñor
+Juan vio el número d[Em]e los redimidos
+Y t[G]odos alababan al Se[D]ñor
+[Am]Unos o[D]raban, o[Am]tros can[D]taban
+Pero t[Am]odos ala[D]baban al Se[G]ñor
 Quena
-
 `
 },
 {
@@ -768,15 +836,19 @@ titulo: "ES Jesucristo quien dio su vida (Em)",
 categoria: "folkloricos",
 letra: ` 
 GUITARRA: Em D
-//[Em]Jesus se llama [G]tu buen amigo, [C]quien mu[G]rió//
-//[C]si tu lo encuentras en [G]este dia, [D]sígue[Em]lo//
+//[Em]Jesus se llama t[G]u buen amigo, 
+[C]quien mu[G]rió//
+//[C]si tu lo encuentras en 
+[G]este dia, s[D]ígue[Em]lo//
 QUENA (D, G)
-//[Em]Es Jesucristo [G]quien dio subida [C]por sal[G]var//
-//[C]a este mundo, [G]que anda perdido, [D]y sin [Em]paz//
-ZAMPOÑA (Em, D) GUITARRA (E-, D)
-//[D]Sigue[Em]lo, [D]sígue[Em]lo, 
-[C]si tu lo encuentras en [G]este dia, [D]sígue[Em]lo//
-
+//[Em]Es Jesucristo q[G]uien dio 
+su vida p[C]or sal[G]var//
+//[C]a este mundo, q[G]ue anda perdido, 
+[D]y sin p[Em]az//
+ZAMPOÑA Em D GUITARRA Em D)
+//[D]Sigue[Em]lo, s[D]ígue[Em]lo, 
+[C]si tu lo encuentras en e[G]ste dia, 
+[D]sígue[Em]lo//
 ZAMPOÑA: D, G  GUITARRA: Em D 	
 Acompañamiento: Em G C G C G D Em Em D
 `
@@ -787,16 +859,22 @@ categoria: "folkloricos",
 letra: `
 Arpergiado guitarra zampoñas: D A G A D
 
-[D]Misionero quiero [A]ser aunque [G]la vejez lle[D]gare 
-y la fuerza juve[A]nil poco a [G]poco se ter[D]mina 
-aunque la piel se a[A]rrugue y mis ojos se nu[Bm]blare
+[D]Misionero quiero s[A]er aunque 
+[G]la vejez lle[D]gare 
+y la fuerza juve[A]nil poco a 
+[G]poco se ter[D]mina 
+aunque la piel se a[A]rrugue 
+y mis ojos se nu[Bm]blare
 
-[F#m]misionero quiero [G]seee[A]er 
-[D]muchos quieren esa [A]paz 
-esa [G]paz que nunca [D]muere 
-que viva en su [A]ser el per[G]fecto amor de [D]cristo
-que viva en su [A]ser el perfecto amor de [Bm]cristo
-Que no [F#m]haya incompren[G]sio[A]on…, incompren[D]sión
+[F#m]misionero quiero s[G]eee[A]er 
+[D]muchos quieren esa p[A]az 
+esa p[G]az que nunca m[D]uere 
+que viva en su s[A]er el per[G]fecto 
+amor de c[D]risto
+que viva en su s[A]er el perfecto 
+amor de c[Bm]risto
+Que no h[F#m]aya incompren[G]sio[A]on…, 
+incompren[D]sión
 Zampoña: D A G A D
 `
 },
@@ -805,27 +883,28 @@ titulo: "Dulce Espiritu de Dios (Dm)",
 categoria: "folkloricos",
 letra: `
 PUNTEADO Y QUENA: D
-[Dm]Dulce Espíritu de [Bb]Dios quiero ser
-román[C]tico contigo en esta [Dm]noche
-hoy a la luz de la [Bb]luna  [A7]
-mi canción es para [Dm]Ti
+[Dm]Dulce Espíritu de D[Bb]ios 
+quiero ser
+román[C]tico contigo en esta n[Dm]oche
+hoy a la luz de la l[Bb]una  [A7]
+mi canción es para T[Dm]i
 //porque eres mi forta[A]leza Señor
 Mi escudo mi protector
 y mi con[Dm]suelo
-[F]eres Espíritu [Bb]Santo
-desde ahora y para [A7]siempre
+[F]eres Espíritu S[Bb]anto
+desde ahora y para s[A7]iempre
 la razón de mi exis[Dm]tir //
 QUENA: Dm  G  A7  Dm
-Espíritu Santo, [A7]tuyo el honor
+Espíritu Santo, t[A7]uyo el honor
 La gloria y la majestad
-Aquí en la [Dm]tierra Señor
+Aquí en la t[Dm]ierra Señor
 Aunque el hombre
-no te [A7]pueda mirar
+no te p[A7]ueda mirar
 pero te puede sentir
-manifes[Dm]tando tu amor
+manifes t[Dm]ando tu amor
 //[A#]y no hubiera mara[F]villas
-Si no fuera por [A7]Ti
-Señor Espíritu [Dm]Santo //
+Si no fuera por T[A7]i
+Señor Espíritu S[Dm]anto //
 PUNTEADO Y QUENA
 `
 },
@@ -842,9 +921,9 @@ que han to[G]mado
 esa es[Am]pada con va[Em]lor //
 
 CORO:
-// Y ese [C]ejercito eres [G]tu
-oh i[Am]glesia eres [Em]tu
-de la [C]mano de Je[G]sús
+// Y ese e[C]jercito eres t[G]u
+oh i[Am]glesia eres t[Em]u
+de la m[C]ano de Je[G]sús
 la vic[Am]toria obten[Em]drás //
 Quenas:
 
@@ -862,24 +941,28 @@ titulo: "Con mi voz clame a Jehova (Am)",
 categoria: "folkloricos",
 letra: `
 Intro: Am Dm E
-Quena: A, B
+Quena: A B
 [Am]Con mi voz cla[Dm]mé, a Jeho[E]vá,  [Am]
 a Dios cla[Dm]mé y me escu[E]chó
-en el día de mi [Am]angu[Dm]uus[E]tia.  [Am]
+en el día de mi a[Am]ngu[Dm]uus[E]tia.  [Am]
 
-Alzaba mis [Dm]manos, por las [E]noches, [Am]
-mi alma [Dm]no tenía con[E]suelo, 
-se quejaba mi [Am]Espií[Dm]rii[E]tu  [Am]
+Alzaba mis m[Dm]anos, por las n[E]oches, [Am]
+mi alma n[Dm]o tenía con[E]suelo, 
+se quejaba mi e[Am]spií[Dm]rii[E]tu  [Am]
 
-No me [Dm]dejaba pegar los [E]ojos,   [Am]
-estaba [Dm]yo quebran[E]tado,
-mi espiritu [Am]lloraba, mi es[Dm]piritu [E]lloraba.  [Am]
+No me d[Dm]ejaba pegar los o[E]jos, [Am]
+estaba y[Dm]o quebran[E]tado,
+mi espiritu ll[Am]oraba, mi 
+es[Dm]piritu [E]lloraba [Am]
 
-Mas Él escu[Dm]chó mi [E]voz, su mano me exten[Am]dió
-y me [Dm]levan[E]tó, jale[Dm]luu[E]yaaaa!  [Am]
+Mas Él escu[Dm]chó mi v[E]oz, 
+su mano me exten[Am]dió
+y me [Dm]levan[E]tó, aale[Dm]luu[E]yaaaa! [Am]
 
-¡Me leva[Dm]ntó, me leva[E]ntó![Am] ¡Me leva[Dm]ntó, me leva[E]ntó!  [Am]
-¡Me leva[Dm]ntó, me leva[E]ntó![Am] ¡Me leva[Dm]ntó, me leva[E]ntó!
+¡Me leva[Dm]ntó, me leva[E]ntó! [Am] 
+¡Me leva[Dm]ntó, me leva[E]ntó! [Am]
+¡Me leva[Dm]ntó, me leva[E]ntó! [Am] 
+¡Me leva[Dm]ntó, me leva[E]ntó!
 
 Quena:
 Repite todo
@@ -892,7 +975,7 @@ letra: `
 Zampoña: D B Acompañamiento: G D C G
 [G]Amigo que vas hoy por el mundo
 Cansado, agobiado y sin a[D]mor
-// Si [C]todo en la vida te ha fall[G]ado,
+// Si t[C]odo en la vida te ha fall[G]ado,
 Sufres ll[D]oras por felici[G]dad //
 
 Hoy quiero hablarte de un amigo,
@@ -900,9 +983,10 @@ Hoy quiero hablarte de un amigo,
 // Él te o[C]frece la vida e[G]terna,
 Si le en[D]tregas todo tu cora[G]zón //
 
-// Ven amigo a [C]Cristo, él quiere ayu[G]darte,
-Él quiere sal[D]varte de tus pecados hoy perdo[G]narte //
-
+// Ven amigo a [C]Cristo,
+él quiere ayu[G]darte,
+Él quiere sal[D]varte de tus 
+pecados hoy perdo[G]narte //
 Quena: B C D Acompañamiento G D C D G 
 `
 },
@@ -911,23 +995,23 @@ titulo: "Jehova es mi luz (Em)",
 categoria: "folkloricos",
 letra: `
 Zampoña: C B
-//Jeho[Em]va es mi L[G]uz y [D]mi Salvac[Em]ión
-Jeho[G]va es la forta[D]leza de mi [Em]vida
+//Jeho[Em]va es mi L[G]uz y m[D]i Salvac[Em]ión
+Jeho[G]va es la forta[D]leza de mi v[Em]ida
 //de q[G]uien teme[Bm]ré de qu[G]ien te[Bm]mere 
-Jeho[C]va es la forta[D]leza de mi [Em]vida//
+Jeho[C]va es la forta[D]leza de mi v[Em]ida//
 Quena: G
-//Aunque un ej[G]ercito a[Bm]campe contra [G]mi
-A[Bm]campe Contra [G]mi no teme[A]ra mi Cora[Em]zón//
+//Aunque un ej[G]ercito a[Bm]campe contra m[G]i
+A[Bm]campe Contra m[G]i no teme[A]ra mi Cora[Em]zón//
 
-//Aunque Contra [C]mi se levanten [G]guerras 
+//Aunque Contra m[C]i se levanten g[G]uerras 
 yo estare con[A]fido en mi Salva[Em]dor//
 
 de qu[G]ien tem[Bm]ere de qu[G]ien tem[Bm]ere 
-Jeho[A]va es la forta[C]leza [D]de mi v[Em]ida 
+Jeho[A]va es la forta[C]leza d[D]e mi v[Em]ida 
 
 Quena: B Acompañamiento: C B C D Em
 // De qu[G]ien teme[Bm]re de qu[G]ien teme[Bm]re 
-//Jeho[A]va es la fortal[C]eza [D]de mi [Em]Vida 
+//Jeho[A]va es la fortal[C]eza d[D]e mi V[Em]ida 
 
 Quena: B
 `
@@ -936,18 +1020,19 @@ Quena: B
 titulo: "Yo vivi mi vida (Em)",
 categoria: "folkloricos",
 letra: `
-QUENA:G B
-[Em]Yo viví mi vida sin [B]luz, sin espe[Em]ranza
+QUENA: G B
+[Em]Yo viví mi vida sin l[B]uz, sin espe[Em]ranza
 no tuve la d[G]icha de reci[B]bir a[Em]mor
-fui contami[G]nando mi [B]vida de pe[Em]cado
-era como [G]dicen es[B]clavo del do[Em]lor
+fui contami[G]nando mi v[B]ida de pe[Em]cado
+era como d[G]icen es[B]clavo del do[Em]lor
 
-//Tr[D]iste cr[G]ecí, [D]solo vi[G]ví t[C]odos mis am[G]igos.
-se ol[B]vidaron de [Em]mi//
+//Tr[D]iste cr[G]ecí, s[D]olo vi[G]ví 
+t[C]odos mis am[G]igos.
+se ol[B]vidaron de m[Em]i//
 
-//Entonces [G]apareció
-la luz ben[B]dita de [Em]Dios
-todas mis [G]manchas limpió
+//Entonces a[G]pareció
+la luz ben[B]dita de D[Em]ios
+todas mis m[G]anchas limpió
 y las ca[B]denas rom[Em]pio//
 Quenas
 `
@@ -956,15 +1041,15 @@ Quenas
 titulo: "De tal manera Dios amo (G)",
 categoria: "folkloricos",
 letra: `
-De [G]tal tal manera Dios amó
-a este [D]mundo que ha en[G]viado
+De t[G]al tal manera Dios amó
+a este m[D]undo que ha en[G]viado
 su Hijo cuya majestad 
-por mi [D]culpa pere[G]ció
+por mi c[D]ulpa pere[G]ció
 
-No, no, no, [C]no, no dejes pa[G]sar
+No, no, no, n[C]o, no dejes pa[G]sar
 la oportuni[D]dad de salvac[G]ión
 Jesucris[C]to, resuci[G]to
-//hoy quiere [D]darnos el per[G]dón//
+//hoy quiere d[D]arnos el per[G]dón//
 
 A[G]légrese la multitud
 se aca[D]baron los pe[G]sares
@@ -989,7 +1074,7 @@ Mas la reali[B]dad siempre la ocul[Em]te
 yo era un mise[D]rable
 lleno de apar[G]iencia
 hasta que acep[B]te mi limitac[Em]ión
-por primera [B]vez en la vida
+por primera v[B]ez en la vida
 me acorde de D[Em]ios
 
 Le dije Se[E]ñor si en verdad exi[B]stes
@@ -1009,10 +1094,10 @@ categoria: "folkloricos",
 letra: `
 Introduccion(guitarra-quena)
 
-[C]Ven que te quiere [G]dar la paz
-[Am]ven que te quiere [Em]libertar
+[C]Ven que te quiere d[G]ar la paz
+[Am]ven que te quiere l[Em]ibertar
 [C]ven que quiere salv[G]arte a ti
-[Am]ven que te quiere [Em]perdonar
+[Am]ven que te quiere p[Em]erdonar
 
 //[F]Cristo tellama te llama hoy hoy
 [C]tienes recibir a Je[G]sús en tu cora[Am]zón //
@@ -1063,10 +1148,10 @@ QUENA Y ZAMPOÑA: A E
 titulo: "Que bonito es (Am)",
 categoria: "folkloricos",
 letra: `
-//[Am]Que bonito [E]es andar con C[Am]risto
-Que bonito [E]es andar con [Am]El//
+//[Am]Que bonito e[E]s andar con C[Am]risto
+Que bonito e[E]s andar con E[Am]l//
 El es mi past[G]or, El es mi guiad[C]or
-El es mi [E]roca mi fortal[Am]eza
+El es mi r[E]oca mi fortal[Am]eza
 
 DOS QUENAS: A E
 `
@@ -1077,26 +1162,40 @@ categoria: "folkloricos",
 letra: `
 Zampoña: E G A E D E   Quena: E A  
 
-[Em]Por los campos c[G]uando el día [D]se oscure[G]ce
-[Em]Cual varón pereg[G]rino soy [D]de la luz y verd[Em]ad
-Por los send[G]eros del mal d[D]ame tu las f[G]uerzas
-[Em]De seguir llev[G]ando tu men[D]saje de esper[Em]anza
+[Em]Por los campos c[G]uando el día 
+[D]se oscure[G]ce
+[Em]Cual varón pereg[G]rino soy 
+[D]de la luz y verd[Em]ad
+Por los send[G]eros del mal d[D]ame 
+tu las f[G]uerzas
+[Em]De seguir llev[G]ando tu men[D]saje 
+de esper[Em]anza
 
 Coro
-//Pre[C]diquemos [G]hoy a Cris[D]to a toda criat[G]ura
-A t[C]odos [G]los pueblos y naciones [D]en el mun[Em]do//
+//Pre[C]diquemos h[G]oy a Cris[D]to 
+a toda criat[G]ura
+A t[C]odos l[G]os pueblos y naciones 
+[D]en el mun[Em]do//
 
 Quena 
-[Em]Por caminos [G]de herradura l[D]levo tu pal[G]abra
-[Em]Y no me aver[G]güenzo porque [D]es poder y verd[Em]ad
-Bello es el c[G]amino de t[D]odo misio[G]nero
-[Em]Y blancos es[G]tán los campos [D]para la cose[Em]cha
+[Em]Por caminos d[G]e herradura l[D]levo 
+tu pal[G]abra
+[Em]Y no me aver[G]güenzo porque 
+[D]es poder y verd[Em]ad
+Bello es el c[G]amino de t[D]odo 
+misio[G]nero
+[Em]Y blancos es[G]tán los campos 
+[D]para la cose[Em]cha
 
 Coro
-//Pred[C]iquemos h[G]oy a Cristo [D]a toda criatu[G]ra
-A tod[C]os los [G]pueblos y naciones [D]en el mun[Em]do//
-Esper[C]ando del mañ[G]ana [D]una vida eter[Em]na
-d[C]onde Cristo reina[G]rá [D]con sus redimi[Em]dos
+//Pred[C]iquemos h[G]oy a Cristo 
+[D]a toda criatu[G]ra
+A tod[C]os los p[G]ueblos y naciones 
+[D]en el mun[Em]do//
+Esper[C]ando del mañ[G]ana 
+[D]una vida eter[Em]na
+d[C]onde Cristo reina[G]rá 
+[D]con sus redimi[Em]dos
 Quenas:
 `
 },
@@ -1107,14 +1206,19 @@ letra: `
 Zampoñas: E A
 
 
-//[Em]Jehova en es mi past[G]or nada me falta[D]ra, 
-en lugares deli[Bm]cados, El me pastorea[Em]ra//
+//[Em]Jehova en es mi past[G]or 
+nada me falta[D]ra, 
+en lugares deli[Bm]cados, 
+El me pastorea[Em]ra//
 Coro:
-//Feliz e[C]stoy, fel[D]iz, fel[G]iz [D]est[Em]oy
+//Feliz e[C]stoy, fel[D]iz, fel[G]iz 
+[D]est[Em]oy
 porque [C]Dios con m[D]igo es[Em]ta//
 Zampoña
-//Caminando yo v[G]oy, por la senda de D[D]ios
-porque me da su a[Bm]mor, y tambien su perd[Em]on//
+//Caminando yo v[G]oy, por la 
+// senda de D[D]ios
+porque me da su a[Bm]mor, y tambien 
+su perd[Em]on//
 Coro:
 `
 },
