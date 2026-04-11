@@ -43,6 +43,9 @@ const controlesEstilo = document.getElementById("controles-estilo");
 const btnAnadirRepertorioMenu = document.getElementById("btnAnadirRepertorioMenu");
 const btnBuscarWeb = document.getElementById("btnBuscarWeb");
 
+// Acceso a las canciones desde window
+const canciones = window.canciones;
+
 
 // =========================================================
 // == LÓGICA DEL REPERTORIO ==

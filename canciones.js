@@ -18,6 +18,46 @@ de se[Dm]guir Señor seguro te con[Gm]testare
 [A7]a quien si no a [Dm]Jesus
 `
  },
+{
+titulo: "Todo es de mi Cristo(Em)",
+categoria: "adoracion",
+letra: `
+//[Em]Todo es de mi C[C]risto 
+por [D]él y para [Em]él
+Todo es de mi C[C]risto 
+por [D]él y para [Em]él//
+CORO:
+//A El sea la g[C]loor[D]ia 
+// a El sea la go[Bm]ooor[Em]ia
+A El sea la glo[C]ooor[D]ia 
+por s[Bm]iempre a[Em]men//
+
+//Oh profundas ri[C]quezas 
+de la [D]sabiduría de D[Em]ios
+Insondables sus j[C]uicios
+y sus c[D]aminos [Em]son//
+Coro:
+`   
+},
+{
+titulo: "Yo entro al lugar(Em)",
+categoria: "adoracion",
+letra: `
+//[Em]Yo entro al lugar 
+mas s[D]anto
+a t[C]raves del cor[D]dero 
+de D[Em]ios
+y vengo tan solo ador[D]arte
+yo [C]entro a honr[D]rar 
+al yo [Em]soy//
+Coro:
+//Dios te a[G]doro a [D]Ti 
+// te a[Am]doro a [Em]Ti//
+//[C]pues tu nombre santo 
+s[D]anto D[Em]ios//
+`
+
+},
  {
  titulo: "Dios esta aqui. (C)",
  categoria: "adoracion",
@@ -33,7 +73,7 @@ de se[Dm]guir Señor seguro te con[Gm]testare
 `
  },
  {
- titulo: "Aquel fuego que cayo. (Dm)",
+ titulo: "Aquel fuego que cayo (Dm)",
  categoria: "alabanza",
  letra: `
  //[Dm]Aque fuego que [A]cayo
@@ -45,6 +85,40 @@ de se[Dm]guir Señor seguro te con[Gm]testare
  fuego fuego pentecos[Dm]tes
  fuego fuego pentecos[A]tes
  de la cabeza a los [Dm]pies//
+ `
+ },
+ {
+ titulo: "Jehova le dijo al profeta (E)",
+ categoria: "alabanza",
+ letra: `
+//[E]Jehova le dijo al profeta
+estos huesos vivi[B]ran
+el profeta le contesto
+solo Tu Señor lo [E]sabes//
+Coro:
+//Estos huesos vivi[B]ran solo
+Tu Señor lo s[E]abes//
+//Iba Jesus camin[B]ado sobre las 
+// aguas del [E]mar//
+Pedro le dice [B]voy y Jesus
+le dice [E]ven
+//Mientras Pedro cami[B]naba
+la duda le visi[E]to//
+//Ahora vemos a P[B]edro como clamaba
+al Se[E]ñor//
+Coro:
+//Salvame ma[B]estro salvame que per[E]ezco//
+//Hombre de poca [B]fe porque dudas[E]te//
+ `
+ },
+ {
+ titulo: "Vencere (E)",
+ categoria: "alabanza",
+ letra: `
+ //[E]Vencere porque El esta con[B]migo
+ vencere porque con migo es[E]ta
+ vencere, vencere, vence[B]ra, vencera
+ vence[E]remos en el [B]nombre del Se[E]ñor//
  `
  },
  
@@ -972,7 +1046,7 @@ Quenas:
 `
 },
 {
-titulo: "Jehova es mi pastor nada me faltara (Em)",
+titulo: "Jehova es mi pastor (Em)",
 categoria: "folkloricos",
 letra: `
 Zampoñas: E A
@@ -990,5 +1064,3 @@ Coro:
 `
 },
 ];
-
-// Aquí irán todas las demás canciones.
