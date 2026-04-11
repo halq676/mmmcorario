@@ -1,7 +1,7 @@
 // 🎵 Canciones de ejemplo
 window.canciones = [ // <<-- ¡Cambiar a window!
  {
- titulo: "Amarte solo a Ti.(Dm)",
+ titulo: "Amarte solo a Ti (Dm)",
  categoria: "adoracion",
  letra: `
 [Dm]Amarte solo a [A]ti Señor
@@ -17,9 +17,36 @@ Si acaso me pre[A]guntas Tu a quien he
 de se[Dm]guir Señor seguro te con[Gm]testare
 [A7]a quien si no a [Dm]Jesus
 `
+},
+ {
+ titulo: "Y si vivimos (C)",
+ categoria: "adoracion",
+ letra: `
+
+//[C]Y si vi[G]vimos para El vi[C]vimos
+y si mo[G]rimos [G7] para El mo[C]rimos [C7]//
+//Sea que vi[F]vamos,[G7] o que mu[Em]ramos [Am]
+Somos del Se[Dm]ñor,[G7] somos Se[C]ñor, 
+somos del Señor//
+ `
+ },
+ {
+ titulo: "Dios util quiero (C)",
+ categoria: "adoracion",
+ letra: `
+//[C]Dios [G]util quiero quiero [Am]ser 
+toma mi [Dm]vida fórma[G]me 
+[C]Dios [G]util quiero [Am]ser
+toma mi [Dm]vida usa[G]me //2 vez: C
+
+//usa mis ma[C]nos, usa mi [G]voz
+usa mi [Dm]vida, aqui es[G]toy
+usa mis [C]manos, usa mi usa mi [G]voz
+usa mi [Dm]vida dispuesto es[G]toy//
+ `
  },
 {
-titulo: "Todo es de mi Cristo(Em)",
+titulo: "Todo es de mi Cristo (Em)",
 categoria: "adoracion",
 letra: `
 //[Em]Todo es de mi C[C]risto 
@@ -40,7 +67,7 @@ Coro:
 `   
 },
 {
-titulo: "Yo entro al lugar(Em)",
+titulo: "Yo entro al lugar (Em)",
 categoria: "adoracion",
 letra: `
 //[Em]Yo entro al lugar 
@@ -76,7 +103,7 @@ s[D]anto D[Em]ios//
  titulo: "Aquel fuego que cayo (Dm)",
  categoria: "alabanza",
  letra: `
- //[Dm]Aque fuego que [A]cayo
+ //[Dm]Aquel fuego que [A]cayo
  a ciento veinte una [Dm]vez//
  //Me hizo pentecos[A]tes 
  de la cabeza a los [Dm]pies//
@@ -85,6 +112,34 @@ s[D]anto D[Em]ios//
  fuego fuego pentecos[Dm]tes
  fuego fuego pentecos[A]tes
  de la cabeza a los [Dm]pies//
+ `
+ },
+ {
+ titulo: "El mundo necesita (C)",
+ categoria: "alabanza",
+ letra: `
+//[C]El mundo necesita, conoser a D[G]ios
+conocer a Dios para la salvaci[C]on//
+//Testifiq[F]uemos que Cristo
+sana a los enf[C]ermos
+perdona los pec[G]ados
+y da la salvac[C]ion//
+ `
+ },
+ {
+ titulo: "Yo soy testigo (C)",
+ categoria: "alabanza",
+ letra: `
+//[C]Yo soy testigo del poder de D[G]ios
+por el milagro que ha hecho en [C]mi
+yo era ciego y ahora veo la l[F]uz
+la luz glor[G]iosa que me dio Jes[C]us//
+Coro:
+//Nunca nunca, nunca me ha dej[G]ado
+nunca, nunca, me ha desampa[C]rado
+ni en la noche os[F]cura
+ni en el dia de p[C]rueba
+Jesucristo n[G]unca me desampara[C]ra//
  `
  },
  {
