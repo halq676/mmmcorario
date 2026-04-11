@@ -68,9 +68,6 @@ function anadirAlRepertorio(idCancion) {
     if (!repertorio.includes(idCancion)) {
         repertorio.push(idCancion);
         guardarRepertorio();
-        // Mantiene el filtro/búsqueda actual después de añadir
-        const filtroActivo = document.querySelector('#categorias button.activo')?.dataset.cat || "";
-        mostrarListado(buscador.value || filtroActivo); 
     }
 }
 
@@ -174,6 +171,9 @@ function mostrarListado(filtro = "", titulo = "Listado de canciones") {
     }
     pantallaCategorias.style.display = "none";
     pantallaListado.style.display = "block";
+    pantallaLetra.style.display = "none";
+    pantallaRepertorio.style.display = "none";
+    controlesEstilo.classList.remove("mostrar");
 
     if (btnRepertorio) btnRepertorio.classList.remove('activo');
 }
@@ -480,7 +480,9 @@ btnTuerca.onclick = () => {
             } else {
                 anadirAlRepertorio(cancionActual.id || cancionActual.titulo);
                 btnAnadirRepertorioMenu.textContent = "✔️ Añadido al Repertorio";
+                renderizarRepertorio();
             }
+            controlesEstilo.classList.remove("mostrar");
         };
         btnBuscarWeb.onclick = (e) => {
             e.stopPropagation();
