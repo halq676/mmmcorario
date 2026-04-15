@@ -216,7 +216,26 @@ conduceme a la ti[D]erra
 que  [A]tenga sed de [D]Ti
  `
  },
- 
+ {
+ titulo: "Orando sin cesar (204) (E)",
+ categoria: "himnos",
+ letra: `
+[E]Orando sin cesar vence[B7]remos,
+Orando sin cesar vence[E]remos.
+para poder vencer, nece[A]sitas
+el poder,
+en el nombre del Señ[B7]or, 
+vence[E]remos,
+Coro:
+Vencere porque El esta con[B7]migo
+Venceré porque es mi amigo 
+f[E]iel
+venceré, venceré, vence[B7]ras, 
+venceras,
+en el nombre del Señor, vencere[E]mos.
+
+ `
+ },
  {
  titulo: "Corona de oro. (Am)",
  categoria: "folkloricos",
