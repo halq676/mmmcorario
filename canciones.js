@@ -46,7 +46,7 @@ Segunda vez: C
 
 //usa mis ma[C]nos, usa mi  [G]voz
 usa mi  [Dm]vida, aqui es[G]toy
-usa mis  [C]manos, usa mi usa mi  [G]voz
+usa mis  [C]manos, usa mi  [G]voz
 usa mi  [Dm]vida dispuesto es[G]toy//
  `
  },
