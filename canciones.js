@@ -215,7 +215,222 @@ Se[D]ñor [A] tengo alama misio[Bm]nera [G]
 conduceme a la ti[D]erra
 que  [A]tenga sed de [D]Ti
  `
- },
+},
+{
+ titulo: "Gracias Señor  (Am)",
+ categoria: "especiales",
+ letra: `
+[Am]Gracias señor que por su a[E]mor
+En una c[Dm]ruz con sangre 
+me comp[Am]raste
+Y por su a[A]mor, por fe yo 
+he lleg[Dm]ado
+// oh que amor tan sa[Am]grado, 
+// Jesús me ha resc[E]atado
+Te amo buen Señ[Am]or //
+Coro:
+Bendito sea mi C[Dm]riii[G]sto, 
+porque El me liber[C]to
+A ti también a[E]migo, 
+te quiere rescat[Am]ar
+Si vienes ahora m[Dm]ismo 
+Él te perdona[Am]ra
+Y feliz para s[E]iempre, 
+con Cristo tú ser[Am]ás
+
+Hoy es el dia de salvac[E]ión, 
+que nuestro D[Dm]ios
+Por fe nos ha prov[Am]isto, 
+y por su a[A]mor
+La puerta sigue ab[Dm]ierta
+// Pidiéndote que v[Am]uelvas, 
+// amigo no desp[E]recies
+la voz del salvad[Am]or //
+Coro
+ `
+},
+{
+ titulo: "Si supieras amigo querido (Am)",
+ categoria: "especiales",
+ letra: `
+[Am]Si supieras amigo quer[Dm]ido
+Que mi C[G]risto es el medico 
+et[C]erno
+El te s[F]alva si tu estas 
+per[E]dido
+Y e sana si estas enf[Am]ermo
+Coro
+//Porque el c[A7]risto de h[Dm]oy 
+//porque el cristo de h[G]oy
+Es el mismo de a[C]yer 
+es el mismo de a[F]yer
+Es eterno el pod[E]er, 
+que su padre le d[Am]io //
+
+Si es amarga y muy triste 
+tu v[Dm]ida
+Solam[G]ente por la enfermed[C]ad
+Ven a C[F]risto el te sana en 
+seg[E]uida
+Y la paz a tu alma le d[Am]a
+Coro
+Jesuc[Dm]risto es el m[E]ismo 
+de ay[Am]er (al final)
+ `
+},
+{
+ titulo: "Las cosas mas absurdas (Dm)",
+ categoria: "especiales",
+ letra: `
+PUNTEADO: F Bb F A Dm A Dm A Dm
+//[Dm]Las c[Bb]osas mas absurdas
+de este m[F]undo
+son las m[A]as cuerdas
+que me ha enseñado D[Dm]ios//
+
+//a[A]ma a tus enemigos
+qui[F]érelos con gran amor
+Y s[A]i alguno te ofende
+Ora por el al Se[Dm]ñor//
+
+El alt[Bb]ísimo Señor dio un
+mandamiento
+Dando muestras de humildad
+Jesús cumpl[F]ió
+//predic[A]ando por el mundo
+buenas n[F]uevas
+pues escrito estaba 
+q[A]ue en el hay perd[Dm]ón//
+PUNTEDO
+Venid p[Bb]ues dice Jehová
+estemos a cuentas
+venid todos los puros 
+de coraz[F]ón
+//proced[A]iendo siempre
+al arrepentimi[F]ento
+alcanzaremos et[A]erno galard[Dm]ón
+`
+},
+{
+ titulo: "Todo lo cambiaste (Bm)",
+ categoria: "especiales",
+ letra: `
+ PUNTEADO
+Todo lo camb[Bm]iaste Señor
+Todo lo has camb[Em]iado
+Has transform[A]ado mi vida 
+por comp[D]leto
+Y la tris[G]teza en alegría 
+Tu camb[F#]iaste
+Mi corazón también mis 
+pensam[Bm]ientos
+
+Como me ha cambiado su amor
+todo transfor[Em]mado
+ya no estoy s[A]olo Tu siempre 
+estas con m[D]igo
+estas tan c[G]erca que hasta 
+puedo sent[F#]irte
+por sus caminos Jesús quiere 
+lle[Bm]varme
+CORO
+//que cambio tan b[A]ueno,
+Que cambio tan b[Bm]ueno,
+Que cambio tan b[A]ueno 
+hiciste tu Jes[Bm]ús//
+PUNTEDO
+ `
+},
+{
+ titulo: "Sentado en el banco (Em)",
+ categoria: "especiales",
+ letra: `
+//[Em]Sentado en el 
+banco de mi c[Am]asa
+m[B7]iro a la gente pa[Em]sar//
+//m[Am]iro sus r[Em]ostros 
+llenos de tristeza
+de ang[B7]ustia y de sole[Em]dad//
+Coro:
+siento, siento, siento,
+//s[Am]iento una voz que como 
+el v[Em]iento viene ya
+es e[B7]l mensaje del Se[Em]ñor,//
+
+//No sigas caminando pens[Am]ando asi
+sin C[B7]risto en tu cora[Em]zón//
+//p[Am]orque el tiempo pasa
+y mi C[Em]risto te dice, te d[B7]ice 
+no tardo en ven[Em]ir//
+Coro:
+ `
+},
+{
+ titulo: "Gracias Señor por el dia (Am)",
+ categoria: "especiales",
+ letra: `
+Punteado:
+[Am]Siento Señor que 
+Tu estas con[G]migo
+t[F]e quiero cantar
+pues Tu eres mi am[E]igo
+t[Am]oma Señor toda mi v[G]ida
+t[F]oma Señor todo mi s[E]er
+Coro:
+M[Am]as, mas, mas, quiero
+sent[G]irte
+q[F]uiero saltar y gritar
+lleno de Tu a[E]mor
+
+P[Am]ues Tu llegaste 
+a mi vida
+que estaba tan t[G]riste
+h[F]oy siento un 
+gozo en mi alma
+y soy muy fel[E]iz
+Punteado:
+
+[Am]Gracias Señor por el
+nuevo d[G]ia
+G[F]racias Señor por 
+darme Tu a[E]mor
+s[Am]iento Señor Tu mano
+en mi v[G]ida
+s[F]iento Señor Tu gracia
+en mi s[E]er
+Coro:
+`
+},
+{
+ titulo: "En el monte calvario (A)",
+ categoria: "especiales",
+ letra: `
+[A]En el monte calvario,
+es[D]taba una cruz
+enb[E]lema de afrenta 
+y dol[A]or [A7]
+y yo amo a Jesus, quien
+mur[D]io en la cruz
+por sal[E]var al mas 
+v[Bm]il pecad[A]or
+
+Oh yo s[E]iempre amaré a jes[A]us,
+en sus tr[D]iunfos mi 
+gloria se[A]ra [A7]
+y algun dia en vez de 
+una cr[D]uz, [Dm]
+mi cor[A]ona Jes[E]us me da[A]ra
+
+Aunque el mundo desprecie
+la cr[D]uz de Jesus
+para m[E]i tiene suma 
+atrac[A]cion [A7]
+porque en ella llevo, 
+el cor[D]dero de Dios
+de mi a[E]lma la c[Bm]ondenac[A]ion
+`
+},
+
  {
  titulo: "Orando sin cesar (204) (E)",
  categoria: "himnos",
@@ -1239,6 +1454,83 @@ Zampoña
 porque me da su a[Bm]mor, y tambien 
 su perd[Em]on//
 Coro:
+`
+},
+{
+titulo: "Hecha en mi maleta (Em)",
+categoria: "folkloricos",
+letra: `
+PUNTEADO GUITARRA QUENA: G
+//[Em]Hecha en mi ma[G]leta
+d[D]os pares de zap[Em]atos//
+p[G]orque hay que camin[C]ar
+fu[D]era de la ciud[Em]ad 
+//d[G]onde la gente no s[D]abe
+que Di[C]os ex[Em]iste//
+
+// De ahora en ade[G]lante
+y[D]o quiero ser sens[Em]ible //
+d[G]onde hay necesid[C]ad
+y[D]o quiero predic[Em]ar
+//e[G]l evangelio sol[D]uble
+del Señ[C]or Jesucr[Em]isto//
+CORO
+D[C]entro de las montañas
+la g[D]ente se está mur[Em]iendo
+y y[C]o como evangelista
+de e[D]llos estaba hu[Em]yendo
+//g[C]uárdame Señ[D]or
+de volver a ca[Em]er
+en e[C]se pecado ego[G]ísta
+de no sal[D]ir de la ciud[Em]ad//
+PUNTEADO
+//H[Em]eme aquí env[D]íame a mi
+Señ[C]or donde quiera que v[G]aya
+llé[C]vame donde v[G]eas
+//Que nece[D]sitan de tu pal[Em]abra//
+QUENA: B E
+GUITARRA: (C G D C G D Em)
+`
+},
+{
+titulo: "Cuantos pensamientos (C)",
+categoria: "folkloricos",
+letra: `
+Guitarra: Am Dm G F E Am
+Quena: C D E
+C[C]uantos pensamientos, cuantas
+cuantas h[G]]uecas teorias
+hoy el h[Am]ombre se pregunta:
+mi destino que se[C]ra?
+¿que vi[F]vire?, ¿yo a donde i[G]re? [Am]
+¿Que pasara conmigo?,
+¿que sera de mi cuando yo m[G]uera?
+
+S[C]i el hombre supiera, 
+la espe[G]ranza que en Cristo
+de v[Am]ivir eternamente,
+de tener su salvac[C]ion
+no preg[F]untaria ¿a donde i[G]re? [Am]
+¿a que lugar espero, un d[G]ia 
+llegar cuando m[C]uera? [Am]
+Coro:
+Mas alla de la m[A7]uer[Dm]te, 
+donde t[G]engo una esperanza, 
+alla en la gl[C]oria
+donde p[Am]uedo proclamar 
+mi gran vict[Dm]oria
+y de[E]cir que la batalla 
+he ga[Am]nado,
+
+mas alla de la m[A7]uer[Dm]te,
+donde m[G]i Señor sonrriente
+a mi me es[C]pera, porque
+he sup[Am]erado, el fuego 
+de la pr[Dm]ueba
+mi Je[E]sus una corona,
+me ha guard[Am]ado
+mas al[E]la de la mu[Am]erte.
+Quena:
 `
 },
 ];
