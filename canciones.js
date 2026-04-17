@@ -1489,7 +1489,7 @@ Señ[C]or donde quiera que v[G]aya
 llé[C]vame donde v[G]eas
 //Que nece[D]sitan de tu pal[Em]abra//
 QUENA: B E
-GUITARRA: (C G D C G D Em)
+GUITARRA: C G D C G D Em
 `
 },
 {
