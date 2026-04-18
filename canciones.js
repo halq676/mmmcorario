@@ -451,17 +451,17 @@ en el nombre del Señor, vencere[E]mos.
  categoria: "folkloricos",
  letra: `
  //[Am]Voy con mi Jesucri[F]sto                                   
-A la mo[Dm]rada de mi Salva[Dm]dor//
+A la mo[Dm]rada de mi Salva[C]dor//
 
-//[C]Cuando yo llegue
-[G]a su presen[Am]cia
-[C]Con mi Señor, y[G]o me goz[Am]aré//  
+//Cuando yo llegue
+a su pres[G]encia
+Con mi Se[C]ñor, y[G]o me goz[Am]aré//  
           
-//[C]Corona de oro [G]lista está
-[F]Vestido blanco l[Am]isto está//
+//[C]Corona de oro lista está
+[F]Vestido blanco listo está//
 
-[C]En las bodas del C[G]ordero
-Todos jun[C]tos n[G]os alegrare[Am]mos//
+[C]En las bodas del corde[G]ro
+Todos jun[C]]tos n[G]os alegrare[Am]mos//
 `
  },
 
@@ -472,12 +472,12 @@ Todos jun[C]tos n[G]os alegrare[Am]mos//
  //[Em]El amor de Dios
  Es verda[D]dero y eter[Am]no
  No e[C]s como el amor hu[D]mano 
- Pasa[Em]jero//
+ Pasaje[Em]ro//
 
 // De tal manera 
 Amo D[G]ios a este m[D]undo
 Que ha e[C]nviado
-A su H[D]ijo Jesucristo//
+A su H[D]ijo Jesucris[Em]to//
 
 //Para d[D]arnos vida e[Am]terna
 Y a[C]sí poder llegar 
@@ -493,18 +493,15 @@ Instrumentos: Am C G Am
 //[Am]Oh Jehová oh Señor nues[C]tro                                                 
 Cuan glorioso es Tu n[G]ombre                                                                  
 en toda la t[Am]ierra aleluya// 
-
 Quena:  
 //De la boca de los n[C]iños
 Y de los m[G]aman
 Fundaste la forta[Am]leza aleluya//
-
 Quena:
-
 //Cuando miro yo los c[C]ielos
 La luna y las es[G]trellas
-Me pregunto que es el h[Am]ombre aleluya
-
+Me pregunto que es el 
+h[Am]ombre aleluya
 Zampoña:
 
  `
@@ -529,7 +526,7 @@ Le s[Em]irve la fama
 Zampoña
 Como el viento sin la ll[Am]uvia
 Es el h[D]ombre que se j[Em]acta
-No te alabes ni te [Am]exaltes
+No te alabes ni te e[Am]xaltes
 Para que no s[D]eas humi[Em]llado
 `
  },
@@ -537,7 +534,8 @@ Para que no s[D]eas humi[Em]llado
  titulo: "En este dia le canto a mi mama (Em)",
  categoria: "folkloricos",
  letra: `
- Zampoña: Em B7 E E Am D G F Em D Em
+ Zampoña: Em B7 E E Am D 
+ Sigue: G F Em D Em
 [Em]En este día le 
 [E]canto a mi ma[Am]má
 Y a las m[D]adres que 
@@ -604,7 +602,7 @@ QUENA
 //Pero un d[C]ía me encontré
 A Jesu[Dm]cristo el Salvador//
 //Pero un d[F]ía me encontré      
-A Jesu[Am]cristo /
+A Jesu[Am]cristo//
 `
 },
 {
@@ -649,17 +647,17 @@ El te res[Em]taura tu cora[Am]zón//
 titulo: "La fuerza del amor (Am)",
 categoria: "folkloricos",
 letra: `
-ZAMPOÑA: 
-GUITARRA: C Am Em F G Am G F Am
+ZAMPOÑA: A B C G
+GUITARRA: C G Am G Dm E Dm E
 [Am]Quién es aquella
 Que se m[G]uestra como el alba[Dm]
 Hermosa como la l[E]una[Am]
-Resplandeciente  Co[G]mo la luz del sol[Dm]                                 
+Resplandeciente  Co[G]mo 
+la luz del sol[Dm]                                 
 Como ejércitos impo[E]nentes
 ZAMPOÑA
-GUITARRA: C Gm G C G Am G Dm E Dm Em Am Dm
 [Am]Llévame como un sello
-So[G]bre tu corazón
+So[G]bre tu corazón [Dm]
 Una señal sobre tu b[E]razo[Am]
 
 Las muchas aguas
@@ -711,10 +709,10 @@ que Tú me d[Em]as//
 [D]Quiero decirte que te qui[G]ero
 [Am]Oh  oh  mi D[Em]ios //
 
-[C]Aaaal[G]eluya, a[D]aaal[Am]elu[Em]ya, 
-[C]Aaaa[G]leluya, [D]aaa[Am]lelu[Em]ya
+[C]Aaaalel[G]uya, a[D]aaale[Em]luya, 
+[C]Aaaalel[G]uya, a[D]aaale[Em]luya
 [D]Canta[Em]re, a[D]laba[Em]re
-A [D]mi   Se[Em]ñor Jesús
+A m[D]i Señor Je[Em]sús
 Zampoña
 `
 },
@@ -736,7 +734,7 @@ Mi Señor Je[E]sús Conmigo es[Am]ta//
 [E]Donde quiera que a[Am]ndo yo //
 Quena
 [Am]En mis noches d[C]e tristeza
-[G]Me ayudará,  m[C]e consolará
+[G]Me ayuda[C]rá,  me consolará
 [E]Mi fiel Salva[Am]dor
 Me conso[E]lara  mi fiel salva[Am]dor
 CORO
@@ -777,11 +775,11 @@ Zampoña
 [F]Siento un gozo en mi corazón
 Porque mi C[G]risto ya me sal[Am]vó//
 
-//[F]El es consuelo, mi v[C]ida, mi todo
+//[G]El es consuelo, mi v[C]ida, mi todo
 [F]El es mi gran a[Am]mor//
 
-[G]Hay un gozo en mi cora[Am]zón
-[G]Hay un gozo en mi cora[Am]zón
+Hay un gozo en mi corazón
+[F]Hay un gozo en mi corazón
 porque C[G]risto ya me sal[Am]vo
 Zampoña
 `
@@ -1386,11 +1384,10 @@ DOS QUENAS: A E
 `
 },
 {
-titulo: "Por los campos cuando el dia se oscurece (Em)",
+titulo: "Por los campos cuando (Em)",
 categoria: "folkloricos",
 letra: `
 Zampoña: E G A E D E   Quena: E A  
-
 [Em]Por los campos c[G]uando el día 
 [D]se oscure[G]ce
 [Em]Cual varón pereg[G]rino soy 
@@ -1399,13 +1396,11 @@ Por los send[G]eros del mal d[D]ame
 tu las f[G]uerzas
 [Em]De seguir llev[G]ando tu men[D]saje 
 de esper[Em]anza
-
 Coro
 //Pre[C]diquemos h[G]oy a Cris[D]to 
 a toda criat[G]ura
 A t[C]odos l[G]os pueblos y naciones 
 [D]en el mun[Em]do//
-
 Quena 
 [Em]Por caminos d[G]e herradura l[D]levo 
 tu pal[G]abra
@@ -1415,7 +1410,6 @@ Bello es el c[G]amino de t[D]odo
 misio[G]nero
 [Em]Y blancos es[G]tán los campos 
 [D]para la cose[Em]cha
-
 Coro
 //Pred[C]iquemos h[G]oy a Cristo 
 [D]a toda criatu[G]ra
