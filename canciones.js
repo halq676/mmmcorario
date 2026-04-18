@@ -157,6 +157,12 @@ solo Tu Señor lo s[E]abes//
 Coro:
 //Estos huesos vivi[B]ran solo
 Tu Señor lo s[E]abes//
+`
+},
+ {
+ titulo: "Iba Jesus caminando (E)",
+ categoria: "alabanza",
+ letra: `
 //Iba Jesus camin[B]ado sobre las 
 // aguas del m[E]ar//
 Pedro le dice v[B]oy y Jesus
@@ -168,16 +174,6 @@ al Se[E]ñor//
 Coro:
 //Salvame ma[B]estro salvame que per[E]ezco//
 //Hombre de poca f[B]e porque dudas[E]te//
- `
- },
- {
- titulo: "Vencere (E)",
- categoria: "alabanza",
- letra: `
- //[E]Vencere porque El esta con[B]migo
- vencere porque con migo es[E]ta
- vencere, vencere, vence[B]ra, vencera
- vence[E]remos en el n[B]ombre del Se[E]ñor//
  `
  },
  {
@@ -448,8 +444,7 @@ f[E]iel
 venceré, venceré, vence[B7]ras, 
 venceras,
 en el nombre del Señor, vencere[E]mos.
-
- `
+`
  },
  {
  titulo: "Corona de oro. (Am)",
@@ -1533,4 +1528,240 @@ mas al[E]la de la mu[Am]erte.
 Quena:
 `
 },
+{
+titulo: "Gracias Señor muchas (Am)",
+categoria: "folkloricos",
+letra: `
+Quena: E C B A
+[Am]Gracias señor, muchas g[Dm]racias
+por hab[G]er llegado a mi v[C]ida
+tu pus[Dm]iste paz y aleg[E]ría
+donde llanto y tristeza hab[Am]ía
+
+Gracias Señor muchas g[Dm]racias
+desde el v[G]ientre de mi 
+madre me escog[C]iste
+para s[Dm]er un instrumento 
+en tus m[E]anos
+como honra y gloria a Tu n[Am]ombre
+Coro
+Por eso h[F]oy mi coraz[G]ón
+te da las g[C]racias y te ex[E]alta
+mi alma Señ[F]or no mer[G]ece 
+lo que hic[C]iste
+en cr[E]uz, por m[Am]i.
+(QUENA)
+`
+},
+{
+titulo: "Clama a mi dice el Señor (Em)",
+categoria: "folkloricos",
+letra: `
+Zampoña: B D
+//C[Em]lama a mi dice el Señor 
+clama a m[G]i dice el Señor 
+clama a m[Am]i dice el Señor 
+yo te r[C]esp[D]onde[Em]re//
+CORO
+//En el t[C]iempo de Pruebas 
+en el t[G]iempo del dolor 
+clama a m[Am]i dice el Señor 
+yo te r[C]esp[D]onde[Em]re//
+Zampoña: Em G Am Dm Em
+//Si te sientes enfermo 
+y no t[G]ienes Sanidad
+clama m[Am]i dice el Señor
+yo te r[C]esp[D]onde[Em]re//
+CORO:
+Zampoña:
+Si no tienes dinero 
+y no t[G]ienes quien te de 
+clama a m[Am]i dice el Señor 
+yo te r[C]esp[D]onde[Em]re//
+CORO
+`
+},
+{
+titulo: "Hay lugares y pueblos (Em)",
+categoria: "folkloricos",
+letra: `
+Sintetizador (entra voz 
+arpegio en charango)
+H[Em]ay Lugares, y p[D]ueblos, 
+que v[C]iven en la en opresi[Em]ón
+el mundo entero, l[D]lora y 
+clama, por s[C]u liberaci[Em]on. 
+por los Campos por d[D]onde vayas 
+enc[C]ontraras el dol[Em]or 
+de la gente que s[D]obrevive, 
+sin co[C]nsuelo y s[D]in am[Em]or
+Coro:
+//Yo t[C]engo el abr[D]igo 
+// del al[G]tisi[Em]mo 
+en mom[C]entos de llev[D]ar 
+su pa[Em]labra, 
+por los c[C]ampos y los c[D]erros 
+cub[G]iertos de ne[Em]vadas
+pa[D]sando hambre y fr[G]io 
+por mi D[Em]ios//
+Quena:
+Hoy mi Cristo l[D]lama a siervos, 
+en e[C]sta ge[D]neraci[Em]on
+la mies es mucha ob[D]reros faltan 
+te ro[C]gamos mi b[D]uen Jes[Em]us 
+tu hermano d[D]a tu vida por 
+e[C]sta ob[D]ra fin[Em]al
+cumplamos todos es[D]te mandato 
+dela, gr[C]an c[D]omis[Em]ión
+Coro:
+Zampoña: Em D Em D P Em G  D Em C D C D Em
+`
+},
+{
+titulo: "Pronto regresara (Dm)",
+categoria: "folkloricos",
+letra: `
+Zampoña: Dm A Dm A A# C F A Dm
+//[Dm]Pronto regres[A#]ara y el 
+Señ[C]or nos lleva[F]ra// [A] [Dm]
+//a t[Gm]odos los que somos f[Dm]ieles 
+el Se[A]ñor nos reco[Dm]gera//
+
+//Pronto nos goza[A#]remos en la 
+pres[C]encia del Señ[F]or// [A] [Dm] 
+can[Gm]tando a mil v[Dm]oces 
+alaba[A]remos al Se[Dm]ñor 
+cant[Gm]ando y dan[Dm]zando 
+exalta[A]remos al Se[Dm]ñor
+Zampoña: A D
+//Dios nos recopenz[A#]ara y 
+vida et[C]erna nos da[F]ra// [A] [Dm]
+//p[Gm]or haber sido f[Dm]ieles 
+en el ca[A]mino de la Ver[Dm]dad//
+`
+},
+{
+titulo: "Si yo conociera (G)",
+categoria: "folkloricos",
+letra: `
+Acompañamiento: G Em Am D C D C G
+Zampoña: B A G
+[G]Si yo conoc[Em]iera 
+t[Am]odos los mist[D]erios 
+y sec[G]retos de la c[Em]iencia 
+[Am]y no tengo a[D]mor 
+Si y[G]o poseyera e[Am]sa fe ca[D]paz 
+de trasla[G]dar a los m[Em]ontes
+[Am]y no tengo a[D]mor
+
+V[G]engo a ser como u[Em]n metal
+que res[Am]uena o un plat[D]illo
+que hace r[G]uido y nada m[Em]as,
+r[Am]uido y nada m[D]as.
+Coro:
+El a[G]mor, el a[Em]mor, 
+n[Am]unca es traicio[D]nero
+el a[G]mor, el a[Em]mor, 
+n[Am]unca deja de s[D]er
+el a[G]mor, el a[Em]mor, 
+n[Am]unca es traici[D]onero
+el a[G]mor, el a[Em]mor, 
+s[Am]iempre hace el b[D]ien.
+Zampoña: B
+`
+},
+{
+titulo: "A veces solo te sientes (Am)",
+categoria: "folkloricos",
+letra: `
+Zampoña: Am G F C F G Am
+//A v[Am]eces solo te s[G]ientes [F]
+con problemas y m[C]as problemas [Am]
+sin una luz de espe[G]ranza [F]
+que pueda alumbrar t[C]us veredas [Dm]
+en lo mas lejos d[Am]e esta tierra [G]
+Jesus ve tu cam[Am]inar [Dm]
+es el Señor del amo[Am]oor [G]
+El no te va a abando[Am]nar//
+Quena: Am G F C E
+CORO
+//Cristo qu[C]iere darte 
+una nueva v[G]ida
+deja y[Dm]a de cerrarle las 
+p[E]uertas de tu Corazón
+tu v[C]ida no vendrá hacer 
+la m[G]isma de ayer
+acepta y[Dm]a Jesus es tu Se[E]ñor//
+Zampoña:
+//Ah[Am]ora yo vengo a dec[G]irte [F]
+que El resuelve aque[C]llos 
+problemas [Am]
+es su luz de esper[G]anza [F]
+la que guía ahora t[C]us veredas [Dm]
+en lo mas lejos d[Am]e esta tierra [G]
+Jesus ve tu camin[Am]ar [Dm]
+es el Señor de amo[Am]oor [G]
+El no te va a abando[Am]nar//
+Zampoña:`
+},
+{
+titulo: "El Señor es mi rey (Em)",
+categoria: "folkloricos",
+letra: `
+Zampoña: E F G
+Punteado guitarra y quena
+[Em]El Señor es mi rey mi t[D]odo [Em]
+el Señor es mi luz mi r[D]ey [C]
+el que me hace vibrar de g[G]ozo [C]
+el que guia mis p[G]asos [C]
+el que extiende sus b[G]razos [C]
+el creador de los ci[G]ee[D]eel[Em]os
+Quena: A C
+`
+},
+{
+titulo: "Hay grande gozo (Em)",
+categoria: "folkloricos",
+letra: `
+Zampoña:
+//H[Em]ay grande gozo en m[D]i corazón
+desde que a Cristo y[Em]o conocí//
+
+//Qu[G]iero cantar qu[D]iero gritar
+cu[A#]anto te amo C[Em]risto Jesús//
+
+//H[Em]ay fuego santo en t[D]odo mi ser
+siento que arde m[Em]i corazón//
+
+//F[G]uego divino, f[D]uego de amor
+d[A#]ulce llenura d[D]el Salvador//
+Zampoña:
+`
+},
+{
+titulo: "En el confin de los cielos (Dm)",
+categoria: "folkloricos",
+letra: `
+Quena: A G E
+[Dm]En el confin de los cielos 
+allí esta[Am]ré
+[Dm]en el gran paraíso del Se[Am]ñor,
+d[A#]onde reinara con su a[F]mor
+mi[C]entras permanezcamos aquí
+p[A#]odemos sentir su gran a[A7]mor
+
+//[Dm]Aleluya, Aleluya, s[Am]i,
+s[Dm]iento su poder dentro de m[Am]í
+c[A#]ierra ya tus ojos mi her[F]mano
+s[A#]iente su poder dentro de t[A7]i//
+Quena: A G E
+R[Dm]odeado de maldad
+en el mundo es[Am]toy
+p[Dm]ero protegido siempre v[Am]oy
+h[A#]ermanos sigamos en cla[F]mor
+[C]y la bendición vendrá de Dios
+g[A#]ozaremos con su grande a[A7]mor
+`
+},
+
 ];
