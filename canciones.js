@@ -33,14 +33,14 @@ y l[C]os que en Él cr[G]eerán
 le c[Em]antarán a aq[D]uel
 que ya venc[G]ió
 Precoro:
-Tu nombre, es más a[Em]lto 
+Tu n[C]ombre, es más a[Em]lto 
 Tu n[D]ombre, es más grande
-Tu n[Em]ombre, sobre t[D]odo e[C]s
+Tu n[Em]ombre, s[C]obre t[D]odo e[C]s
 sean tronos, dom[Em]inios 
 po[D]deres, potestades
-Tu n[Em]ombre, sobre t[D]odo e[C]s
+Tu n[Em]ombre, s[C]obre t[D]odo e[C]s
 Estribillo 1
-Claman ángeles s[Em]aan[D]to
+Claman ánge[Em]les san[D]to
 clama la creac[Bm7]ión san[Em]to
 exaltado D[Am7]ios san[D]to
 santo por si[G]empre
@@ -55,7 +55,7 @@ su n[C]ombre ha puesto en t[G]i
 venc[G]ió
 c[Em]antaremos s[D]iempre a[C]mén
 
-Claman ángeles s[Em]aan[D]to
+Claman ánge[Em]les san[D]to
 clama la creac[Bm7]ión san[Em]to
 exaltado D[Am7]ios san[D]to
 santo por s[G]iempre
@@ -65,15 +65,15 @@ soberano es É[Bm7]l san[Em]to
 y por siempre e[Am7]s san[D]to
 santo por s[G]iempre
 Precoro:
-//Tu nombre, es más a[Em]lto 
+//Tu n[C]ombre, es más a[Em]lto 
 Tu n[D]ombre, es más grande
-Tu n[Em]ombre, sobre t[D]odo e[C]s
+Tu n[Em]ombre, s[C]obre t[D]odo e[C]s
 sean tronos, dom[Em]inios 
 po[D]deres, potestades
 Tu n[Em]ombre, sobre 
 t[D]odo e[C]s//
 
-Claman ángeles s[Em]aaan[D]to
+Claman ánge[Em]les san[D]to
 clama la creac[Bm7]ión san[Em]to
 exaltado D[Am7]ios san[D]to
 santo por s[G]iempre
