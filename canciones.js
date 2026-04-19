@@ -18,6 +18,75 @@ de se[Dm]guir Señor seguro te con[Gm]testare
 [A7]a quien si no a  [Dm]Jesus
 `
 },
+{
+ titulo: "Santo por siempre (G)",
+ categoria: "adoracion",
+ letra: `
+ Intro: C Em D Bm Em D G
+[G]Mil generaciones
+se p[C]ostran ador[G]arle
+le can[Em]tan al cor[D]dero
+que venc[G]ió
+
+los que nos precedieron
+y l[C]os que en Él cr[G]eerán
+le c[Em]antarán a aq[D]uel
+que ya venc[G]ió
+Precoro:
+Tu nombre, es más a[Em]lto 
+Tu n[D]ombre, es más grande
+Tu n[Em]ombre, sobre t[D]odo e[C]s
+sean tronos, dom[Em]inios 
+po[D]deres, potestades
+Tu n[Em]ombre, sobre t[D]odo e[C]s
+Estribillo 1
+Claman ángeles s[Em]aan[D]to
+clama la creac[Bm7]ión san[Em]to
+exaltado D[Am7]ios san[D]to
+santo por si[G]empre
+
+Si te ha perdonado
+y t[C]ienes salvac[G]ión
+[Em]cántale al cor[D]dero que 
+venc[G]ió
+Si te ha libertado
+su n[C]ombre ha puesto en t[G]i
+[Em]cántale al cor[D]dero que 
+venc[G]ió
+c[Em]antaremos s[D]iempre a[C]mén
+
+Claman ángeles s[Em]aan[D]to
+clama la creac[Bm7]ión san[Em]to
+exaltado D[Am7]ios san[D]to
+santo por s[G]iempre
+canta el pueblo al R[C]ey 
+s[Em]aaan[D]to
+soberano es É[Bm7]l san[Em]to
+y por siempre e[Am7]s san[D]to
+santo por s[G]iempre
+Precoro:
+//Tu nombre, es más a[Em]lto 
+Tu n[D]ombre, es más grande
+Tu n[Em]ombre, sobre t[D]odo e[C]s
+sean tronos, dom[Em]inios 
+po[D]deres, potestades
+Tu n[Em]ombre, sobre 
+t[D]odo e[C]s//
+
+Claman ángeles s[Em]aaan[D]to
+clama la creac[Bm7]ión san[Em]to
+exaltado D[Am7]ios san[D]to
+santo por s[G]iempre
+
+Canta el pueblo al R[C]ey 
+s[Em]aaan[D]to
+soberano es É[Bm7]l sa[Em]nto
+y por siempre e[Am7]s san[D]to
+santo por s[G]iempre
+y por siempre e[Am7]s san[D]to
+santo por s[G]iempre [C]  [G]
+ `
+},
  {
  titulo: "Y si vivimos (C)",
  categoria: "adoracion",
