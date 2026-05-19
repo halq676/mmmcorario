@@ -524,12 +524,12 @@ Jesus que por t[F#m]i yo estoy a[E]qui
 Por sus ll[A]agas fuimos curados
 por su s[E]angre fuimos perdonados
 por su mu[D]erte fuimos salvados
-por Je[A]sus yo fui sa[E]nado.
-Me lib[A]raste del castigo eterno
+por Je[A]sus yo fui sa[C#]nado.
+Me lib[F#m]raste del castigo eterno
 para d[E]arme un lugar en el cielo
-hoy yo q[D]uiero cantar con el alma
-ven pronto Je[A]sus que aqui
-esta tu p[E]ueblo
+hoy yo q[D]uiero cantar con el a[Bm]lma
+ven pronto Je[E]sus que aqui
+esta tu pueblo
  `
 },
 
