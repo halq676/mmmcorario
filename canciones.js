@@ -495,6 +495,43 @@ el cor[D]dero de Dios
 de mi a[E]lma la c[Bm]ondenac[A]ion
 `
 },
+{
+ titulo: "Hermoso sera aquel dia (A)",
+ categoria: "especiales",
+ letra: `
+ Hay d[A]ias que pienso en Ti
+ cuando vengas s[E]eñor a
+ buscar a tu iglesia
+ hay d[D]ias que añoro t[Bm]anto
+ ser parte de aq[A]uella que 
+desa[C#]parezca.
+Esa n[F#m]ovia que esta ataviada
+esperando a[E] su esposo amado
+te a[D]mo, te anhelo, te e[Bm]spero,
+ven pronto Je[E]sus que aqui
+esta tu pu[E7]eblo
+Coro:
+Her[A]moso sera aquel dia
+ver a su p[E]ueblo volar con 
+su amado
+sal[Bm]tando, adorando, cantando
+ay mi S[F#m]eñor yo tambien voy a[E]lli
+ves[A]tido de blanco cantando
+solo tu e[E]res tres veces Santo
+re[D]cibe la gloria y la h[Bm]onra
+Jesus que por t[F#m]i yo estoy a[E]qui
+
+Por sus ll[A]agas fuimos curados
+por su s[E]angre fuimos perdonados
+por su mu[D]erte fuimos salvados
+por Je[A]sus yo fui sa[E]nado.
+Me lib[A]raste del castigo eterno
+para d[E]arme un lugar en el cielo
+hoy yo q[D]uiero cantar con el alma
+ven pronto Je[A]sus que aqui
+esta tu p[E]ueblo
+ `
+},
 
  {
  titulo: "Orando sin cesar (204) (E)",
