@@ -532,8 +532,90 @@ ven pronto Je[E]sus que aqui
 esta tu pueblo
  `
 },
+{
+ titulo: "Vestido de blanco (Am)",
+ categoria: "especiales",
+ letra: `
+N[Dm]unca te alejes de m[G]i
+[C]nunca te separes de m[Am]i
+[Dm]que sin Ti me siento mo[G]rir
+[C]sin ti no puedo vi[Am]vir
 
- {
+[Dm]Mira que las fuerzas del m[G]al
+[C]mi alma la quiere aso[Am]lar
+[Dm]pero si Tu estas junto a m[G]i
+[C]mi alma victoria ten[Am]dra
+y l[F]uego cantare una canción
+una canc[Am]ion en Tu 
+pr[G]esencia Señor
+una canc[F]ion de amor y p[Am]az
+
+Una canción que salga
+muy de[G]ntro del corazón
+de muy de[F]ntro del corazón
+y de mi alma h[Am]oy
+Coro:
+Vestido de blanco quiero es[F]tar
+alla en tu pre[G]sencia Se[Am]ñor
+vestido de blanco quiero an[F]dar
+alla en tu ciu[G]dad Se[Am]ñor
+Vestido de blanco quiero es[F]tar
+alla en tu pre[G]sencia Se[Am]ñor
+//nunca te olvides de m[F]i,
+que yo quiero can[G]tar,
+cancion celes[Am]tial//
+nunca te ol[F]vides de m[G]i 
+oh D[Am]ios
+`
+},
+{
+ titulo: "Hay alboroto (Am)",
+ categoria: "especiales",
+ letra: `
+[Am]Hay alboroto en las calles,
+es que algo ha pa[E]sado
+[Am]veo a la gente corriendo,
+y a muchos gri[G]tando
+[F]padres que busacan sus hijos
+muy desespe[C]rados
+[F]parece que aquello que
+un dia se anuncio ha pas[E]ado
+
+[Am]yo no me encuentro en la tierra
+estoy sep[E]arado
+[Am]y siento que todo mi cuerpo
+y mi ser ha cam[G]biado
+y en e[F]ste lugar enque estoy
+yo gozo de c[C]alma
+[F]mientras abajo en la tierra
+asi gritan las a[E]lmas
+Coro:
+//[Am]Porque me he quedado Señor
+no lo s[Dm]e
+en q[G]ue te falle, en q[F]ue 
+te ofendi
+que sera de mi a[E]lma//
+
+[Am]Mi mente y mi capasidad
+no pueden descri[E]bir
+la g[Am]loria y grande poder
+que hay en este lu[G]gar
+y un t[F]rono que esta rodeado 
+por miles de an[C]geles
+[F]mientras abajo en la tierra
+se alborotan las c[E]alles
+Coro:
+//[Am]Despierta pronto llegara el 
+mom[Dm]ento que no abra en tu
+vida la[G]mento Cristo nos
+viene a bus[E]car//
+[Am]Procura de dar lo mejor
+de tu v[Dm]ida para cuando
+llegue ese d[G]ia el cielo
+puedas conquis[F]tar
+ `
+},
+{
  titulo: "Orando sin cesar (204) (E)",
  categoria: "himnos",
  letra: `
@@ -556,7 +638,7 @@ en el nombre del Señor, vencere[E]mos.
  titulo: "Corona de oro. (Am)",
  categoria: "folkloricos",
  letra: `
- //[Am]Voy con mi Jesucri[F]sto                                   
+//[Am]Voy con mi Jesucri[F]sto                                   
 A la mo[Dm]rada de mi Salva[C]dor//
 
 //Cuando yo llegue
@@ -575,7 +657,7 @@ Todos jun[C]]tos n[G]os alegrare[Am]mos//
  titulo: "El amor de Dios (Em)",
  categoria: "folkloricos",
  letra: `
- //[Em]El amor de Dios
+//[Em]El amor de Dios
  Es verda[D]dero y eter[Am]no
  No e[C]s como el amor hu[D]mano 
  Pasaje[Em]ro//
@@ -616,7 +698,7 @@ Zampoña:
  titulo: "El principio del saber (Em)",
  categoria: "folkloricos",
  letra: `
- Guitarra transportada 3er espacio 
+Guitarra transportada 3er espacio 
 Zampoña: G F A E
 [Em]El principio del sa[Am]ber
 Es te[D]mer a Jeho[Em]vá
@@ -1441,7 +1523,6 @@ titulo: "Desde que lo conosi (Am)",
 categoria: "folkloricos",
 letra: `
 ZAMPOÑA: A E
-
 //[Am]Desde que le cono[E]si
 Yo le alabo a mi Se[Am]ñor//
 //porque ahora soy fel[E]iz
@@ -1465,7 +1546,6 @@ titulo: "Quien me podra apartar (Am)",
 categoria: "folkloricos",
 letra: `
 QUENA Y ZAMPOÑA: A E
-
 //[Am]Quien me podrá apart[E]ar
 De los brazos de mi Señ[Am]or//
 //Ni pruebas ni l[E]uchas
@@ -1533,8 +1613,6 @@ titulo: "Jehova es mi pastor (Em)",
 categoria: "folkloricos",
 letra: `
 Zampoñas: E A
-
-
 //[Em]Jehova en es mi past[G]or 
 nada me falta[D]ra, 
 en lugares deli[Bm]cados, 
@@ -1594,7 +1672,7 @@ letra: `
 Guitarra: Am Dm G F E Am
 Quena: C D E
 C[C]uantos pensamientos, cuantas
-cuantas h[G]]uecas teorias
+cuantas h[G]uecas teorias
 hoy el h[Am]ombre se pregunta:
 mi destino que se[C]ra?
 ¿que vi[F]vire?, ¿yo a donde i[G]re? [Am]
@@ -1618,7 +1696,7 @@ y de[E]cir que la batalla
 he ga[Am]nado,
 
 mas alla de la m[A7]uer[Dm]te,
-donde m[G]i Señor sonrriente
+donde m[G]i Señor sonriente
 a mi me es[C]pera, porque
 he sup[Am]erado, el fuego 
 de la pr[Dm]ueba
