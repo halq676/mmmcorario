@@ -533,39 +533,41 @@ esta tu pueblo
  `
 },
 {
- titulo: "Vestido de blanco (Am)",
+ titulo: "Vestido de blanco (Dm)",
  categoria: "especiales",
  letra: `
-N[Dm]unca te alejes de m[G]i
-[C]nunca te separes de m[Am]i
-[Dm]que sin Ti me siento mo[G]rir
-[C]sin ti no puedo vi[Am]vir
+Intro: Gm C F Dm Gm C F Dm
+N[Gm]unca te alejes de m[C]i
+[F]nunca te separes de m[Dm]i
+[Gm]que sin Ti me siento mo[C]rir
+[F]sin ti no puedo vi[Dm]vir
 
-[Dm]Mira que las fuerzas del m[G]al
-[C]mi alma la quiere aso[Am]lar
-[Dm]pero si Tu estas junto a m[G]i
-[C]mi alma victoria ten[Am]dra
-y l[F]uego cantare una canción
-una canc[Am]ion en Tu 
-pr[G]esencia Señor
-una canc[F]ion de amor y p[Am]az
+[Gm]Mira que las fuerzas del m[C]al
+[F]mi alma la quiere aso[Dm]lar
+[Gm]pero si Tu estas junto a m[C]i
+[F]mi alma victoria ten[Dm]dra
+y l[Am]uego cantare una ca[A#]nción
+una canc[Dm]ion en Tu 
+pr[C]esencia Señor
+una canc[A#]ion de amor y p[Dm]az
 
 Una canción que salga
-muy de[G]ntro del corazón
-de muy de[F]ntro del corazón
-y de mi alma h[Am]oy
+muy de[C]ntro del corazón
+de muy de[A#]ntro del corazón
+y de mi alma h[Dm]oy
 Coro:
-Vestido de blanco quiero es[F]tar
-alla en tu pre[G]sencia Se[Am]ñor
-vestido de blanco quiero an[F]dar
-alla en tu ciu[G]dad Se[Am]ñor
-Vestido de blanco quiero es[F]tar
-alla en tu pre[G]sencia Se[Am]ñor
-//nunca te olvides de m[F]i,
-que yo quiero can[G]tar,
-cancion celes[Am]tial//
-nunca te ol[F]vides de m[G]i 
-oh D[Am]ios
+Vestido de blanco quiero es[A#]tar
+[C]alla en tu presencia Se[Dm]ñor
+vestido de blanco quiero an[A#]dar
+[C]alla en tu ciudad Se[Dm]ñor
+Vestido de blanco quiero es[A#]tar
+[C]alla en tu presencia Se[Dm]ñor
+//nunca te ol[A#]vides de mi,
+que yo qui[C]ero cantar,
+cancion ce[Dm]lestial//
+nunca te ol[A#]vides [Am]   [Gm]   [F]
+de m[C]i 
+oh D[Dm]ios
 `
 },
 {
