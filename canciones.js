@@ -159,6 +159,7 @@ s[D]anto D[Em]ios//
 `
 
 },
+
  {
  titulo: "Dios esta aqui. (C)",
  categoria: "adoracion",
@@ -167,11 +168,31 @@ s[D]anto D[Em]ios//
 [C]Dios e[G]sta a[Am]qui
 
 [F]tan cierto como el aire q[G]ue r[C]espiro
-[F]tan cierto como la ma[G]ñana se l[Em]ev[Am]aanta
+[F]tan cierto como la ma[G]ñana 
+se l[Em]evaaaa[Am]nta
 [Dm]tan cierto que cuando 
 le h[G]ablo el me puede o[C]ir
 `
  },
+ {
+titulo: "Te voy adorar (Em)",
+categoria: "adoracion",
+letra: `
+//[Em]Te voy adorar aunque 
+no tenga f[Am]uerzas
+te voy ado[D]rar aunque 
+ya no pueda m[G]as
+te voy ado[Em]rar
+aunque todos me cri[Am]tiquen
+te voy ado[B7]rar porque tu 
+amor ha sido r[Em]eal//  [E]
+Coro:
+//Te voy ado[Am]rar S[D]eñor, 
+ te voy ado[G]rar
+Te voy ado[C]rar porque tu a[B7]mor 
+ha sido r[Em]eal//
+`
+},
  {
  titulo: "Aquel fuego que cayo (Dm)",
  categoria: "alabanza",
@@ -243,6 +264,36 @@ al Se[E]ñor//
 Coro:
 //Salvame ma[B]estro salvame que per[E]ezco//
 //Hombre de poca f[B]e porque dudas[E]te//
+ `
+ },
+ {
+ titulo: "Suena la trompeta (Dm)",
+ categoria: "alabanza",
+ letra: `
+//[Dm]Suena la trompeta y la iglesia
+se va de v[A]ieje
+el Señor invita a los hermanos
+a prepa[Dm]rarse//
+//Cristo viene p[Gm]ronto, [C] viene 
+por su ig[F]lesia  [Dm]
+y el que no este l[A]isto tristemente
+se qued[Dm]ara//  [D]
+ `
+ },
+ {
+ titulo: "En el apocalipsis (Dm)",
+ categoria: "alabanza",
+ letra: `
+//[Dm]En el apocalipsis del uno al 
+siete e[A]stá
+la venida de Cristo con gloria
+y mages[Dm]tad//
+el dia ni la hora eso n[D7]adie
+lo sa[Gm]bra
+//El viene en una n[Dm]ube y todo
+ [A]ojo le v[Dm]era//
+Coro:
+//Le vera le v[A]era, todo ojo le v[Dm]era//
  `
  },
  {
