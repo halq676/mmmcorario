@@ -193,6 +193,40 @@ Te voy ado[C]rar porque tu a[B7]mor
 ha sido r[Em]eal//
 `
 },
+{
+titulo: "Cristo te amo (A)",
+categoria: "adoracion",
+letra: `
+[A]Criiis[E]to te a[D]aaam[F#m]o 
+a[D]cercame a T[E]i S[A]eñor [E]
+[A]Criiis[E]to te a[D]aaa[F#m]mo me 
+ent[D]rego en a[E]dorac[A]ión
+
+//lev[D]antare mi v[A]oz y 
+[D]en adorac[F#m]ion
+mi c[D]orazón d[A]ira a tu cora[E]zón
+pa[D]labras de ver[A]dad que q[D]uieres
+esc[F#m]uchar
+son s[D]olo para T[E]i Se[A]ñor//
+`
+},
+{
+titulo: "En el nombre de Jesus (C)",
+categoria: "adoracion",
+letra: `
+En el n[C]ombre de Jesus
+me acerco ante tu pre[Dm]sencia
+oh Señor,  [G]
+en el nombre de Je[F]sus  [G]
+a ofrecerte mi o[C]frenda
+oh Señor  [C7]
+Coro:
+//Es ala[F]banza adora[G]cion
+lo que te of[Em]rezco oh Se[Am]ñor
+en el n[Dm]ombre maravi[G]lloso 
+de Je[C]sus  [C7]
+`
+},
  {
  titulo: "Aquel fuego que cayo (Dm)",
  categoria: "alabanza",
@@ -294,6 +328,33 @@ lo sa[Gm]bra
  [A]ojo le v[Dm]era//
 Coro:
 //Le vera le v[A]era, todo ojo le v[Dm]era//
+ `
+ },
+ {
+ titulo: "si no ubuera sido por el Señor (Am)",
+ categoria: "alabanza",
+ letra: `
+[Am]Si no ubiera sido por El Se[E]ñor
+Si no ubiera sido por El Se[Am]ñor
+Si no ubiera sido por El Se[E]ñor
+Si no ubiera sido por El Se[Am]ñor  [A]
+Coro:
+//mi a[Dm]lma se ubiera per[Am]dido
+si no ubiera s[E]ido por El Se[Am]ñor//  [A]
+
+ `
+ },
+ {
+ titulo: "Mi corazon esta contento (Am)",
+ categoria: "alabanza",
+ letra: `
+//[Am]Mi corazón esta con[E]tento
+porque Jesus lo ha venido 
+a lle[Am]nar//
+llename oh llen[E]ame
+llename mi Jesus llen[Am]ame
+llename oh llen[E]ame
+con tu unción mi Jesus llen[Am]ame
  `
  },
  {
