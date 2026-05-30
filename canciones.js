@@ -227,6 +227,26 @@ en el n[Dm]ombre maravi[G]lloso
 de Je[C]sus  [C7]
 `
 },
+{
+titulo: "Tu eres mi respirar (G)",
+categoria: "adoracion",
+letra: `
+[G]Tu eres mi r[C]espirar  [C]  [B]  [A]  [G]
+Tu eres mi r[C]espirar  [C]  [B]  [A]  [G] 
+Dios t[D]u pre[Em]sencia
+[C]vive [Am] en m[D]i
+
+[G]Tu eres mi p[C]az Señor  [C]  [B]  [A]  [G]
+Tu eres mi p[C]az Señor  [C]  [B]  [A]  [G]
+Dios t[D]us pa[Em]labras
+[C]fluyen [Am] en m[D]i
+Coro:
+//Y y[G]ooo[D]oo[Em]o te 
+anelo Se[C]ñor  [Em]    [D]
+y e[G]stoo[D]oo[Em]oy perdido 
+sin T[C]i   [Em]   [D]
+`
+},
  {
  titulo: "Aquel fuego que cayo (Dm)",
  categoria: "alabanza",
@@ -355,6 +375,42 @@ llename oh llen[E]ame
 llename mi Jesus llen[Am]ame
 llename oh llen[E]ame
 con tu unción mi Jesus llen[Am]ame
+ `
+ },
+ {
+ titulo: "He aqui estoy a tu puerta (Am)",
+ categoria: "alabanza",
+ letra: `
+//[Am]He aqui estoy a tu p[F]uerta h[C]oy
+[F]abreme que q[C]uiero entrar
+dulce[E]mente me dijo el Se[Am]ñor//
+
+Yo escuche su voz
+[G7]desde mi inte[C]rior
+[F]y le abri por en[C]tero las puertas
+[E]de mi cora[Am]zón
+Coro:
+//[F]Alelu[C]ya C[G7]risto es mi Se[C]ñor
+[F]Ale[C]luya g[E]loria a D[Am]ios//
+ `
+ },
+ {
+ titulo: "Yo siento que la gloria (G)",
+ categoria: "alabanza",
+ letra: `
+[G]Yo siento que la g[Em]loria bajo
+la g[D]loria bajo la g[G]loria bajo
+Yo siento que la g[Em]loria bajo
+la g[D]loria bajo a m[G]i
+
+En el mas halla ver[Em]emos al Señor
+en el m[D]as halla v[G]eremos al Señor
+en el mas halla v[Em]eremos al Señor
+en a[D]quella s[C]anta s[G]ion
+Coro:
+Aleluya, ale[Em]luya ale[D]luya
+Al[G]eluya, aleluya alel[Em]uya
+al[D]eluya la g[C]loria b[D]ajo a m[G]i
  `
  },
  {
