@@ -786,6 +786,38 @@ puedas conquis[F]tar
  `
 },
 {
+ titulo: "Señor y Dios de los cielos (Am)",
+ categoria: "especiales",
+ letra: `
+Introduccion:
+[Am]Señor y Dios de los cielos  [A7]
+[F]sangre vierten tus heridas
+[G]lagrimas hay en tus ojos
+[C]el sudor baña tu r[E]ostro
+
+[Am]Tus labios estan sedientos  [A7]
+[F]no hay quien mitigue tu sed 
+[G]se ahoga un grito en tu garganta 
+[C]mas no prononcias pa[E]labras  [E7]
+CORO
+//[Am]Te oldaste de ti mismo  [A7]
+[F]por acordarte de mi
+[G]pagaste por mis pecados 
+[C]lo que yo debía suf[E]riii[Am]iir//
+Introduccion:
+[Am]Golpeado esta tu cuerpo  [A7]
+[F]abatida tu alma buena 
+[G]llevaste tu cruz en silencio 
+[C]soportando los des[E]precios
+
+[Am]Por entero te entregaste  [A7] 
+[F]para mostrarnos tu amor
+[G]tanto tanto que sufriste
+[C]llevando nuestro do[E]lor  [E7]
+ `
+},
+
+{
  titulo: "Orando sin cesar (204) (E)",
  categoria: "himnos",
  letra: `
@@ -804,6 +836,7 @@ venceras,
 en el nombre del Señor, vencere[E]mos.
 `
  },
+
  {
  titulo: "Corona de oro. (Am)",
  categoria: "folkloricos",
