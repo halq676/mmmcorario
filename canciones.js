@@ -800,7 +800,7 @@ Introduccion:
 [G]se ahoga un grito en tu garganta 
 [C]mas no prononcias pa[E]labras  [E7]
 CORO
-//[Am]Te oldaste de ti mismo  [A7]
+//[Am]Te olvidaste de ti mismo  [A7]
 [F]por acordarte de mi
 [G]pagaste por mis pecados 
 [C]lo que yo debía suf[E]riii[Am]iir//
