@@ -1,10 +1,10 @@
 {
-  "name": "Corario Digital MMM",
+  "name": "Corario Digital HL",
   "short_name": "Corario",
   "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#0d6efd",
+  "display": "fullscreen",
+  "background_color": "#1f4fa1",
+  "theme_color": "#1f4fa1",
   "orientation": "portrait",
   "icons": [
     {
