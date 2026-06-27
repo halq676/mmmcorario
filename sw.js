@@ -1,4 +1,4 @@
-const CACHE_NAME = 'corario-v8';
+const CACHE_NAME = 'corario-v9';
 
 const urlsToCache = [
   './',
@@ -19,6 +19,7 @@ const urlsToCache = [
 
 // INSTALAR
 self.addEventListener('install', e => {
+  self.skipWaiting();
   e.waitUntil(
     caches.open(CACHE_NAME).then(cache =>
       Promise.allSettled(
