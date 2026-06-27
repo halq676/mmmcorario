@@ -1,26 +1,27 @@
 /* --- Estilos Generales --- */
 body {
-    
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f7f7f7;
-    color: #222;
+    background: linear-gradient(180deg, #f6f9ff 0%, #eef4ff 100%);
+    color: #122033;
     position: relative;
-    overflow-x: hidden; /* Evita el scroll horizontal no deseado */
+    overflow-x: hidden;
 }
 
 header {
-    background: #3b5998;
+    background: linear-gradient(135deg, #16335f 0%, #3158a5 100%);
     color: white;
-    padding: 4px 10px;
+    padding: 16px 14px 18px;
     text-align: center;
+    box-shadow: 0 10px 30px rgba(22, 51, 95, 0.18);
 }
 
-    header h1 {
-    font-size: 1.2rem;
-    margin: 0;
-    line-height: 1.1;
+header h1 {
+    font-size: 1.25rem;
+    margin: 0 0 6px;
+    line-height: 1.2;
+    font-weight: 700;
 }
 
 h1, h2, h3 {
@@ -33,62 +34,94 @@ h3 {
 
 main {
     padding: 20px;
-    max-width: 920px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
 /* --- Buscador --- */
 #buscador-container {
     display: flex;
-    gap: 10px;
-    margin-bottom: 25px;
+    flex-direction: column; /* Apilar buscador y botón (no horizontal) */
+    gap: 8px;
+    margin-bottom: 20px;
+    position: relative;
 }
 
-#buscador {
-    flex: 1;
+#buscador, #buscadorListado {
+    width: 100%;
     padding: 14px 16px;
-    border: 1px solid #d8dfe7;
-    border-radius: 18px;
+    border: 1px solid #dce6f8;
+    border-radius: 999px;
     font-size: 1rem;
     background: #fff;
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+    box-shadow: inset 0 1px 2px rgba(27, 47, 82, 0.08);
+}
+
+#buscadorListado {
+    padding-left: 42px;
 }
 
 #btnBuscar {
     padding: 14px 16px;
-    border: 1px solid #d8dfe7;
-    border-radius: 18px;
+    border: none;
+    border-radius: 999px;
     font-size: 1rem;
-    background: #0d6efd;
+    background: linear-gradient(135deg, #1d77ff 0%, #0d5fd8 100%);
     color: white;
     cursor: pointer;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    box-shadow: 0 10px 20px rgba(13, 95, 216, 0.18);
     white-space: nowrap;
 }
 
 #pantallaListado {
-    background: #ffffff;
-    padding: 24px;
-    border-radius: 30px;
-    box-shadow: 0 22px 50px rgba(16, 40, 80, 0.08);
+    background: linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+    padding: 20px;
+    border-radius: 26px;
+    box-shadow: 0 18px 45px rgba(16, 40, 80, 0.08);
+}
+
+.listado-header {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 14px;
 }
 
 #pantallaListado h2 {
-    font-size: 1.85rem;
-    margin-bottom: 18px;
+    font-size: 1.65rem;
+    margin: 0;
     letter-spacing: -0.03em;
+    color: #1e3358;
 }
 
 #btnVolverCategorias {
-    margin-bottom: 22px;
-    padding: 10px 18px;
-    background: #3b5998;
+    margin-bottom: 16px;
+    padding: 10px 16px;
+    background: linear-gradient(135deg, #4d6fbf 0%, #355691 100%);
     color: #fff;
     border: none;
-    border-radius: 14px;
+    border-radius: 999px;
     cursor: pointer;
     font-size: 0.95rem;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 16px rgba(53, 86, 145, 0.18);
+}
+
+.buscador-listado-wrapper {
+    position: relative;
+}
+
+.buscador-listado {
+    position: relative;
+}
+
+.buscador-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #4c6ea8;
+    pointer-events: none;
 }
 
 #btnVolverCategorias:hover {
@@ -152,40 +185,40 @@ main {
 #categorias {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 14px;
-    margin-bottom: 24px;
+    gap: 12px;
+    margin-bottom: 20px;
     padding: 12px;
-    background: #f4f7ff;
-    border: 1px solid #e8eef9;
+    background: linear-gradient(135deg, #f3f7ff 0%, #eef4ff 100%);
+    border: 1px solid #e2ebfc;
     border-radius: 24px;
 }
 
 #categorias button {
-    min-height: 62px;
+    min-height: 64px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    background: linear-gradient(135deg, #4062c4 0%, #3b5998 100%);
+    gap: 8px;
+    background: linear-gradient(135deg, #4d74c4 0%, #355691 100%);
     color: white;
     border: none;
     border-radius: 18px;
     cursor: pointer;
     font-size: 1rem;
     font-weight: 600;
-    box-shadow: 0 8px 18px rgba(32, 61, 134, 0.13);
+    box-shadow: 0 10px 22px rgba(53, 86, 145, 0.15);
     transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
 #categorias button:hover {
-    background: linear-gradient(135deg, #34509d 0%, #2e4480 100%);
+    background: linear-gradient(135deg, #4265b0 0%, #284676 100%);
     transform: translateY(-2px);
 }
 
 #categorias button.activo {
-    background: linear-gradient(135deg, #264a82 0%, #1f3c6b 100%);
-    border: 2px solid #7fb3ff;
-    box-shadow: 0 14px 28px rgba(28, 63, 135, 0.2);
+    background: linear-gradient(135deg, #2557a3 0%, #16335f 100%);
+    border: 2px solid #93bfff;
+    box-shadow: 0 14px 28px rgba(22, 51, 95, 0.2);
 }
 
 
@@ -267,17 +300,62 @@ main {
 }
 
 #btnVolverListado {
-    /* Estilo para el botón de volver en la pantalla de Repertorio */
-    margin-top: 5px;
-    padding: 12px 25px;
-    background-color: #555;
-    color: white;
+    /* Botón compacto para volver al listado desde Repertorio */
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background: linear-gradient(135deg, #4d74c4 0%, #355691 100%);
+    color: #fff;
     border: none;
-    border-radius: 8px;
+    border-radius: 14px;
     cursor: pointer;
-    font-size: 1rem;
-    display: block; /* Ocupa todo el ancho si es necesario */
-    width: 100%;
+    font-size: 0.95rem;
+    box-shadow: 0 8px 18px rgba(53,86,145,0.12);
+    width: auto; /* No ocupa todo el ancho */
+    margin: 0 0 8px 0;
+}
+
+#btnVolverListado:hover {
+    background: linear-gradient(135deg, #4265b0 0%, #284676 100%);
+}
+
+/* Mejoras visuales para la lista de Repertorio */
+#listaRepertorio {
+    list-style: none;
+    padding: 0;
+}
+
+#listaRepertorio li {
+    background-color: #ffffff;
+    margin-bottom: 8px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(16,40,80,0.04);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+    font-size: 1.05rem;
+    gap: 10px;
+}
+
+#listaRepertorio li::before {
+    content: '♪';
+    color: #4d74c4;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+#listaRepertorio li span {
+    flex: 1 1 auto;
+    text-align: left;
+}
+
+#listaRepertorio li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(16,40,80,0.08);
 }
 
 /* ========================================================= */
@@ -286,66 +364,119 @@ main {
 
 #listaCanciones {
     list-style: none;
-    padding: 18px;
+    padding: 14px;
     margin: 0 auto;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 10px;
     background: #f8fbff;
     border: 1px solid #e3eaf7;
-    border-radius: 24px;
+    border-radius: 20px;
 }
 
 #listaCanciones li {
     width: 100%;
     background: #ffffff;
-    padding: 18px 20px;
-    border-radius: 18px;
+    padding: 14px 16px;
+    border-radius: 16px;
     border: 1px solid #e6ecf6;
     cursor: pointer;
-    font-size: 1.05rem;
+    font-size: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; /* Alinea el contenido a la izquierda */
     align-items: center;
-    gap: 14px;
+    gap: 12px;
     transition: background 0.25s ease, transform 0.2s ease, box-shadow 0.2s ease;
-    box-shadow: 0 12px 24px rgba(39, 69, 132, 0.05);
+    box-shadow: 0 8px 18px rgba(39, 69, 132, 0.05);
 }
 
 #listaCanciones li:hover {
-    background: #eef4ff;
+    background: #eef5ff;
     transform: translateY(-1px);
-    box-shadow: 0 18px 28px rgba(38, 69, 129, 0.08);
+    box-shadow: 0 12px 22px rgba(38, 69, 129, 0.08);
+}
+
+#listaCanciones li::before {
+    content: '♫';
+    color: #4d74c4;
+    font-size: 1rem;
+    flex-shrink: 0;
+    margin-right: 12px; /* Separación entre icono y título */
+}
+
+/* Asegurarse de que el span contenedor del título ocupe el espacio restante */
+#listaCanciones li span {
+    flex: 1 1 auto;
+    text-align: left;
 }
 
 @media (max-width: 640px) {
     main {
-        padding: 16px;
+        padding: 14px;
     }
     #buscador-container {
         flex-direction: column;
     }
     #pantallaListado {
-        padding: 18px;
+        padding: 16px;
     }
     #categorias {
-        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
     }
     #categorias button {
-        min-height: 72px;
+        min-height: 68px;
+        font-size: 0.95rem;
     }
     #listaCanciones {
         width: 100%;
-        padding: 16px;
+        padding: 12px;
     }
     #listaCanciones li {
-        padding: 14px 16px;
+        padding: 13px 14px;
         flex-wrap: wrap;
     }
     .btn-anadir-repertorio {
         display: none;
     }
+    .listado-header {
+        gap: 10px;
+    }
+}
+
+/* Sugerencias debajo del buscador en pantalla principal */
+.sugerencias {
+    list-style: none;
+    margin: 6px 0 0 0;
+    padding: 6px;
+    background: #ffffff;
+    border: 1px solid #e3eaf7;
+    border-radius: 12px;
+    max-height: 260px;
+    overflow: auto;
+    box-shadow: 0 8px 20px rgba(16,40,80,0.06);
+}
+.sugerencias li {
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.98rem;
+}
+.sugerencias li:hover, .sugerencias li[aria-selected="true"] {
+    background: #eef5ff;
+}
+.sugerencias li .titulo-sug {
+    flex: 1 1 auto;
+    text-align: left;
+}
+.sugerencias li .categoria-sug {
+    font-size: 0.8rem;
+    color: #6b7995;
+    white-space: nowrap;
 }
 
 /* Botón de añadir al repertorio en el listado */

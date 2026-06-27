@@ -14,7 +14,7 @@
 </head>
 <body>
   <header>
-    <h1>📖 Corario Digital MMM Samaniego</h1>
+    <h1>📖 Corario Digital HL</h1>
     <div id="versiculo-del-dia">
         <p>
             "Todo lo que respire alabe a Jehova."
@@ -31,6 +31,7 @@
       <div id="buscador-container">
       <input type="text" id="buscador" placeholder="🔍 Buscar canción...">
       <button id="btnBuscar">🔍 Buscar</button>
+      <ul id="sugerencias" class="sugerencias" role="listbox" aria-label="Sugerencias de canciones"></ul>
     </div>
 
       <div id="categorias">
@@ -45,7 +46,15 @@
 
     <section id="pantallaListado" style="display:none;">
       <button id="btnVolverCategorias">← Volver</button>
-      <h2 id="tituloListado">Listado de canciones</h2>
+      <div class="listado-header">
+        <h2 id="tituloListado">Listado de canciones</h2>
+        <div class="buscador-listado-wrapper">
+          <div class="buscador-listado">
+            <span class="buscador-icon" aria-hidden="true">🔎</span>
+            <input type="text" id="buscadorListado" placeholder="Buscar en esta categoría">
+          </div>
+        </div>
+      </div>
       <ul id="listaCanciones"></ul>
     </section>
 <section id="pantallaRepertorio" style="display:none;">
