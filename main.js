@@ -525,6 +525,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (pantallaCategorias) pantallaCategorias.style.display = "block";
     actualizarContadorRepertorio();
 
+    const splash = document.getElementById('splash-screen');
+    if (splash) {
+        setTimeout(() => {
+            splash.classList.add('hidden');
+            document.body.classList.remove('splash-active');
+        }, 2200);
+    }
+
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
             navigator.serviceWorker.register('./sw.js');
