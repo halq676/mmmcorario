@@ -1450,7 +1450,7 @@ Quena
 `
 },
 {
-titulo: "ES Jesucristo quien dio su vida (Em)",
+titulo: "Es Jesucristo quien dio su vida (Em)",
 categoria: "folkloricos",
 letra: ` 
 GUITARRA: Em D
@@ -2149,7 +2149,7 @@ titulo: "El sustento de mi vida (Em)",
 categoria: "folkloricos",
 letra: `
 Zampoñas: B G
-[Em]Ahora se que tu me guia[A]ras
+[Em]Ahora se que tu me guia[Am]ras
 y con tu m[D]ano se que podre avan[G]zar
 por este ca[C]mino que muchos 
 menospre[Am]cian
@@ -2170,7 +2170,7 @@ estas con[G]migo
 y a quien d[C]ire, padre mio,
 que a mi s[Am]er ha transfo[B]rmado
 
-y ahora s[Em]e que  no puedre 
+y ahora s[Em]e que  no podre 
 encon[Am]trar
 algo mas g[D]rande que Tu pre[G]sencia 
 mi Señor
@@ -2183,7 +2183,7 @@ sin Tu a[G]mor
 en Tu s[C]ombra me refugiare
 y en tus a[Am]las me escondere
 porque sin T[B]i yo no puedo vi[Em]vir
-
+Quena: 
 `
 },
 
