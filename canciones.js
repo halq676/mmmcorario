@@ -2186,5 +2186,142 @@ porque sin T[B]i yo no puedo vi[Em]vir
 Quena: 
 `
 },
+{
+titulo: "Pueblo escogido (Dm)",
+categoria: "folkloricos",
+letra: `
+Charango-Arpegio-Quena
+//[Dm]Con misericordia y grande a[C]mor
+pueblo esco[Am]gido el nos ll[Dm]amo//
+//la humildad del cora[C]zón
+a la pre[Am]sencia de Dios ll[Dm]ego//
+
+Charango-Arpegio
+//Cristo ya nos per[C]donó 
+con su san[Am]gre que derr[Dm]amo//
+//Limpios y libres Él nos d[C]ejó 
+eso al[Am]abo a mi Se[Dm]ñor//
+
+Charango-Arpegio-Quena
+`
+},
+{
+titulo: "He aqui estoy (Am)",
+categoria: "folkloricos",
+letra: `
+Quena: Am
+
+//[Am]He aquí estoy a tu p[F]uerta h[C]oy
+[F]abreme que qu[C]iero entrar
+dulce[E]mente me dijo El Se[Am]ñor
+
+Yo escuche su voz de[G]sde mi in[C]terior
+[F]y le abrí por en[C]tero las puertas
+[E]de mi cora[Am]zón
+
+[F]Alelu[C]ya C[G]risto mi Se[C]ñor
+[F]alel[C]uya g[E]loria a D[Am]ios //
+`
+},
+{
+titulo: "Esfuerzate y se valiente (Am)",
+categoria: "folkloricos",
+letra: `
+QUENA: B G
+//[Am]Esfuérzate y s[C]e vali[G]ente si
+no t[Dm]emas jamás ni des[Am]mayes//
+porque el Se[Em]ñor estará con[Am]tigo
+donde quiera que tú es[Em]tés, 
+estará con[Am]tigo
+
+QUENA: 
+//Y e[C]n su ley medita[Am]rás
+y n[C]o te apartarás ja[Am]más//
+para que s[Em]eas prospe[Am]rado 
+en t[Em]odo lo que em[Am]prendas
+para que s[Em]eas bende[Am]cido 
+en t[Em]odos sus cam[Am]inos
+
+QUENA
+`
+},
+{
+titulo: "Solo Cristo es muy bello (Am)",
+categoria: "folkloricos",
+letra: `
+QUENA
+Solo Cr[Em]isto es muy bello en este 
+m[D]undo aterrador
+inun[C]dado de pesares no 
+encont[B]raba solución
+mi ca[Em]mino era incierto 
+no sa[D]bía a donde ir
+ac[C]abado por la vida y sin 
+ra[B]zón para existir
+CORO:
+//de que s[G]irve un corazón 
+si en el no ha[D]bita el Señor
+de qué s[C]irve mi canción 
+si no le d[B]oy la adoración
+hoy yo t[G]engo una esperanza 
+una ra[D]zón para vivir
+Jesu[C]cristo hoy es mi todo 
+mi mo[B]tivo de existir//
+MELODIA GUITARRA:
+
+hoy mi a[Em]lma da alabanzas 
+al cre[D]ador de sanación
+con mi v[C]ida entre mis manos 
+yo le r[B]indo mi loor
+el ch[Em]arango y las zampoñas 
+quieren d[D]arte adoración
+y tu pu[C]eblo se levante y 
+hoy te d[B]igan gloria a Dios
+CORO
+ZAMPOÑA:
+`
+},
+{
+titulo: "Hacia los pueblos me voy (Am)",
+categoria: "folkloricos",
+letra: `
+//[Am]Hacia los pueblos me v[F]oy
+anun[G]ciando tu a[C]mor..[Em].
+com[Am]partiendo una ver[F]dad
+que ja[G]mas olvida[Am]ran//
+
+//E[F]sta semilla s[G]erá
+sem[Em]brada en tu cor[Am]azón
+[F]cerca del rio est[G]ará
+y n[Em]unca marchi[Am]tara//
+
+Zampoña
+`
+},
+{
+titulo: "Hoy juntos los dos (Dm)",
+categoria: "folkloricos",
+letra: `
+[Dm]Hoy juntos los d[C]os [Bb] presentamos
+nuestras v[C]idas  [Dm]
+El Señor y los pre[C]sentes [Bb] son
+testigos de esta o[C]bra  [Dm]
+presentamos esta un[C]ion [Bb] como
+fruto y testi[C]monio  [Dm]
+valio mucho esp[C]erar [Bb] de Jesus
+su volu[C]ntad
+en T[Dm]i, en m[C]i, en T[Dm]i... 
+en m[C]i, en T[Dm]i,
+Coro:
+[Gm] Tanto tiempo bus[Bb]que [C][/][G] pero
+al fin de te encon[Am]tre  [Gm]
+tanto tiempo esp[Bb]ere [C][/][G] y he 
+hallado mi a[Am]mor  [Gm]
+hay alguien a quien agrade[C]cer  [Gm]
+hay alguien a quien agrade[C]cer
+es Je[Dm]suu[C]uus, es Je[Dm]suu[C]uus es Je[Dm]sus
+
+`
+},
 
 ];
