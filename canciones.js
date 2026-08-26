@@ -2461,7 +2461,7 @@ por Jesucristo canto libre s[C]oy
 // y se humille
 reci[E]vira tambien la reden[Am]ción//
 Charango
-Quena (A) F.E. A-
+Quena: F E Am
 
 CORO
 `
