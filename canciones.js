@@ -1245,7 +1245,7 @@ Tesoro amado de mi Se[Am]ñor//
 `
 },
 {
-titulo: "Cristo eres la luz (Am)",
+titulo: "Tu eres la luz (Am)",
 categoria: "folkloricos",
 letra: `
 (Transportar 3er traste Cm)
@@ -2320,7 +2320,150 @@ hallado mi a[Am]mor  [Gm]
 hay alguien a quien agrade[C]cer  [Gm]
 hay alguien a quien agrade[C]cer
 es Je[Dm]suu[C]uus, es Je[Dm]suu[C]uus es Je[Dm]sus
+`
+},
+{
+titulo: "Las tumbas se abren ya (Am)",
+categoria: "folkloricos",
+letra: `
+Guitarra Quena: C G Am
+[Am]Las tumbas se abren y[C]a
+al m[G]ando de una v[Am]oz
+los muertos en Cristo o[C]yen
+es Je[G]sús quien los ll[Am]ama
+dos están en el c[C]ampo
+el u[G]no será to[Am]mado
+dos estarán durm[C]iendo
+Y el o[G]tro será de[Am]jado
 
+//Per[F]dón, per[C]dón Señor
+por no es[G]tar prepa[Am]rado
+si neg[F]ras son mis cu[C]lpas
+ma[G]yor es tu per[Am]dón //
+QUENA: Am C G
+El tiempo se está acab[C]ando
+y D[G]ios espera de t[Am]i
+que andes en su ca[C]mino
+y c[G]ada día estés vel[Am]ando
+el mundo se queda s[C]olo
+sin s[G]u compañero f[Am]iel
+padres dejan sus h[C]ijos
+e h[G]ijos también sin e[Am]llos
+
+//A mis p[F]adres y her[C]manos
+no los d[G]ejes oh Se[Am]ñor
+si n[F]egras son sus c[C]ulpas
+ma[G]yor es tu per[Am]dón //
+`
+},
+{
+titulo: "Como podre agradecer (C)",
+categoria: "folkloricos",
+letra: `
+INTRO: C Am F G  C Am Dm G C Am F G C
+[C]Cómo podré agrad[Am]ecer tanto a[F]mor, 
+que me has dado a m[G]í
+[C]cosas tan maravi[Am]llosas, 
+que no l[F]ogro yo compre[G]nder
+las v[C]oces de millones de á[Am]ngeles, 
+no pod[Dm]rían expresar mi grat[G]itud
+todo lo que s[C]oy y lo que espero s[Am]er, 
+se lo d[Dm]ebo todo a E[C]l
+CORO:
+A D[C]ios sea la g[Am]loria, 
+a D[Dm]ios sea la g[G]loria
+a D[C]ios sea la g[Am]loria, 
+por lo que É[F]l ha h[G]echo en m[C]í
+Con su s[C]angre me ha la[Am]vado, 
+su po[Dm]der me ha transfo[G]rmado
+a D[C]ios sea la g[Am]loria, 
+por lo que É[F]l ha h[G]echo en m[C]í
+INTRO: Charango
+Q[C]uiero seguir consa[Am]grado a El 
+y s[Dm]er agradecido, oh mi S[G]eñor
+y si a[C]lgo de gloria r[Am]ecibo en mi, 
+que en t[F]odo sea la gloria a D[G]ios
+CORO
+INTRO: Zampoña
+`
+},
+{
+titulo: "Tu amor no tiene comparacion (Am)",
+categoria: "folkloricos",
+letra: `
+ZAMPOÑA QUENA: Am G
+[Am]Tu amor no tiene compara[Dm]ción
+como T[G]u nadie me a[Am]mo
+tan grande es Tu amor Je[Dm]sus
+lo demos[G]traste en la c[Am]ruz
+//No te imp[G]orto la humilla[Am]ción
+Lo sopor[G]taste todo por a[Am]mor
+CORO:
+//Me a[F]maste desde s[C]iempre
+e[G]terno es Tu a[Am]mor
+no p[F]uedo resis[C]tirme
+///aquí e[G]sta mi cor[Am]azón///
+Zampoña:
+`
+},
+{
+titulo: "Cuando el Señor (Gm)",
+categoria: "folkloricos",
+letra: `
+Charango Quenas: D G F G
+
+//[Gm]Cuando el Señor a mi me ll[Bb]ame 
+yo quiero i[F]r con El [Dm] su mans[Gm]ion//
+//a[Eb]lli no abra dolor ni ll[Bb]anto 
+solo alegr[F]ias [Dm] con nuestro D[Gm]ios//
+//Dios Padre eres la l[Bb]uz 
+la L[F]uz de nuestro cor[Gm]azón//
+QUENAS:
+Quenas: C G B A B A G F D F G C D C A G
+
+GUITARRA: C Gm Bb F Gm
+`
+},
+{
+titulo: "Voy con mi Jesucristo (Gm)",
+categoria: "folkloricos",
+letra: `
+//[Am]Voy con mi Jesu[F]cristo
+a las mo[Dm]radas de mi salv[Am]ador//
+//[C]cuando yo llegue [F]a su presencia
+con mi Se[C]ñor... y[G]o me goz[Am]are//
+
+//Co[C]rona de oro l[F]ista esta
+ve[F]stido blanco listo esta
+[C]en las bodas del cordero
+todos juntos n[G]os alegra[Am]remos//
+`
+},
+{
+titulo: "Entre los montes (Am)",
+categoria: "folkloricos",
+letra: `
+Quena: C A 
+[Am]Entre los montes dentro de una choza 
+los indios c[E]antan alaban al S[Am]eñor
+ellos ad[C]miten ellos reconosen
+que solo a D[E]ios se deven aferrar
+//porque a igno[C]rantes Dios 
+ha levantado //
+para avergo[E]nzar al civili[Am]zado
+Charango Quena:
+CORO
+Vamos her[F]manos levanten las manos
+Somos el pueblo de la reden[C]ción
+por Jesu[F]cristo hemos sido salvados
+por Jesucristo canto libre s[C]oy
+//Todo el que v[C]enga postrado 
+// y se humille
+reci[E]vira tambien la reden[Am]ción//
+Charango
+Quena (A) F.E. A-
+
+CORO
 `
 },
 
