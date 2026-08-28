@@ -814,7 +814,38 @@ Introduccion:
 [F]para mostrarnos tu amor
 [G]tanto tanto que sufriste
 [C]llevando nuestro do[E]lor  [E7]
- `
+`
+},
+{
+titulo: "Oh Señor oye mi oracion (Am)",
+categoria: "especiales",
+letra: `
+Intro:
+[Am]Oh Señor o[A7]ye mi orac[Dm]ión
+in[G]clina tu oido hacia m[C]i
+que mi a[A]lma esta en aflic[Dm]ción
+dame fu[F]erzas para resi[E]stir
+
+Es glor[Am]ioso g[A7]ozar de tu a[Dm]mor
+que di[G]chosa quien espera en T[C]i
+y si e[Am]res con migo mi D[Dm]ios
+quien po[F]dra tentar contra m[E]i  [Am]
+Coro:
+el sol se de[Dm]tiene el mar se di[G]vide
+retrosede el ti[F]empo si lo ordenas T[E]u
+las tumbas se a[Dm]bren los muertos se re[G]viven
+jamas hay ti[F]nieblas donde esta Tu l[E]uz
+
+Oh a[Am]migo grande es nuestro D[Dm]ios
+sin i[G]gual es su santo p[C]oder
+porque no a[Am]lzas con migo tu v[Dm]oz
+para d[F]arle alabanzas a E[E]l
+
+Canta y d[Am]ile mi Señor y D[Dm]ios
+yo te a[G]mo con el cor[C]azon
+quiero d[Am]arte loores mi r[Dm]ey
+//y ser[F]virte mi Señor y D[E]ios//  [Am]
+`
 },
 
 {
@@ -2462,9 +2493,120 @@ por Jesucristo canto libre s[C]oy
 reci[E]vira tambien la reden[Am]ción//
 Charango
 Quena: F E Am
-
 CORO
 `
 },
+{
+titulo: "El ciego Bartimeo (Em)",
+categoria: "folkloricos",
+letra: `
+[Em]Cuando el ciego escucho que Jesus
+iba i[Am]r, ca[B7]mino a Jerico, 
+le salio a reci[Em]bir,
+le gritaba Señor ten piedad tu de m[Am]i,
+porque ci[B7]ego estoy yo 
+y no puedo vi[Em]vir   [E]
+//Cristo le pregu[Am]nto que 
+podre por ti ha[Em]cer
+y con fe respon[B7]dio haz que 
+yo pueda v[Em]er//
+
+Al salir de alli daba gracias a D[Am]ios
+porque s[B7]ano quedo Cristo le hizo v[Em]er
+El señor le mostro su amor y po[Am]der
+cuando al c[B7]iego sano permitiendole 
+v[Em]er   [E]
+//me saco a mi ta[Am]mbien de otra 
+noche sin l[Em]uz//
+pues su pena p[B7]ago Cristo alla 
+en la c[Em]ruz//
+Zampoña:
+Este mismo Jesus poderoso de a[Am]yer
+es el mi[B7]smo que hoy te dara su p[Em]oder
+como escrito ya esta, todo puede 
+el Se[Am]ñor
+como a[B7]yer tambien hoy, y 
+por la etern[Em]idad   [E]
+//si tu vienes a E[Am]l salvacion te d[Em]ara
+dale tu cor[B7]azon libre y sano te h[Em]ara//
+`
+},
+{
+titulo: "Te doy gracias Señor (Em)",
+categoria: "folkloricos",
+letra: `
+Arpegio:
+[Em]Por el sol de cada d[D]ia
+[Em]por haberme dado v[D]ida
+[Am]por el aire que re[Em]spiro
+yo te doy gr[D]acias gracias Se[Em]ñor
+
+por el agua de los r[D]ios
+[Em]por tu voz entre los vi[D]entos
+[Am]por la lluvia en la tierra s[Em]eca
+yo te doy gr[D]acias gracias Je[Em]sus
+Coro:
+Yo te doy gracias Señor
+[C]gracias Señor gr[G]acias por 
+tu gran a[D]mor
+Tu eres mi D[Em]ios creador
+[C]Dios provedor D[G]ios sobre 
+toda na[D]cion   [Em]
+Zampoña: Em C G D E
+Por el pan que hay en la m[D]esa
+[Em]por las flores en el c[D]ampo
+[Am]por el canto de las a[Em]ves
+yo te doy gr[D]acias, gracias Se[Em]ñor
+
+Por el pan para el amb[D]riento
+[Em]por el agua del se[D]diento
+[Am]por los labios que te al[Em]aban
+yo te doy gr[D]acias, gracias J[Em]esus
+Coro:
+`
+},
+{
+titulo: "Solo y triste (Am)",
+categoria: "folkloricos",
+letra: `
+Intro:
+[Am]Solo y triste y sin r[G]azon
+cami[F]naba lejos de T[Am]i
+sumergido en los placeres del m[G]undo
+que of[F]recia solo bani[Am]dad 
+[G]uuu[Am]uuu
+
+[C]Desde que te co[G]nosi
+mi v[F]ida es difer[Am]ente
+cam[C]biaste mi manera de s[G]er
+de pe[F]nsar y de vi[Am]vir
+
+y h[C]oy feliz es[G]toy
+porque v[F]ives en mi cor[Am]azon
+y h[C]oy seguro e[G]stoy
+con[F]fiado en Tu a[Am]mor
+Quenas Zampoñas:
+`
+},
+{
+titulo: "Siento en mi corazon (G)",
+categoria: "folkloricos",
+letra: `
+[G]Siento en mi cor[Em]azon 
+una gran ale[C]gria
+al estar junto a T[D]i mi Señor
+[G]tengo una nueva ilu[Em]sion
+y una nueva espe[C]ranza
+porque salvo s[D]oy en Ti mi s[G]eñor
+Quena: B A
+Y aunque a[Bm]veces mi vida no es f[Em]acil
+yo con[Bm]fiado estare siempre en T[C]i..[D].
+porque en T[G]i siempre hay v[Em]ida
+porque en T[C]i siempre hay a[D]mor
+porque en T[G]i todo es me[Em]jor
+porque en T[C]i..[D].. esta mi co[G]razon
+`
+},
+
 
 ];
