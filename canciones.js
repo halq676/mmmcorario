@@ -831,10 +831,14 @@ que di[G]chosa quien espera en T[C]i
 y si e[Am]res con migo mi D[Dm]ios
 quien po[F]dra tentar contra m[E]i  [Am]
 Coro:
-el sol se de[Dm]tiene el mar se di[G]vide
-retrosede el ti[F]empo si lo ordenas T[E]u
-las tumbas se a[Dm]bren los muertos se re[G]viven
-jamas hay ti[F]nieblas donde esta Tu l[E]uz
+el sol se de[Dm]tiene el mar 
+se di[G]vide
+retrosede el ti[F]empo si lo 
+ordenas T[E]u
+las tumbas se a[Dm]bren los 
+muertos se re[G]viven
+jamas hay ti[F]nieblas donde 
+esta Tu l[E]uz
 
 Oh a[Am]migo grande es nuestro D[Dm]ios
 sin i[G]gual es su santo p[C]oder
