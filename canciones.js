@@ -851,6 +851,66 @@ quiero d[Am]arte loores mi r[Dm]ey
 //y ser[F]virte mi Señor y D[E]ios//  [Am]
 `
 },
+{
+titulo: "Canto con gozo mi alma (Am)",
+categoria: "especiales",
+letra: `
+Transportada segundo espacio
+[Am]Cuando el dia se acaba, 
+cuando el sol se oc[G]ulta
+cuando llega la tarde, 
+cuando cae la n[F]oche
+ahi estas T[C]u  [G]
+[Am]Cuando me siento triste, 
+cuando me siento s[G]olo
+cuando no tengo paz, 
+cuando no tengo g[F]ozo
+ahi estas t[C]u  [G]
+[Am]Cuando no es la sonrrisa 
+la que va con v[C]ida
+cuando son las lagrimas 
+pan de cada d[G]ia
+cuando los proyectos estan 
+en el pa[F]pel
+cuando solo hay dolor, 
+cuando nada esta b[C]ien
+cuando la adversidad nos 
+doblega la f[G]e
+cuando la enfermedad nos 
+visita la p[F]iel
+cuando ya nuestras fuerzas 
+van a desva[C]necer
+cuando ya el corazon quiere 
+desfall[G]ecer ahi estas T[C]u
+
+[Am]Canto con gozo mi alma 
+se eleva y te a[C]laba
+Tu eres bendito por siempre 
+mi C[G]risto
+tu gloria proclama nuestras 
+alaba[F]nzas
+recibe esta ofrenda que sale 
+del a[C]lma
+
+[Am]Dia a dia yo busco tu 
+r[C]ostro
+y año tras año has sido mi 
+so[G]corro
+Tu eres mi ayuda, Tu eres 
+mi g[F]uia
+la luz que ilumina toda el alma 
+m[C]ia
+Tu eres mi Dios eres m[G]i 
+salvacion
+mi fuente de vida de paz y 
+a[Am]mor
+mi escudo mi roca y mi 
+pro[F]tector
+mi amado mi amigo mi padre 
+mi D[C]ios
+//Tu eres t[Am]odo// mi D[G]ios
+`
+},
 
 {
  titulo: "Orando sin cesar (204) (E)",
@@ -2609,6 +2669,54 @@ porque en T[G]i siempre hay v[Em]ida
 porque en T[C]i siempre hay a[D]mor
 porque en T[G]i todo es me[Em]jor
 porque en T[C]i..[D].. esta mi co[G]razon
+`
+},
+{
+titulo: "Sorpresa de muchos (Am)",
+categoria: "folkloricos",
+letra: `
+Transportada tercer espacio
+Quenas:
+[Am]van llegando tiempos m[F]alos
+y los b[E]uenos pienzan m[Am]al
+a carcoma de las gu[F]erras
+va se[E]cando el a[Am]mor
+
+No hay jus[C]ticia ni verdad
+hay que p[E]ena que d[Am]olor
+donde e[C]sta su esperanza
+de este m[E]undo de d[Am]olor
+
+cuando cristo venga en g[F]loria
+muchos s[E]e sorpren[Am]deran
+cuando cristo venga en gl[F]oria
+muchos s[E]e sorpren[Am]deran
+
+De los q[C]ue lo rechazaron
+los que n[E]o creen en E[Am]l
+De los q[C]ue lo rechazaron
+los que n[E]o creen en E[Am]l
+Quenas:
+Mientras viva b[F]uscaran
+la verda[E]dera libe[Am]rtad
+la que cambia el cor[F]azon
+en un s[E]er lleno de a[Am]mor
+
+Este m[C]undo ya se acaba
+cual la h[E]ierba del ja[Am]rdin
+mientras p[C]ueda ser hallado
+no re[E]chases a J[Am]esus
+
+Pronto Cristo vo[F]lvera
+como la[E]dron sin av[Am]isar
+cosas antes nunca vi[F]stas
+las na[E]ciones pas[Am]aran
+
+De los q[C]ue lo rechazaron
+los que n[E]o creen en E[Am]l
+mientras p[C]ueda ser hallado
+entrega a C[E]risto tu vi[Am]vir
+Quenas:
 `
 },
 
