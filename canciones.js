@@ -581,8 +581,8 @@ PUNTEDO
 //[Em]Sentado en el 
 banco de mi c[Am]asa
 m[B7]iro a la gente pa[Em]sar//
-//m[Am]iro sus r[Em]ostros 
-llenos de tristeza
+//m[Am]iro sus rostros 
+[Em]llenos de tristeza
 de ang[B7]ustia y de sole[Em]dad//
 Coro:
 siento, siento, siento,
