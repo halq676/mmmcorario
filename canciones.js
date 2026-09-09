@@ -572,12 +572,12 @@ Que cambio tan b[Bm]ueno,
 Que cambio tan b[A]ueno 
 hiciste tu Jes[Bm]ús//
 PUNTEDO
- `
+`
 },
 {
- titulo: "Sentado en el banco (Em)",
- categoria: "especiales",
- letra: `
+titulo: "Sentado en el banco (Em)",
+categoria: "especiales",
+letra: `
 //[Em]Sentado en el 
 banco de mi c[Am]asa
 m[B7]iro a la gente pa[Em]sar//
@@ -2717,6 +2717,238 @@ los que n[E]o creen en E[Am]l
 mientras p[C]ueda ser hallado
 entrega a C[E]risto tu vi[Am]vir
 Quenas:
+`
+},
+{
+titulo: "Cuando rugen las tormentas (D)",
+categoria: "folkloricos",
+letra: `
+Quena: G  E  B
+[D]Cuando rugen las torm[A]entas 
+y mi a[Bm]lma carc[G]omida
+no ex[D]iste las p[A]ruebas, 
+que so[D]porte  [A]
+cuando l[D]as pruebas se ci[A]erren
+y el to[Bm]rrente se de[G]rrame
+so[D]stenos oh D[A]ios
+so[G]stenos oh D[D]ios
+Coro:
+[D]Yo no compre[A]ndia e[Bm]l 
+amor de D[G]ios
+[D]yo no ente[A]ndia que 
+El me am[D]aba  [A]
+[D]pero ahora p[A]uedo y[Bm]o 
+cantarle a E[G]l
+[D]solamente a[A]hora g[G]racias 
+J[D]esus
+Quena: G  E  B
+`
+},
+{
+titulo: "Gracias por lavarme mi Jesus (Am)",
+categoria: "folkloricos",
+letra: `
+Bajo:
+//[Am]Gracias por lavarme 
+mi Je[C]sus 
+mis pe[G]cados red[Am]imio//
+//[A-]Triste era mi vida c[F]uando
+comparti
+[Dm]con las amis[F]tades del pl[G]acer//
+//[Dm]vida es J[Am]esus//
+Zampoña: E C
+Acompañamiento: Am F Dm G
+//[Am]Ahora ha cambiado 
+mi v[C]ivir
+ser de g[G]loria es J[Am]esus//
+//El me transformo [F]y me liberto
+[Dm]vivo bendi[F]ciones de J[G]esus//
+//[Dm]vida es J[Am]esus//
+Zampoña:
+`
+},
+{
+titulo: "El pescador (Am)",
+categoria: "folkloricos",
+letra: `
+Arpegio charango: Am F C E  F Am B7 E Am
+[Am]El pesc[G]ador e[F]staba ahi  [G]  [Am]
+[G]Pedro el pes[F]cador  [Am]
+[G]echaba sus r[F]edes al mar [G]  [Am]
+[G]Pedro el pesc[F]ador  [Am]
+vio que Je[G]sus es[F]taba ahi  [G]  [Am]
+[G]Pedro el pes[F]cador  [Am]
+de in[G]mediato sus r[F]edes dejo [G]  [Am]
+[G]Pedro el pes[Am]cador
+
+[C]Y Jesus le dijo v[G]en
+pe[E]scador de hombres te h[Am]are  [G] 
+si s[F]igues en p[G]os de mi
+///[C]Y Jesus le dice v[G]en
+pes[E]cador de hombres te h[Am]are  [G]
+si v[F]ienes en p[G]os de mi///
+si[C]gueme
+Quena: Am F C E  F Am B7 E  Am
+`
+},
+{
+titulo: "La tristeza se refleja (Em)",
+categoria: "folkloricos",
+letra: `
+Arpegio Guitarra: Em G Am Em
+Zampoña: E G
+Acompañamiento: Em D A Em D Em
+[Em]La tristeza se ref[D]leja y el 
+d[Am]olor te con[Em]sume
+el ll[G]anto de tus o[D]jos
+no p[C]odran o[D]cult[Em]ar
+hoy tus p[G]azos se a[D]cortan
+y tus fu[Am]erzas se term[Em]inan
+ago[G]viados por el v[D]isio
+sin p[C]az y s[D]in a[Em]mor
+
+//[G]Acude a Je[D]sus El t[C]iene 
+la soluci[G]oooo[Am]on
+la vic[G]toria encontr[D]aras 
+si con[C]fias e[D]n Je[Em]sus
+porque C[G]risto es el ca[D]mino
+la ve[Am]rdad y la vi[Em]da
+[G]acude a Je[D]sus El t[C]iene 
+la soluci[G]oooo[Am]on
+los que es[G]peran en Jeh[D]ova 
+nuevas fu[C]erzas a[D]lli te[Em]ndran
+cami[G]nando sin desm[D]ayar 
+n[Am]o se fatig[Em]aran
+Zampoña:
+`
+},
+{
+titulo: "Jesucristo viene pronto (Am)",
+categoria: "folkloricos",
+letra: `
+Quena: C A
+Acompañamiento: F C Am F Am
+//[Am]Jesucristo viene pronto
+a ll[C]evar a su iglesia
+traba[G]jemos sin descanso
+que ma[Em]ñana nos ir[Am]emos//
+Coro:
+//El Espiritu Santo e[G]sta en 
+este lugar
+[F]y si le alabas de corazon 
+[C]El entrara a morar en t[G]i//
+a morar en t[Am]i
+Quena:
+//Entr[Am]egastes a esta obra
+un ca[C]nal de bendicion
+entr[G]egastes a tus siervos
+be[Em]thel televi[Am]sion//
+Coro:
+Quena:
+//Todo el pueblo de Colombia
+entre[C]gastes a esta obra
+America y el m[Em]undo es para 
+[Am]tiiii[G]ii// es para T[Am]i, es para Ti
+`
+},
+{
+titulo: "He aqui el cordero de Dios (E)",
+categoria: "folkloricos",
+letra: `
+Quena:
+[E]He ahi el cor[A]dero de Dios
+[E]en sus hombros l[A]leva una cruz
+sus huellas son de sa[B]ngre 
+en el ca[C#m]mino
+[E]le asotaron l[A]e escarnecieron
+[E]siete veces s[A]e cayo
+se paro y queb[B]rantado al
+al pueblo le d[C#m]ijo
+//He a[A]qui el cor[E]dero de Dios
+que q[A]uita el pe[E]cado del mundo
+[A]el que viene a m[B]i se sal[C#m]vara//
+Resitado: Isaias
+[E]Hasta la cima d[A]el calvario
+[E]con esfuerzo y[A]a llego
+lo crucifican y con c[B]lavos
+lo sos[C#m]tienen
+[E]tiene sed vi[A]nagre le dan
+[E]mira al cielo y[A] exclama
+padre porque me h[B]as desamp[C#m]arado
+Coro:
+Zampoña:
+`
+},
+{
+titulo: "Lo vi caminando hacia el calvario (Am)",
+categoria: "folkloricos",
+letra: `
+Zampoña: A C
+Acompañamiento: A G C F C G A
+[Am]Lo vi cami[G]nando [F] hacia 
+el ca[C]lvario  [Dm]
+lo vi llev[Am]ando [F] su 
+pesada cr[Am]uuuu[G]uuz  [Am]
+su frente san[G]graba [F] por 
+corona de es[C]pinas  [Dm]
+mas su mi[Am]rada [F] reflejaba 
+am[Am]ooooo[G]or
+
+En[Am]tonces pude y[G]o 
+c[F]omprender su amor
+[C]tuve que v[F]erlo en una c[G]ruz
+mi C[Am]risto salv[G]ador 
+mi C[F]risto redentor
+[C]hoy a mi v[F]ida puedes u[G]sar
+//heme a[Am]qui Se[G]ñor heme a[F]qui// [Am]
+Zampoña:
+//La gente gr[G]itaba [F] escupian 
+su r[C]ostro  [Dm]
+mas su mi[Am]rada [F] reflejaba 
+am[Am]ooooo[G]or//
+[Am]Entonces pude y[G]o 
+c[F]omprender su amor
+[C]tuve que v[F]erlo en una c[G]ruz
+mi C[Am]risto sal[G]vador mi 
+C[F]risto redentor
+[C]hoy a tu v[F]ida puede c[G]ambiar
+//dejalo e[Am]ntrar s[G]i dejalo
+e[F]ntrar//  [Am]
+`
+},
+{
+titulo: "Quiero hablarte de Cristo (Em)",
+categoria: "folkloricos",
+letra: `
+Zampoña: G E
+//Quiero hab[Em]larte de 
+Cristo que s[Bm]alva
+Quiero ha[Em]blarte de 
+Cristo que s[Bm]ana
+De a[G]quel que es mi única 
+esp[D]eranza
+De g[G]ozo me lleno el a[D]lma
+//Que[C]remos de[D]cirle a us[Em]ted//
+
+Que Cristo es la esperanza 
+de nuestras v[D]idas
+[Em]El nos llevara por un c[D]amino, 
+[Em]donde la miseria no ex[D]ista
+[C]Solo el amor y la v[B]erdad...
+Y la p[Em]az y la ver[Bm]dad, 
+y la p[Em]az y la ve[Bm]rdad, 
+y la p[Em]az.....
+Zampoña:
+Oh peca[Bm]dor que v[Em]agas 
+perdido en el m[Bm]al
+//po[C]rque vagas sin r[G]umbo 
+// sin hallar un c[D]amino
+Que lleve a la ver[Em]dad//
+
+Hoy ven a É[Bm]l, C[Em]risto 
+te llama h[Bm]oy
+///p[C]orque con brazos h[G]abierto 
+espe[D]rando Él e[Bm]stá por t[Em]i///
 `
 },
 
