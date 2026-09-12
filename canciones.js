@@ -247,6 +247,24 @@ y e[G]stoo[D]oo[Em]oy perdido
 sin T[C]i   [Em]   [D]
 `
 },
+{
+titulo: "Tu mano en el harado (Em)",
+categoria: "adoracion",
+letra: `
+Transportada tercer espacio
+[Em]Ya que has puesto Tu m[B]ano 
+en el ha[Em]rado
+no vu[E]elvas tu mirada hacia a[Am]tras
+//sigue a cristo como fiel so[Em]ldado
+y algun d[B]ia la recompensa 
+tu ten[Em]dras//
+
+El te ofrece de v[B]ida una co[Em]rona
+debes ga[E]narla con ayuno y ora[Am]cion
+//desechando la vieja lev[Em]adura
+y si[B]rviendole de todo cor[Em]azon//
+`
+},
  {
  titulo: "Aquel fuego que cayo (Dm)",
  categoria: "alabanza",
@@ -345,15 +363,15 @@ y mages[Dm]tad//
 el dia ni la hora eso n[D7]adie
 lo sa[Gm]bra
 //El viene en una n[Dm]ube y todo
- [A]ojo le v[Dm]era//
+[A]ojo le v[Dm]era//
 Coro:
 //Le vera le v[A]era, todo ojo le v[Dm]era//
- `
- },
- {
- titulo: "si no ubuera sido por el Señor (Am)",
- categoria: "alabanza",
- letra: `
+`
+},
+{
+titulo: "si no ubuera sido por el Señor (Am)",
+categoria: "alabanza",
+letra: `
 [Am]Si no ubiera sido por El Se[E]ñor
 Si no ubiera sido por El Se[Am]ñor
 Si no ubiera sido por El Se[E]ñor
@@ -362,8 +380,43 @@ Coro:
 //mi a[Dm]lma se ubiera per[Am]dido
 si no ubiera s[E]ido por El Se[Am]ñor//  [A]
 
- `
- },
+`
+},
+{
+titulo: "Pasa por Colombia (Em)",
+categoria: "alabanza",
+letra: `
+[Em]Pasa por Colombia y ayudanos 
+a o[B]rar
+que el reino de los cielos
+se quiere re[Em]velar
+
+A las almas per[Am]didad que por
+el mundo v[Em]an
+pasa por Co[B]lombia y ayudanos
+a o[Em]rar
+`
+},
+{
+titulo: "Rebosa mi copa Señor (Am)",
+categoria: "alabanza",
+letra: `
+//[Am]Rebosa mi copa S[E]eñor 
+con la unsion de tu po[Am]der//
+asi quiero pred[E]icar
+asi quiero pred[Am]icar
+//con señales prodigios y 
+mila[E]gros
+asi quiero pred[Am]icar//
+Coro:
+//Predicar pr[E]edicar 
+predicar quiero y[Am]o
+con poder con po[E]der
+con poder quiero y[Am]o//
+//predica predica mi pa[E]labra
+predica predica mi pa[Am]labra//
+`
+},
  {
  titulo: "Mi corazon esta contento (Am)",
  categoria: "alabanza",
@@ -911,6 +964,40 @@ mi D[C]ios
 //Tu eres t[Am]odo// mi D[G]ios
 `
 },
+{
+titulo: "Quiero servirte (A)",
+categoria: "especiales",
+letra: `
+Intro:
+[A]Señor yo quiero s[E]er
+un porta v[D]oz d[Dm]e tu pa[A]labra
+yo quiero traba[E]jar
+[D]en tu o[Dm]oob[A]ra  [A7]
+Coro:
+//Yo q[D]uiero ser Señor
+un instr[C#m]umento que uti[E]lices
+para h[C#m]ablar
+toma mi m[F#m]ente y tambien mi
+co[Bm]razon
+y asi en mi v[E]ida te puedas
+manife[A]star//
+
+[A]Señor quiero ser[E]virte
+yo q[D]uiero tra[A]bajar
+quiero que me uti[E]lices
+[D]segun t[Dm]u volu[A]ntad  [A7]
+
+Señor quiero d[D]ejar 
+aquellas c[C#m]osas
+que me im[E]piden tra[C#m]bajar
+y con tu a[F#m]yuda se que lo
+voy a l[Bm]ograr
+para ser[E]virte con 
+libe[A]rtad  [A7]
+Coro:
+Intro:
+`
+},
 
 {
  titulo: "Orando sin cesar (204) (E)",
@@ -930,12 +1017,11 @@ venceré, venceré, vence[B7]ras,
 venceras,
 en el nombre del Señor, vencere[E]mos.
 `
- },
-
- {
- titulo: "Corona de oro. (Am)",
- categoria: "folkloricos",
- letra: `
+},
+{
+titulo: "Corona de oro. (Am)",
+categoria: "folkloricos",
+letra: `
 //[Am]Voy con mi Jesucri[F]sto                                   
 A la mo[Dm]rada de mi Salva[C]dor//
 
