@@ -998,6 +998,35 @@ Coro:
 Intro:
 `
 },
+{
+titulo: "Fue en la cruz (Am)",
+categoria: "especiales",
+letra: `
+Intro: F G Am F C G F G Am F G Am
+[Am]Fue en la c[C]ruz quien 
+por t[Am]i
+[F]dando su v[G]ida por m[Am]i
+murio y r[C]esuci[Am]to
+s[F]iempre por l[G]a etern[Am]idad
+Coro:
+//Estando a[F]hi
+Jesus prome[C]tio, un hermoso 
+hogar
+por ti vol[G]vera, por mi vo[Am]lvera
+[F]no habra mas ll[G]anto y do[Am]lor//
+Intro:
+Si estas ca[C]nsado de v[Am]er
+[F]tanto d[G]olor y mal[Am]dad
+la es[C]peranza es Je[Am]sus
+[F]El te d[G]ara prote[Am]cción
+Coro:
+Mi dulce h[C]ogar cele[Am]stial
+[F]donde p[G]odre conte[Am]mplar
+el rostro d[C]el salv[Am]ador
+[F]cerca del m[G]ar de cri[am]stal
+Coro:
+`
+},
 
 {
  titulo: "Orando sin cesar (204) (E)",
@@ -1926,19 +1955,28 @@ ZAMPOÑAS
 `
 },
 {
-titulo: "Quien me podra apartar (Am)",
+titulo: "Quien me podra apartar (Dm)",
 categoria: "folkloricos",
 letra: `
-QUENA Y ZAMPOÑA: A E
-//[Am]Quien me podrá apart[E]ar
-De los brazos de mi Señ[Am]or//
-//Ni pruebas ni l[E]uchas
-Ni ninguna tribulaci[Am]ón//
-
-[G]El me acompaña y me guía
-Por donde q[C]uiera que v[Am]oy
-
-QUENA Y ZAMPOÑA: A E
+QUENA Y ZAMPOÑA: A C
+//[Dm]Quien me podrá apart[A]ar
+De los brazos de mi Señ[Dm]or//
+//Ni pruebas ni l[A]uchas
+Ni ninguna tribulaci[Dm]ón//
+[C]El me acompaña y me guía
+Por donde q[F]uiera que v[Dm]oy
+QUENA Y ZAMPOÑA: D C
+//[Dm]Cristo vol[F]vera p[A7]or 
+segunda v[Dm]es//
+y nos llev[F]ara a l nu[A7]eva 
+jerusa[Dm]len//
+Intro:
+//[A#]Amigo si tu quieres con migo
+puedes venir//
+//[F]a morar para siempre en la
+[A7]nueva Jerusa[Dm]len//
+Intro:
+Quenas:
 `
 },
 {
@@ -2007,7 +2045,7 @@ Coro:
 porque [C]Dios con m[D]igo es[Em]ta//
 Zampoña
 //Caminando yo v[G]oy, por la 
-// senda de D[D]ios
+senda de D[D]ios//
 porque me da su a[Bm]mor, y tambien 
 su perd[Em]on//
 Coro:
@@ -3035,6 +3073,25 @@ Hoy ven a É[Bm]l, C[Em]risto
 te llama h[Bm]oy
 ///p[C]orque con brazos h[G]abierto 
 espe[D]rando Él e[Bm]stá por t[Em]i///
+`
+},
+{
+titulo: "Diste la vida (Em)",
+categoria: "folkloricos",
+letra: `
+Arpegio Guitarra charango
+//[Em]Diste la vida en cal[C]vario
+para d[G]arme la salva[D]cion mi
+Se[Em]ñor
+Coro:
+//Te a[C]mo mas que a mi v[G]ida
+eres Se[D]ñor mi sal[Em]vador//
+Zampoñas Quenas:
+//Ni la muerte ni afic[C]ciones
+me po[G]dran sep[D]arar de 
+tu a[Em]mor//
+Coro:
+Quenas:
 `
 },
 
