@@ -11,11 +11,11 @@ let cancionActual = null;
 
 // --- Variables de estado de navegación ---
 let vinoDesdeRepertorio = false; // Nuevo: rastrea de dónde vino el usuario
+let posicionListado = 0;
 
 // --- Elementos DOM ---
 const lista = document.getElementById("listaCanciones");
 const buscador = document.getElementById("buscador");
-const buscadorListado = document.getElementById("buscadorListado");
 const btnBuscar = document.getElementById("btnBuscar");
 const categorias = document.querySelectorAll("#categorias button"); // Selecciona todos los botones
 const pantallaCategorias = document.getElementById("pantallaCategorias");
@@ -39,6 +39,7 @@ const btnReintentar = document.getElementById("btnReintentar");
 const selectTamanio = document.getElementById("selectTamanio");
 const selectFuente = document.getElementById("selectFuente");
 const selectColor = document.getElementById("selectColor");
+const toggleNegrita = document.getElementById("toggleNegrita");
 const btnTuerca = document.getElementById("btnTuerca");
 const controlesEstilo = document.getElementById("controles-estilo");
 const btnAnadirRepertorioMenu = document.getElementById("btnAnadirRepertorioMenu");
@@ -46,109 +47,7 @@ const btnBuscarWeb = document.getElementById("btnBuscarWeb");
 
 // Acceso a las canciones desde window
 const canciones = window.canciones;
-let filtroActivo = "";
 
-// Elemento para sugerencias en pantalla principal
-const sugerencias = document.getElementById('sugerencias');
-let _sugIndex = -1; // índice de sugerencia actualmente seleccionado
-
-function mostrarSugerencias(term) {
-    if (!sugerencias) return;
-    const q = (term || '').trim().toLowerCase();
-    sugerencias.innerHTML = '';
-    _sugIndex = -1;
-    if (!q) {
-        sugerencias.style.display = 'none';
-        return;
-    }
-    const matches = canciones
-        .filter(c => c.titulo && c.titulo.toLowerCase().includes(q))
-        .sort((a,b) => a.titulo.localeCompare(b.titulo, 'es', {sensitivity:'base'}))
-        .slice(0, 8);
-    if (matches.length === 0) {
-        sugerencias.style.display = 'none';
-        return;
-    }
-    matches.forEach((c, idx) => {
-        const li = document.createElement('li');
-        li.setAttribute('role','option');
-        li.dataset.idx = idx;
-        li.tabIndex = 0;
-
-        const spanTitle = document.createElement('span');
-        spanTitle.className = 'titulo-sug';
-        spanTitle.textContent = c.titulo;
-
-        const spanCat = document.createElement('span');
-        spanCat.className = 'categoria-sug';
-        spanCat.textContent = c.categoria || '';
-
-        li.appendChild(spanTitle);
-        li.appendChild(spanCat);
-
-        li.onclick = (e) => {
-            e.stopPropagation();
-            buscarConTerm(c.titulo);
-            sugerencias.style.display = 'none';
-        };
-
-        sugerencias.appendChild(li);
-    });
-    sugerencias.style.display = 'block';
-}
-
-function buscarConTerm(term) {
-    const termino = (term || '').trim();
-    if (!termino) return;
-    // Si hay una coincidencia exacta (ignorar mayúsculas), abrir la canción directamente
-    const exact = canciones.find(c => c.titulo && c.titulo.toLowerCase() === termino.toLowerCase());
-    if (exact) {
-        mostrarCancion(exact, false);
-    } else {
-        mostrarListado('', `Búsqueda: ${termino}`, termino);
-    }
-}
-
-// Navegación por teclado en el input principal
-if (buscador) {
-    buscador.addEventListener('input', (e) => {
-        mostrarSugerencias(e.target.value);
-    });
-    buscador.addEventListener('keydown', (e) => {
-        const items = sugerencias ? Array.from(sugerencias.querySelectorAll('li')) : [];
-        if (!items.length) return;
-        if (e.key === 'ArrowDown') {
-            e.preventDefault();
-            _sugIndex = Math.min(_sugIndex + 1, items.length - 1);
-            items.forEach((it,i) => it.setAttribute('aria-selected', i === _sugIndex));
-            items[_sugIndex].scrollIntoView({block: 'nearest'});
-        } else if (e.key === 'ArrowUp') {
-            e.preventDefault();
-            _sugIndex = Math.max(_sugIndex - 1, 0);
-            items.forEach((it,i) => it.setAttribute('aria-selected', i === _sugIndex));
-            items[_sugIndex].scrollIntoView({block: 'nearest'});
-        } else if (e.key === 'Enter') {
-            e.preventDefault();
-            if (_sugIndex >= 0 && items[_sugIndex]) {
-                const selected = items[_sugIndex].querySelector('.titulo-sug').textContent;
-                buscarConTerm(selected);
-                sugerencias.style.display = 'none';
-            } else {
-                buscarConTerm(buscador.value);
-                sugerencias.style.display = 'none';
-            }
-        } else if (e.key === 'Escape') {
-            sugerencias.style.display = 'none';
-        }
-    });
-    // ocultar sugerencias al hacer clic fuera
-    document.addEventListener('click', (e) => {
-        if (!sugerencias) return;
-        if (!sugerencias.contains(e.target) && e.target !== buscador) {
-            sugerencias.style.display = 'none';
-        }
-    });
-}
 
 // =========================================================
 // == LÓGICA DEL REPERTORIO ==
@@ -242,49 +141,36 @@ function renderizarRepertorio() {
 // == FUNCIONES PRINCIPALES ==
 // =========================================================
 
-function mostrarListado(filtro = "", titulo = "Listado de canciones", terminoBusqueda = "") {
-    filtroActivo = filtro;
+function mostrarListado(filtro = "", titulo = "Listado de canciones") {
     lista.innerHTML = "";
     tituloListado.textContent = titulo;
 
-    const termino = (terminoBusqueda || "").trim().toLowerCase();
-    const hayBusquedaGeneral = buscador.value.trim() !== "";
-
-    if (!filtro && !termino && !hayBusquedaGeneral) {
+    if (!filtro && buscador.value.trim() === "") {
         lista.innerHTML = `
             <li class="lista-vacia">
                 <i class="fa-solid fa-music"></i>
                 <span>Selecciona una categoría para ver los coros</span>
             </li>`;
     } else {
-        const cancionesFiltradas = canciones
+        canciones
             .filter(c => {
-                const coincideCategoria = !filtro || c.categoria === filtro;
-                const coincideTexto = !termino
-                    ? (hayBusquedaGeneral ? c.titulo.toLowerCase().includes(buscador.value.toLowerCase()) : true)
-                    : c.titulo.toLowerCase().includes(termino);
-                return coincideCategoria && coincideTexto;
+                if (buscador.value.trim() !== "") {
+                    return c.titulo.toLowerCase().includes(buscador.value.toLowerCase());
+                }
+                return c.categoria === filtro;
             })
-            .sort((a, b) => a.titulo.localeCompare(b.titulo, 'es', { sensitivity: 'base' }));
+            .sort((a, b) => a.titulo.localeCompare(b.titulo, "es", { sensitivity: "base" }))
+            .forEach(c => {
+            const idCancion = c.id || c.titulo;
+            const li = document.createElement("li");
+            const tituloSpan = document.createElement("span");
+            tituloSpan.textContent = c.titulo;
 
-        if (cancionesFiltradas.length === 0) {
-            lista.innerHTML = `
-                <li class="lista-vacia">
-                    <span>No se encontraron canciones con esa búsqueda.</span>
-                </li>`;
-        } else {
-            cancionesFiltradas.forEach(c => {
-                const idCancion = c.id || c.titulo;
-                const li = document.createElement("li");
-                const tituloSpan = document.createElement("span");
-                tituloSpan.textContent = c.titulo;
+            li.onclick = () => mostrarCancion(c, false);
 
-                li.onclick = () => mostrarCancion(c, false);
-
-                li.appendChild(tituloSpan);
-                lista.appendChild(li);
+            li.appendChild(tituloSpan);
+            lista.appendChild(li);
             });
-        }
     }
     pantallaCategorias.style.display = "none";
     pantallaListado.style.display = "block";
@@ -298,6 +184,8 @@ function mostrarListado(filtro = "", titulo = "Listado de canciones", terminoBus
 function mostrarCancion(cancion, desdeRepertorio) {
     cancionActual = cancion;
     vinoDesdeRepertorio = desdeRepertorio;
+    if (!desdeRepertorio) posicionListado = window.scrollY;
+    history.pushState({ ...(history.state || {}), vistaCorario: 'letra' }, '', location.href);
     tonoBase = 0;
     tituloCancion.textContent = cancion.titulo;
     renderizarLetra();
@@ -305,11 +193,9 @@ function mostrarCancion(cancion, desdeRepertorio) {
     const headerAzul = document.querySelector('header');
     if (headerAzul) headerAzul.style.display = "none";
 
-    pantallaCategorias.style.display = "none";
     pantallaListado.style.display = "none";
     pantallaRepertorio.style.display = "none";
     pantallaLetra.style.display = "block";
-    controlesEstilo.classList.remove("mostrar");
 }
 
 function renderizarLetra() {
@@ -374,12 +260,21 @@ function renderizarLetra() {
                 divChords.style.position = "absolute";
                 divChords.style.top = "0";
                 divChords.style.left = "0";
+                divChords.style.width = "100%";
+
+                const songFont = getComputedStyle(songContainer);
+                const measureContext = document.createElement("canvas").getContext("2d");
+                if (measureContext) {
+                    measureContext.font = `${songFont.fontWeight} ${songFont.fontSize} ${songFont.fontFamily}`;
+                }
 
                 chords.forEach(c => {
                     const span = document.createElement("span");
                     span.textContent = c.chord;
                     span.style.position = "absolute";
-                    span.style.left = `${c.index}ch`;
+                    const prefix = buffer.slice(0, Math.max(0, c.index));
+                    const left = measureContext ? measureContext.measureText(prefix).width : c.index;
+                    span.style.left = `${left}px`;
                     divChords.appendChild(span);
                 });
 
@@ -425,6 +320,7 @@ document.getElementById("bajar").onclick = () => {
 };
 
 document.getElementById("btnVolver").onclick = () => {
+    history.replaceState({ ...(history.state || {}), vistaCorario: null }, '', location.href);
     const headerAzul = document.querySelector('header');
     if (headerAzul) headerAzul.style.display = "block";
 
@@ -434,16 +330,29 @@ document.getElementById("btnVolver").onclick = () => {
         pantallaLetra.style.display = "none";
         pantallaListado.style.display = "block";
         pantallaRepertorio.style.display = "none";
+        requestAnimationFrame(() => window.scrollTo(0, posicionListado));
     }
 };
+
+window.addEventListener('popstate', () => {
+    if (pantallaLetra.style.display !== 'block') return;
+
+    const headerAzul = document.querySelector('header');
+    if (headerAzul) headerAzul.style.display = 'block';
+    pantallaLetra.style.display = 'none';
+    pantallaListado.style.display = 'none';
+    pantallaRepertorio.style.display = 'none';
+    pantallaCategorias.style.display = 'block';
+    categorias.forEach(b => b.classList.remove('activo'));
+    buscador.value = '';
+    window.scrollTo(0, 0);
+});
 
 document.getElementById("btnImprimir").onclick = () => window.print();
 
 btnBuscar.onclick = () => {
     categorias.forEach(b => b.classList.remove('activo'));
-    if (buscadorListado) buscadorListado.value = "";
-    const termino = buscador.value.trim();
-    mostrarListado("", termino ? `Búsqueda: ${termino}` : 'Listado de canciones', termino);
+    mostrarListado(buscador.value, buscador.value ? `Búsqueda: ${buscador.value}` : 'Listado de canciones');
 };
 
 categorias.forEach(btn => {
@@ -453,19 +362,11 @@ categorias.forEach(btn => {
             categorias.forEach(b => b.classList.remove('activo'));
             btn.classList.add('activo');
             buscador.value = "";
-            if (buscadorListado) buscadorListado.value = "";
             const titulo = btn.textContent + "";
             mostrarListado(categoriaFiltro, titulo);
         };
     }
 });
-
-if (buscadorListado) {
-    buscadorListado.addEventListener('input', () => {
-        const termino = buscadorListado.value.trim();
-        mostrarListado(filtroActivo, tituloListado.textContent, termino);
-    });
-}
 
 if (btnRepertorio) {
     btnRepertorio.onclick = () => {
@@ -504,17 +405,30 @@ if (btnVolverCategorias) {
     };
 }
 
-btnTuerca.onclick = () => controlesEstilo.classList.toggle("mostrar");
-
-function aplicarEstilos() {
+function aplicarEstilos(guardar = true) {
     songContainer.style.fontSize = selectTamanio.value;
-    songContainer.style.color = selectColor.value;
     songContainer.style.fontFamily = selectFuente.value;
+    songContainer.style.setProperty("--song-font-family", selectFuente.value);
+    songContainer.style.color = selectColor.value;
+    songContainer.style.fontWeight = toggleNegrita.checked ? "700" : "400";
+    controlesEstilo.classList.remove("mostrar");
+
+    if (cancionActual) renderizarLetra();
+
+    if (guardar) {
+        localStorage.setItem("preferenciasEstiloCorario", JSON.stringify({
+            tamanio: selectTamanio.value,
+            fuente: selectFuente.value,
+            color: selectColor.value,
+            negrita: toggleNegrita.checked
+        }));
+    }
 }
 
 selectTamanio.onchange = aplicarEstilos;
 selectFuente.onchange = aplicarEstilos;
 selectColor.onchange = aplicarEstilos;
+toggleNegrita.onchange = aplicarEstilos;
 
 // ================== INICIALIZAR Y PWA ==================
 document.addEventListener("DOMContentLoaded", () => {
@@ -525,13 +439,23 @@ document.addEventListener("DOMContentLoaded", () => {
     if (pantallaCategorias) pantallaCategorias.style.display = "block";
     actualizarContadorRepertorio();
 
-    const splash = document.getElementById('splash-screen');
-    if (splash) {
-        setTimeout(() => {
-            splash.classList.add('hidden');
-            document.body.classList.remove('splash-active');
-        }, 2200);
+    let preferenciasEstilo = {};
+    try {
+        preferenciasEstilo = JSON.parse(localStorage.getItem("preferenciasEstiloCorario") || "{}");
+    } catch {
+        localStorage.removeItem("preferenciasEstiloCorario");
     }
+    if ([...selectTamanio.options].some(option => option.value === preferenciasEstilo.tamanio)) {
+        selectTamanio.value = preferenciasEstilo.tamanio;
+    }
+    if ([...selectFuente.options].some(option => option.value === preferenciasEstilo.fuente)) {
+        selectFuente.value = preferenciasEstilo.fuente;
+    }
+    if ([...selectColor.options].some(option => option.value === preferenciasEstilo.color)) {
+        selectColor.value = preferenciasEstilo.color;
+    }
+    toggleNegrita.checked = preferenciasEstilo.negrita ?? true;
+    aplicarEstilos(false);
 
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
@@ -610,6 +534,8 @@ window.addEventListener('beforeinstallprompt', (e) => {
 // --- Lógica de la Tuerca / Configuración ---
 btnTuerca.onclick = () => {
     controlesEstilo.classList.toggle("mostrar");
+    if (!controlesEstilo.classList.contains("mostrar")) return;
+
     if (controlesEstilo.classList.contains("mostrar") && cancionActual) {
         const yaEnRepertorio = repertorio.includes(cancionActual.id || cancionActual.titulo);
         btnAnadirRepertorioMenu.textContent = yaEnRepertorio ? "✔️ Añadido al Repertorio" : "+ Añadir al Repertorio";
@@ -631,13 +557,13 @@ btnTuerca.onclick = () => {
             const titulo = cancionActual.titulo;
             const url = `https://www.youtube.com/results?search_query=${encodeURIComponent(titulo)}`;
             window.open(url, '_blank');
+            controlesEstilo.classList.remove("mostrar");
         };
     }
 };
 
 // ESTE ES EL CÓDIGO NUEVO QUE DEBES PEGAR:
 document.addEventListener("click", (e) => {
-    // Si el menú está abierto y el clic NO fue en el botón ni en el menú...
     if (!btnTuerca.contains(e.target) && !controlesEstilo.contains(e.target)) {
         controlesEstilo.classList.remove("mostrar");
     }

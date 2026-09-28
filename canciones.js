@@ -128,25 +128,8 @@ para El mo[C]rimos [C7]//
 //o que mu[Em]ramos [Am]
 Somos del Se[Dm]ñor, [G7]
 somos del Se[C]ñor// 
-
- `
- },
- {
- titulo: "Dios util quiero (C)",
- categoria: "adoracion",
- letra: `
-//[C]Dios  [G]util quiero quiero  [Am]ser 
-toma mi  [Dm]vida fórma[G]me 
-[C]Dios  [G]util quiero [Am]ser
-toma mi  [Dm]vida usa[G]me //
-Segunda vez: C
-
-//usa mis ma[C]nos, usa mi  [G]voz
-usa mi  [Dm]vida, aqui es[G]toy
-usa mis  [C]manos, usa mi  [G]voz
-usa mi  [Dm]vida dispuesto es[G]toy//
- `
- },
+`
+},
 {
 titulo: "Todo es de mi Cristo (Em)",
 categoria: "adoracion",
