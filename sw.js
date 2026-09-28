@@ -1,4 +1,4 @@
-const CACHE_NAME = 'corario-v12.0.15';
+const CACHE_NAME = 'corario-v12.0.17';
 
 const urlsToCache = [
   './',
@@ -47,11 +47,7 @@ self.addEventListener('activate', e => {
 // INTERCEPTAR peticiones para funcionar offline
 self.addEventListener('fetch', e => {
   e.respondWith(
-    caches.match(e.request).then(cachedResponse => {
-      if (cachedResponse) {
-        return cachedResponse;
-      }
-      return fetch(e.request).then(networkResponse => {
+    fetch(e.request).then(networkResponse => {
         return caches.open(CACHE_NAME).then(cache => {
           if (
             e.request.method === 'GET' &&
@@ -64,12 +60,14 @@ self.addEventListener('fetch', e => {
           return networkResponse;
         });
       }).catch(() => {
-        if (e.request.mode === 'navigate') {
-          return caches.match(self.registration.scope)
-            .then(resp => resp || caches.match('./') || caches.match('./index.html') || caches.match('index.html'));
-        }
-        return caches.match(e.request) || caches.match('./');
-      });
-    })
+        return caches.match(e.request).then(cachedResponse => {
+          if (cachedResponse) return cachedResponse;
+          if (e.request.mode === 'navigate') {
+            return caches.match(self.registration.scope)
+              .then(resp => resp || caches.match('./') || caches.match('./index.html') || caches.match('index.html'));
+          }
+          return caches.match('./');
+        });
+      })
   );
 });
