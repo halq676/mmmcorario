@@ -17,6 +17,8 @@ let posicionListado = 0;
 const lista = document.getElementById("listaCanciones");
 const buscador = document.getElementById("buscador");
 const btnBuscar = document.getElementById("btnBuscar");
+const sugerencias = document.getElementById("sugerencias");
+const buscadorListado = document.getElementById("buscadorListado");
 const categorias = document.querySelectorAll("#categorias button"); // Selecciona todos los botones
 const pantallaCategorias = document.getElementById("pantallaCategorias");
 const pantallaListado = document.getElementById("pantallaListado");
@@ -141,26 +143,62 @@ function renderizarRepertorio() {
 // == FUNCIONES PRINCIPALES ==
 // =========================================================
 
-function mostrarListado(filtro = "", titulo = "Listado de canciones") {
-    lista.innerHTML = "";
-    tituloListado.textContent = titulo;
+function normalizarTexto(texto) {
+    return String(texto || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .trim();
+}
 
-    if (!filtro && buscador.value.trim() === "") {
+function mostrarListado(filtro = "", titulo = "Listado de canciones") {
+    tituloListado.textContent = titulo;
+    filtroCategoriaListado = buscador.value.trim() ? "" : filtro;
+    buscadorListado.value = "";
+    renderizarResultadosListado();
+
+    pantallaCategorias.style.display = "none";
+    pantallaListado.style.display = "block";
+    pantallaLetra.style.display = "none";
+    pantallaRepertorio.style.display = "none";
+    controlesEstilo.classList.remove("mostrar");
+
+    if (btnRepertorio) btnRepertorio.classList.remove('activo');
+}
+
+let filtroCategoriaListado = "";
+
+function renderizarResultadosListado() {
+    lista.innerHTML = "";
+    const consultaPrincipal = normalizarTexto(buscador.value);
+    const consultaListado = normalizarTexto(buscadorListado.value);
+
+    if (!filtroCategoriaListado && !consultaPrincipal && !consultaListado) {
         lista.innerHTML = `
             <li class="lista-vacia">
                 <i class="fa-solid fa-music"></i>
                 <span>Selecciona una categoría para ver los coros</span>
             </li>`;
     } else {
-        canciones
+        const resultados = canciones
             .filter(c => {
-                if (buscador.value.trim() !== "") {
-                    return c.titulo.toLowerCase().includes(buscador.value.toLowerCase());
-                }
-                return c.categoria === filtro;
+                const titulo = normalizarTexto(c.titulo);
+                const coincideBusquedaPrincipal = consultaPrincipal
+                    ? titulo.includes(consultaPrincipal)
+                    : !filtroCategoriaListado || c.categoria === filtroCategoriaListado;
+                const coincideBusquedaListado = !consultaListado || titulo.includes(consultaListado);
+                return coincideBusquedaPrincipal && coincideBusquedaListado;
             })
-            .sort((a, b) => a.titulo.localeCompare(b.titulo, "es", { sensitivity: "base" }))
-            .forEach(c => {
+            .sort((a, b) => a.titulo.localeCompare(b.titulo, "es", { sensitivity: "base" }));
+
+        if (resultados.length === 0) {
+            const mensaje = document.createElement("li");
+            mensaje.className = "lista-vacia";
+            mensaje.textContent = `No se encontraron canciones para "${buscadorListado.value.trim() || buscador.value.trim()}".`;
+            lista.appendChild(mensaje);
+        }
+
+        resultados.forEach(c => {
             const idCancion = c.id || c.titulo;
             const li = document.createElement("li");
             const tituloSpan = document.createElement("span");
@@ -172,14 +210,9 @@ function mostrarListado(filtro = "", titulo = "Listado de canciones") {
             lista.appendChild(li);
             });
     }
-    pantallaCategorias.style.display = "none";
-    pantallaListado.style.display = "block";
-    pantallaLetra.style.display = "none";
-    pantallaRepertorio.style.display = "none";
-    controlesEstilo.classList.remove("mostrar");
-
-    if (btnRepertorio) btnRepertorio.classList.remove('activo');
 }
+
+        buscadorListado.addEventListener("input", renderizarResultadosListado);
 
 function mostrarCancion(cancion, desdeRepertorio) {
     cancionActual = cancion;
@@ -350,10 +383,67 @@ window.addEventListener('popstate', () => {
 
 document.getElementById("btnImprimir").onclick = () => window.print();
 
-btnBuscar.onclick = () => {
+function ejecutarBusqueda() {
+    sugerencias.classList.remove("visible");
+    sugerencias.replaceChildren();
     categorias.forEach(b => b.classList.remove('activo'));
-    mostrarListado(buscador.value, buscador.value ? `Búsqueda: ${buscador.value}` : 'Listado de canciones');
-};
+    const termino = buscador.value.trim();
+    mostrarListado(termino, termino ? `Búsqueda: ${termino}` : 'Listado de canciones');
+}
+
+btnBuscar.onclick = ejecutarBusqueda;
+
+buscador.addEventListener("input", () => {
+    const consulta = normalizarTexto(buscador.value);
+    sugerencias.replaceChildren();
+
+    if (!consulta) {
+        sugerencias.classList.remove("visible");
+        return;
+    }
+
+    const resultados = canciones
+        .filter(c => normalizarTexto(c.titulo).includes(consulta))
+        .sort((a, b) => a.titulo.localeCompare(b.titulo, "es", { sensitivity: "base" }))
+        .slice(0, 8);
+
+    resultados.forEach(cancion => {
+        const opcion = document.createElement("li");
+        opcion.setAttribute("role", "option");
+
+        const titulo = document.createElement("span");
+        titulo.className = "titulo-sug";
+        titulo.textContent = cancion.titulo;
+
+        const categoria = document.createElement("span");
+        categoria.className = "categoria-sug";
+        categoria.textContent = cancion.categoria;
+
+        opcion.append(titulo, categoria);
+        opcion.addEventListener("click", () => {
+            buscador.value = cancion.titulo;
+            ejecutarBusqueda();
+        });
+        sugerencias.appendChild(opcion);
+    });
+
+    sugerencias.classList.toggle("visible", resultados.length > 0);
+});
+
+buscador.addEventListener("keydown", event => {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        ejecutarBusqueda();
+    } else if (event.key === "Escape") {
+        sugerencias.classList.remove("visible");
+    }
+});
+
+document.addEventListener("click", event => {
+    if (!event.target.closest("#buscador-container")) {
+        sugerencias.classList.remove("visible");
+    }
+});
 
 categorias.forEach(btn => {
     if (btn.hasAttribute('data-cat')) {
