@@ -18,6 +18,17 @@
     <div class="splash-brand">Corario Digital HL</div>
     <div class="splash-subtitle">Cargando...</div>
   </div>
+  <script>
+    (() => {
+      const ocultarSplash = () => {
+        document.getElementById('splash-screen')?.classList.add('hidden');
+        document.body.classList.remove('splash-active');
+      };
+
+      document.addEventListener('DOMContentLoaded', ocultarSplash, { once: true });
+      window.setTimeout(ocultarSplash, 6000);
+    })();
+  </script>
 
   <header>
     <h1>📖 Corario Digital HL</h1>
@@ -107,6 +118,10 @@
                             <option value="#6a1b9a">Morado</option>
                         </select>
                     </label>
+                        <label class="opcion-negrita">
+                          <input type="checkbox" id="toggleNegrita" checked>
+                          Letra en negrita
+                        </label>
                     <button id="btnAnadirRepertorioMenu" class="btn-anadir-repertorio-menu">+ Añadir al Repertorio</button>
                     <button id="btnBuscarWeb" class="btn-buscar-web">🌐 Buscar en la web</button>
                 </div>
