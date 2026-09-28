@@ -1,9 +1,9 @@
 // 🎵 Canciones de ejemplo
 window.canciones = [ // <<-- ¡Cambiar a window!
- {
- titulo: "Amarte solo a Ti (Dm)",
- categoria: "adoracion",
- letra: `
+{
+titulo: "Amarte solo a Ti (Dm)",
+categoria: "adoracion",
+letra: `
 [Dm]Amarte solo a  [A]ti Señor
 [Dm]Amarte solo a  [Gm]ti Señor y 
 [C]no mirar a  [F]tras
@@ -16,6 +16,34 @@ ante tu al[Gm]tar señor  [A7]y no mirar  [Dm]atras
 Si acaso me pre[A]guntas Tu a quien he
 de se[Dm]guir Señor seguro te con[Gm]testare
 [A7]a quien si no a  [Dm]Jesus
+`
+},
+{
+titulo: "Señor capacitame (A)",
+categoria: "adoracion",
+letra: `
+//[A]Señor capa[E]citame y ll[D]ename 
+con tu E[E]spiritu s[A]anto//
+//Para a[D]si poder se[E]mbrar
+tu pa[D]labra c[E]on p[A]oder
+para a[D]si poder ll[E]evar tu 
+pa[D]labra de v[E]ida h[A]oy//
+`
+},
+{
+titulo: "Dios util quiero ser (C)",
+categoria: "adoracion",
+letra: `
+//[C]Dios u[G]til quiero s[Am]er
+toma mi v[Dm]ida forma[G]me [Am]
+[C]Dios u[G]til quiero s[Am]er
+toma mi v[Dm]ida usa[G]me//
+Segunda vez C
+//Usa mis m[C]anos usa mi v[G]oz
+usa mi v[Dm]ida aqui es[G]toy
+usa mis m[C]anos usa mi v[G]oz
+usa mi v[Dm]ida dispuesto es[G]toy//
+Segunda vez C
 `
 },
 {
@@ -265,7 +293,29 @@ debes ga[E]narla con ayuno y ora[Am]cion
 y si[B]rviendole de todo cor[Em]azon//
 `
 },
- {
+{
+titulo: "Puedo confiar(B)",
+categoria: "adoracion",
+letra: `
+[B]Puedo confiar en el Señor
+El me va ayu[F#]dar
+puedo con[C#m]fiar en el Señor
+[F#]el me va ay[B]udar
+
+Si el sol se ll[B]egare a oscurecer
+[B7]y no brille m[E]as
+yo igual con[B]fio en el Señor 
+[C#m]El me v[F#]a ay[B]udar
+
+Puedo desca[F#]nsar, puedo desca[B]nsar
+y en su po[F#]der, puedo desca[B]nsar
+Si el sol ll[B]egare a oscurecer
+[B7]y no brille m[E]as
+yo igual co[B]nfio en el Señor
+[C#m]El me v[F#]a ay[B]udar
+`
+},
+{
  titulo: "Aquel fuego que cayo (Dm)",
  categoria: "alabanza",
  letra: `
@@ -445,12 +495,12 @@ Yo escuche su voz
 Coro:
 //[F]Alelu[C]ya C[G7]risto es mi Se[C]ñor
 [F]Ale[C]luya g[E]loria a D[Am]ios//
- `
- },
- {
- titulo: "Yo siento que la gloria (G)",
- categoria: "alabanza",
- letra: `
+`
+},
+{
+titulo: "Yo siento que la gloria (G)",
+categoria: "alabanza",
+letra: `
 [G]Yo siento que la g[Em]loria bajo
 la g[D]loria bajo la g[G]loria bajo
 Yo siento que la g[Em]loria bajo
@@ -464,8 +514,44 @@ Coro:
 Aleluya, ale[Em]luya ale[D]luya
 Al[G]eluya, aleluya alel[Em]uya
 al[D]eluya la g[C]loria b[D]ajo a m[G]i
- `
- },
+`
+},
+{
+titulo: "Valiente valiente sere (Bm)",
+categoria: "alabanza",
+letra: `
+//Va[Bm]liente valiente s[F#]ere
+no me importa el camino de la mu[Bm]erte//
+//porque el r[Em]eino de los ci[Bm]elos
+lo arre[F#]batan los val[Bm]iente//
+`
+},
+{
+titulo: "No retrocedere (Bm)",
+categoria: "alabanza",
+letra: `
+//No retroce[Bm]dere, no retrocedere
+porque Cristo J[F#]esus me guia
+con po[Bm]der//
+
+//Lo t[Em]engo todo se lo 
+d[Bm]ebo a El
+[F#]El me salvo y atras no volv[Bm]ere//
+`
+},
+{
+titulo: "Por mucho tiempo (Bm)",
+categoria: "alabanza",
+letra: `
+//[Bm]Por mucho tiempo
+el enemigo ha qu[F#]erido
+detener esta obra que es de D[Bm]ios//
+
+//pero no ha po[Em]dido y no po[Bm]dra
+porque esta o[F#]bra
+esta en las manos de Jeh[Bm]ova//
+`
+},
  {
  titulo: "Señor toma mi vida nueva (D)",
  categoria: "especiales",
@@ -1968,8 +2054,8 @@ Por donde q[F]uiera que v[Dm]oy
 QUENA Y ZAMPOÑA: D C
 //[Dm]Cristo vol[F]vera p[A7]or 
 segunda v[Dm]es//
-y nos llev[F]ara a l nu[A7]eva 
-jerusa[Dm]len//
+y nos llev[F]ara a la nu[A7]eva 
+Jerusa[Dm]len//
 Intro:
 //[A#]Amigo si tu quieres con migo
 puedes venir//
@@ -3092,6 +3178,54 @@ me po[G]dran sep[D]arar de
 tu a[Em]mor//
 Coro:
 Quenas:
+`
+},
+{
+titulo: "Alzare mis ojos a los montes (Bm)",
+categoria: "folkloricos",
+letra: `
+Intro Quenas: B D B
+//[Bm]Alzare mis o[Em]jos [B7]a los 
+m[Em]ontes
+de donde ven[C]dra mi s[Bm]ocorro//
+//mi socorro v[Em]iene d[B7]e Je[Em]hova
+que hizo los ci[C]elos y la ti[Bm]erra//
+Intro:
+//No dara tu p[Em]ie a[B7]l 
+resbala[Em]dero
+ni se dorm[C]ira el que te gu[Bm]arda//
+//mi socorro v[Em]iene d[B7]e Jeh[Em]ova
+que hizo los ci[C]elos y la ti[Bm]erra//
+Intro Quenas: B D B
+//Jehova es t[Em]u g[B7]uarda[Em]dor
+Jehova es t[C]u sombra a tu l[Bm]ado//
+//mi socorro v[Em]iene d[B7]e Jeh[Em]ova
+que hizo los ci[C]elos y la ti[Bm]erra//
+Intro:
+//Jehova guard[Em]ara t[B7]u sa[Em]lida
+Jehova guard[C]ara tu ent[Bm]rada//
+//mi socorro v[Em]iene d[B7]e Jeh[Em]ova
+que hizo los ci[C]elos y la ti[Bm]erra//
+Intro Quenas B D B
+`
+},
+{
+titulo: "Aleluya aleluya (Em)",
+categoria: "folkloricos",
+letra: `
+Quenas: B E
+//[Em]Ale[G]luya aleluya 
+ale[D]luya ale[Em]luya//
+//cantemos todos al Señor 
+un nuevo canto de ala[G]banza
+porque nos dio su amor y su
+[D]gran miseri[Em]cordia//
+
+//[C]Gloria demos al p[G]adre 
+[C]gloria demos al h[G]ijo
+al Espirtu Santo
+gloria por toda l[D]a eter[Em]nidad//
+Quenas: B C D
 `
 },
 
