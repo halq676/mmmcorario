@@ -1,4 +1,4 @@
-const CACHE_NAME = 'corario-v12.0.23';
+const CACHE_NAME = 'corario-v12.0.24';
 
 const urlsToCache = [
   './',
@@ -46,8 +46,13 @@ self.addEventListener('activate', e => {
 
 // INTERCEPTAR peticiones para funcionar offline
 self.addEventListener('fetch', e => {
+  const requestUrl = new URL(e.request.url);
+  const fetchOptions = requestUrl.pathname.endsWith('/canciones.js')
+    ? { cache: 'no-cache' }
+    : {};
+
   e.respondWith(
-    fetch(e.request).then(networkResponse => {
+    fetch(e.request, fetchOptions).then(networkResponse => {
         return caches.open(CACHE_NAME).then(cache => {
           if (
             e.request.method === 'GET' &&

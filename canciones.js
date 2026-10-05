@@ -463,23 +463,7 @@ llename oh llen[E]ame
 con tu unción mi Jesus llen[Am]ame
  `
  },
- {
- titulo: "He aqui estoy a tu puerta (Am)",
- categoria: "alabanza",
- letra: `
-//[Am]He aqui estoy a tu p[F]uerta h[C]oy
-[F]abreme que q[C]uiero entrar
-dulce[E]mente me dijo el Se[Am]ñor//
 
-Yo escuche su voz
-[G7]desde mi inte[C]rior
-[F]y le abri por en[C]tero las puertas
-[E]de mi cora[Am]zón
-Coro:
-//[F]Alelu[C]ya C[G7]risto es mi Se[C]ñor
-[F]Ale[C]luya g[E]loria a D[Am]ios//
-`
-},
 {
 titulo: "Yo siento que la gloria (G)",
 categoria: "alabanza",
@@ -3209,6 +3193,26 @@ porque nos dio su amor y su
 al Espirtu Santo
 gloria por toda l[D]a eter[Em]nidad//
 Quenas: B C D
+`
+},
+{
+titulo: "Pruebas de tu amor (Dm)",
+categoria: "folkloricos",
+letra: `
+QUENAS: D  
+//[Dm]Pruebas de tu amor
+me di[F]ste oh S[Dm]eñor//
+//[A#]toma toma tu mis ma[F]nos
+[A#]caminar con t[F]igo
+[A7]quiero oh Se[Dm]ñor//
+INTRO: CHARANGO
+//Señor me falta la fe
+a q[F]uien le dobo p[Dm]edir//
+//[A#]yo le pido a Jesu[F]cristo
+[A#]que me de su g[F]racia y 
+s[A7]u bendi[Dm]ción//
+INTRO: CHARANGO - QUENAS
+REPITE SEGUNDA ESTROFA
 `
 },
 
