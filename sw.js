@@ -1,4 +1,4 @@
-const CACHE_NAME = 'corario-v12.0.22';
+const CACHE_NAME = 'corario-v12.0.23';
 
 const urlsToCache = [
   './',
