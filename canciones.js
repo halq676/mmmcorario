@@ -3215,6 +3215,32 @@ INTRO: CHARANGO - QUENAS
 REPITE SEGUNDA ESTROFA
 `
 },
+{
+titulo: "Nosotros somos simiente (Am)",
+categoria: "folkloricos",
+letra: `
+QUENAS: A D
+//[Am]Nosotros somo si[C]mente
+del verda[E]dero hijo de D[Am]ios//
+porque recivimos al Señor
+porque recibimos a Jesu[C]cristo
+El es el d[E]ueño de mi cor[Am]azón
 
+Mi cor[E]azon El red[Am]imio
+y con su s[C]angre me limpio
+las cosas vi[E]ejas a tras 
+que[Am]daron
+ahora no v[E]ivo no vivo yo
+mas Cristo vive en m[Am]i
+CORO:
+//Su sangre su sangre limpio 
+mi a[E]lma
+su sangre su sangre me red[Am]imio
+Su sangre su sangre limpio 
+mi a[E]lma
+Cristo vive en mi cor[Am]azón//
+ZAMPOÑAS:
+`
+},
 
 ];
