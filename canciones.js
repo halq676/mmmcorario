@@ -115,10 +115,10 @@ y por siempre e[Am7]s san[D]to
 santo por s[G]iempre [C]  [G]
  `
 },
- {
- titulo: "Y si vivimos (C)",
- categoria: "adoracion",
- letra: `
+{
+titulo: "Y si vivimos (C)",
+categoria: "adoracion",
+letra: `
 
 //[C]Y si vi[G]vimos 
 // para El vi[C]vimos
@@ -296,6 +296,24 @@ Si el sol ll[B]egare a oscurecer
 [B7]y no brille m[E]as
 yo igual co[B]nfio en el Señor
 [C#m]El me v[F#]a ay[B]udar
+`
+},
+{
+titulo: "No es por obras (C)",
+categoria: "adoracion",
+letra: `
+[C]No es por obras ni por p[G]an
+no es por ves[F]tido te serv[G]ire
+Se[C]ñor
+no por gloria, ni por u[G]na bendi[F]ción
+no por sa[C]lud te serv[G]ire Se[C]ñor
+CORO:
+//Solo por a[G]marte, [F] solo por amar[C]te
+solo por a[G]marte te s[F]erv[G]ire Se[C]ñor
+porque Tu me a[G]maste, [F] porque 
+Tu me a[C]maste
+no me re[G]chazaste, te s[F]erv[G]ire 
+S[C]eñor//
 `
 },
 {
@@ -517,6 +535,36 @@ detener esta obra que es de D[Bm]ios//
 //pero no ha po[Em]dido y no po[Bm]dra
 porque esta o[F#]bra
 esta en las manos de Jeh[Bm]ova//
+`
+},
+{
+titulo: "Levanten las manos (Dm)",
+categoria: "alabanza",
+letra: `
+//[Dm]Levanten las manos
+los que quieran seg[A7]uir
+peleando la batalla
+con Cristo el salva[Dm]dor//
+CORO:
+//El te da el po[Gm]der
+El te da la unc[Dm]ión
+El te da su Esp[A7]iritu
+vamos a luc[Dm]har [D]//
+`
+},
+{
+titulo: "Mira que te mando (C)",
+categoria: "alabanza",
+letra: `
+//[C]Mira que te mando
+que seas va[G]liente
+no, no temas,
+ni des[C]mayes//
+CORO:
+//Porque Jehova tu D[F]ios
+estara con[C]tigo
+donde q[G]uiera
+que tu v[C]ayas//
 `
 },
  {
