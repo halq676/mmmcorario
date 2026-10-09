@@ -2605,8 +2605,8 @@ ZAMPOÑA:
 titulo: "Hacia los pueblos me voy (Am)",
 categoria: "folkloricos",
 letra: `
-//[Am]Hacia los pueblos me v[F]oy
-anun[G]ciando tu a[C]mor...[E]
+//[Am]Hacia los pueblos me vo[F]y
+anun[G]ciando tu a[C]mor.....[E]
 com[Am]partiendo una ver[F]dad
 que ja[G]mas olvida[Am]ran//
 
