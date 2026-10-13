@@ -3291,5 +3291,48 @@ Cristo vive en mi cor[Am]azón//
 ZAMPOÑAS:
 `
 },
+{
+titulo: "Amor sin igual (Em)",
+categoria: "folkloricos",
+letra: `
+CHARANGO:
+QUENA: B E
+ZAMPOÑA: A B
+ACOMPAÑAMIENTO Q: Em C D Em
+ACOMPAÑAMIENTO Z: Am Em D Em
+[Em]Entre la bella armonia
+del cantar de los a[D]ndes
+un verso lleno de amor
+quisiera escri[Em]bir
+Y hacer que mi canciÓn sea
+sin lugar a d[D]udas la que 
+confirme mi amor por T[Em]i
+ZAMPOÑAS:
+cada mañana el trinar 
+de las a[D]ves y mi voz 
+hablan de T[Em]i
+diciendo cuanto te a[D]mo
+pues Tu me has amado a m[Em]i
+ZAMPOÑAS:
+Como el resplandor del c[D]ielo 
+eres luz en mi cam[Em]inar
+y como ave en el a[D]rbol
+tu amor reposa en m[Em]i
+
+[D]Tus dulces pa[Em]labras
+[D]ojos de bon[Em]dad
+[D]brazos exten[Em]didos 
+y un a[D]mor sin i[Em]gual
+
+//a mi a[C]lma han hecho ente[G]nder
+que Tu e[D]res todo para m[Em]i//
+//por eso cant[D]ando de alegria
+gri[Em]tando en cada ma[D]ñana
+te alabo Je[Em]sus//
+QUENA:
+REPITE DESPUES DE LA ZAMPOÑA
+ZAMPOÑAS:
+`
+},
 
 ];
