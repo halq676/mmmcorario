@@ -1293,9 +1293,9 @@ ZAMPOÑAS: QUENA: A C
 ACOMPAÑAMIENTO: Am C Am C Am C F C Am
 [Am]Yo caminaba tan per[C]dido
 Sin sa[F]ber mi des[C]tino                                   
-//cuanta f[F]alta me ha hecho,
+//cuanta fal[F]ta me ha hecho,
 su ca[Am]riño//
-//cuanta f[C]alta me ha hecho
+//cuanta fal[C]ta me ha hecho
 su ca[Dm]riño y su amor//
 //Cuanta f[F]alta me ha hecho,
 su ca[Am]riño//
