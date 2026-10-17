@@ -1288,23 +1288,27 @@ QUENA: Am, D G C Am B7 Em E
 titulo: "Yo caminaba tan perdido (Am)",
 categoria: "folkloricos",
 letra: `
-INTRO: Am C Am C Am C F Am
-QUENA: A C
-
+QUENAS: E G A G E G E
+ZAMPOÑAS: QUENA: A C
+ACOMPAÑAMIENTO: Am C Am C Am C F C Am
 [Am]Yo caminaba tan per[C]dido
 Sin sa[F]ber mi des[C]tino                                   
 //cuanta f[F]alta me ha hecho,
-//  su ca[Am]riño//
-QUENA:
+su ca[Am]riño//
 //cuanta f[C]alta me ha hecho
 su ca[Dm]riño y su amor//
 //Cuanta f[F]alta me ha hecho,
-//  su ca[Am]riño//
-QUENA
-//Pero un d[C]ía me encontré
+su ca[Am]riño//
+ZAMPOÑAS: QUENA:
+[Am]Yo caminaba tan per[C]dido
+en este mu[F]ndo de las tin[C]ieblas
+//Pero un d[F]ía me encontré
+A Jesu[Am]cristo// 
+//Pero un d[C]ía me encontré      
 A Jesu[Dm]cristo el Salvador//
-//Pero un d[F]ía me encontré      
-A Jesu[Am]cristo//
+//pero un d[F]ia me encontre 
+a Jesuc[Am]risto//
+QUENAS: ZAMPOÑAS:
 `
 },
 {
@@ -2507,22 +2511,30 @@ Quena:
 `
 },
 {
-titulo: "Pueblo escogido (Dm)",
+titulo: "Con misericordia (Dm)",
 categoria: "folkloricos",
 letra: `
-Charango-Arpegio-Quena
-//[Dm]Con misericordia y grande a[C]mor
+CHARANGO: D C
+QUENAS: D F D C D
+ACOMPAÑAMIENTO: D C A D
+CHARANGO: D
+//[Dm]Con misericordia y grande am[C]or
 pueblo esco[Am]gido el nos ll[Dm]amo//
 //la humildad del cora[C]zón
 a la pre[Am]sencia de Dios ll[Dm]ego//
-
-Charango-Arpegio
+QUENAS: D F D F D G
+ACOMPAÑAMIENTO: A#
+CHARANGO: D
 //Cristo ya nos per[C]donó 
 con su san[Am]gre que derr[Dm]amo//
 //Limpios y libres Él nos d[C]ejó 
 eso al[Am]abo a mi Se[Dm]ñor//
-
-Charango-Arpegio-Quena
+QUENAS: CHARANGO:
+//Vestodo blanco recib[C]iras
+y una co[Am]rona El nos d[Dm]ara//
+//felicidad y gozo tend[C]ras
+cuando lleg[Am]uemos aquel l[Dm]ugar//
+QUENAS:
 `
 },
 {
