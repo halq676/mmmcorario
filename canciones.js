@@ -3346,5 +3346,34 @@ REPITE DESPUES DE LA ZAMPOÑA
 ZAMPOÑAS:
 `
 },
+{
+titulo: "Todos tienen que saber (Em)",
+categoria: "folkloricos",
+letra: `
+ZAMPOÑAS: G E
+ACOMPAÑAMIENTO: C G D C Bm D C 
+CONTINUACION: C G D C Bm D Em
+//T[Em]odos tienen que saber
+todos tienen que saber
+[G]todos tienen que sab[D]er
+[Bm]quien e[D]s Je[Em]sus//
+CORO:
+//E[C]s el lirio de los valles
+[G]es la rosa de Sarón
+[D]es Jesus mi salvador
+[Bm]todos t[D]ienen q[Em]ue saber//
+ZAMPOÑAS:
+//F[Em]amilias deben conocer
+familias deben conocer
+[G]familias deben cono[D]cer
+[Bm]quien e[D]s Jes[Em]us//
+CORO:
+//E[C]s lirio de los valles
+[G]es la rosa de Sarón
+[D]es Jesus mi salvador
+[Bm]todos d[D]eben c[Em]onocer//
+ZAMPOÑAS:
+`
+},
 
 ];
