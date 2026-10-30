@@ -3375,5 +3375,56 @@ CORO:
 ZAMPOÑAS:
 `
 },
+{
+titulo: "Veras la gloria de Dios (D)",
+categoria: "folkloricos",
+letra: `
+QUENAS: F E D F
+ACOMPAÑAMIENTO: D A D G D
+//N[D]o te he dicho que si creyeres
+ve[A]ras la gloria de D[D]ios//
+//veras la gloria de Di[G]os
+veras la gloria de D[D]ios//
+QUENA: D B A B D F E F E D
+//V[D]encere vencere vencere
+con la ayuda de mi D[G]ios ven[D]cere
+y si el diablo viene a m[G]i
+no mas caso le h[D]are
+v[A]encere vencere venc[D]ere//
+QUENAS:
+//A su nombre g[G]loria 
+[A]a su nombre gl[D]oria//
+//a su nombre g[A]loria 
+a su nombre g[D]loria//
+//Maravilloso es el Se[G]ñor
+t[A]odo poderoso es el S[D]eñor//
+//Dios esta pre[G]sente p[A]ide
+lo que q[D]uieras//
+QUENAS:
+`
+},
+{
+titulo: "La comisión (Em)",
+categoria: "folkloricos",
+letra: `
+ARPEGIO
+QUENAS: G D G E
+M[Em]archando al fr[D]ente     [C]
+con Jesus ade[B]lante
+El e[Em]s mi band[D]era  [Am]
+que yo defend[B]ere
+
+Y c[Em]omo sold[D]ado  [C]
+obediente a mi Cr[B]isto
+yo sa[Em]lgo dispu[D]esto  [Am]
+rumbo a predi[B]car
+CORO:
+//Va[Em]monos si p[D]or aqui     [C]
+nos espera la com[G]isión
+va[Em]monos si por ha[D]lla  [Am]
+sembrando sem[B]illas de amor//
+QUENAS:
+`
+},
 
 ];
