@@ -317,6 +317,36 @@ S[C]eñor//
 `
 },
 {
+titulo: "Señor yo quiero ser (C)",
+categoria: "adoracion",
+letra:`
+S[C]eñor yo quiero s[G]er
+un porta v[F]oz de tu pa[C]labra
+yo quiero trab[G]ajar
+e[F]n tu o[C]bra  [C7]
+CORO:
+//Yo qu[F]iero se Señor
+un instrum[G]ento que uti[Em]lices 
+para hablar
+toma mi me[Am]nte y tamb[Dm]ien 
+mi corazon
+y asi en mi v[G]ida te puedas
+manifes[C]tar//  [C7]
+
+Señor quiero serv[G]irte
+yo qu[F]iero traba[C]jar
+quiero que tu me uti[G]lices
+se[F]gun tu volun[C]tad  [C7]
+
+//Quiero de[F]jar aquellas co[G]sas
+que me im[Em]piden trabajar
+y con tu a[Am]yuda se que 
+lo voy lo[Dm]grar
+para ser[G]virte con liber[C]tad//  [C7]
+CORO:
+`
+},
+{
  titulo: "Aquel fuego que cayo (Dm)",
  categoria: "alabanza",
  letra: `
@@ -538,6 +568,30 @@ esta en las manos de Jeh[Bm]ova//
 `
 },
 {
+titulo: "Esta alabanza es (Am)",
+categoria: "alabanza",
+letra: `
+//[Am]Esta alabanza es para alabar
+a D[E]ios
+si tu le alabas tam[Dm]bien si[E]entes
+lo mismo que y[Am]o//
+//S[Dm]iento que el Es[G]piritu Sa[C]nto
+se es[F]ta derrama[E]ndo en mi cora[Am]zón
+[Dm]y que una nube del ci[Am]elo
+esta bislumbr[E]ando la casa de Di[Am]os//
+`
+},
+{
+titulo: "Yo me quiero santificar (Am)",
+categoria: "alabanza",
+letra: `
+//[Am]Yo me quiero santifi[E]car
+para la gloria de Di[Am]os//
+//Para la gloria de Di[E]os
+yo me quiero santi[Am]ficar//
+`
+},
+{
 titulo: "Levanten las manos (Dm)",
 categoria: "alabanza",
 letra: `
@@ -567,11 +621,28 @@ donde q[G]uiera
 que tu v[C]ayas//
 `
 },
- {
- titulo: "Señor toma mi vida nueva (D)",
- categoria: "especiales",
- letra: `
- [D]Señor [A] toma mi vida n[Bm]ueva [G]
+{
+titulo: "Misionereo del gran rey (C)",
+categoria: "alabanza",
+letra: `
+[C]Misionero del gran rey
+misionero del gran r[G]ey
+m[F]isionero del gran rey
+yo s[G]oy, yo s[C]oy
+
+Voy a lle[F]var el mensaje 
+de am[C]or
+a los per[F]didos que no tienen 
+salva[C]cion
+//Señor yo i[G]re, Señor yo i[C]re
+Señor yo i[G]re, yo v[C]oy//
+`
+},
+{
+titulo: "Señor toma mi vida nueva (D)",
+categoria: "especiales",
+letra: `
+[D]Señor [A] toma mi vida n[Bm]ueva [G]
 antes de que la es[D]pera
 desgaste años en  [A]mi
 es[D]toy [A] dispuesta 
@@ -1674,7 +1745,7 @@ Y com[C]partan el evan[G]gelio //
 [Am]ahí donde com[F]partes,
 [C]ahí está el Se[G]ñor
 //El Se[Am]ñor//  mi Pas[F]tor//
-Su v[C]ida ha entre[C]gado //
+Su v[C]ida ha entre[G]gado //
 
 [Am]Ahí donde tu v[F]ives, 
 [C]ahí donde tra[G]bajas
@@ -3407,6 +3478,7 @@ QUENAS:
 titulo: "La comisión (Em)",
 categoria: "folkloricos",
 letra: `
+TRANSPORTADA TERCER ESPACIO
 ARPEGIO
 QUENAS: G D G E
 M[Em]archando al fr[D]ente     [C]
@@ -3424,6 +3496,23 @@ nos espera la com[G]isión
 va[Em]monos si por ha[D]lla  [Am]
 sembrando sem[B]illas de amor//
 QUENAS:
+`
+},
+{
+titulo: "Una iglesia te espera (C)",
+categoria: "folkloricos",
+letra: `
+QUENAS:
+U[C]na iglesia te espera con g[G]ozo
+una iglesia que ha orado por t[C]i
+a Jesus mi Señor tan glor[G]ioso
+le doy gracias por te[F]nerte a[C]qui
+CORO:
+//Recibe hermano recibe h[G]oy
+un saludo en el n[F]ombre del Se[C]ñor
+cuenta con migo tu hermano s[G]oy
+estando juntos es m[F]ucho me[C]jor//
+Quenas:
 `
 },
 
